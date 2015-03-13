@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"martin",
+				"martinjung_NOSPAM_zoho"
+			],
+			[
+				"it",
+				"textit{}	\\textit{}"
+			],
+			[
+				"subs",
+				"subsection{}	\\subsection{}"
+			],
+			[
+				"text",
+				"textit{}	\\textit{}"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 1254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/css/grayscale.css",
+			"settings":
+			{
+				"buffer_size": 8504,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/blog.html",
+			"settings":
+			{
+				"buffer_size": 569,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 1362,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/consulting.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/cv.html",
+			"settings":
+			{
+				"buffer_size": 580,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pacla",
+				"Package Control: Install Package"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/css",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_layouts",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/css",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/css/font-awesome",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/css/font-awesome/css",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/img",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/js"
+	],
+	"file_history":
+	[
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/nav.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/js/getFeed.js",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/js.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/download.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/cv.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_layouts/default.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/about.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/header.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/contact.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/js/MailProtection.js",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_config.yml",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/head.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/css/bootstrap.min.css",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/css/font-awesome/css/font-awesome.css",
+		"/home/martin/Dokumente/Persönliches/OldJekyll/_includes/head.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/mail/contact_me.php",
+		"/home/martin/Dokumente/Persönliches/OldJekyll/_config.yml",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/css/font-awesome/css/font-awesome.min.css",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/index.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/feed.xml",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/classicthesis-config.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Acknowledgments.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Titleback.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Titlepage.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter0B.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter05.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Publication.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Contents.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Bibliography.bib",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter04.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Abstract.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/classicthesis.sty",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Declaration.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter0A.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Chapters/Chapter0B.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Appendix.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter01.tex",
+		"/home/martin/.config/sublime-text-3/Packages/User/LaTeX-Plus.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeX-Plus/LaTeX-Plus.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeX-Plus/README.md",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeX-Plus/support/Default (Linux).sublime-keymap",
+		"/home/martin/.config/sublime-text-3/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/consbiol.bst",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/ClassicThesis.bbl",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeXTools/Default (Linux).sublime-keymap",
+		"/home/martin/Projekte/BIOFRAG/SqlQueries/BIOFRAG_DatabaseSetup.sql",
+		"/home/martin/.qgis2/python/plugins/LecoS/landscape_statistics.py",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Bibliography.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Colophon.aux",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/ClassicThesis.fdb_latexmk",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/classicthesis-config.aux",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter01.fls",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/ClassicThesis.log",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/ClassicThesis.tcp",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Arbeit_tex/main.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Arbeit_tex/thesis-vorlage/Diplomarbeit/Diplomarbeit.tex",
+		"/home/martin/Dokumente/Persönliches/CV-Vorlage/mjung_cv.tex",
+		"/home/martin/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeXTools/README.markdown",
+		"/home/martin/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/martin/.qgis2/python/plugins/LecoS/landscape_polygonoverlay.py",
+		"/home/martin/.qgis2/python/plugins/LecoS/lecos_dlg.py",
+		"/home/martin/Projekte/BIOFRAG/Demo.Rmd",
+		"/home/martin/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/martin/Projekte/BIOFRAG/TeamViewInfos.txt",
+		"/home/martin/Projekte/BIOFRAG/SqlQueries/GisDataSchema.sql",
+		"/home/martin/Projekte/BIOFRAG/SqlQueries/ExportRasterFile.sh",
+		"/usr/share/qgis/python/plugins/processing/algs/qgis/FixedDistanceBuffer.py",
+		"/home/martin/Projekte/Jacob_Fungi/random.R",
+		"/home/martin/.qgis2/python/plugins/QSDM/qsdm_provider.py",
+		"/home/martin/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"brand",
+			"col-lg-12",
+			"stack",
+			"stackoverflow",
+			"float",
+			"  ",
+			"brooks",
+			"urlfont",
+			"color",
+			"\\}",
+			"doi\\",
+			"\\deg",
+			"url",
+			"empty",
+			"chapter",
+			"url",
+			"\\cite",
+			"% ",
+			" ",
+			"\\",
+			"ucs",
+			"biblio",
+			"math",
+			"ğ",
+			"draft",
+			"versio",
+			"bera",
+			"berom",
+			"text",
+			");\n",
+			"text",
+			",\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}",
+			"\\doi",
+			"\\citep",
+			"{\\u g}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/css/grayscale.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8140,
+								8140
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5448.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/blog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								495,
+								495
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1354,
+								1354
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_includes/consulting.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/cv.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 109.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "LandingPage.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"classicthesis-config.tex"
+			],
+			[
+				"c",
+				"classicthesis.sty"
+			],
+			[
+				"b",
+				"Bibliography.bib"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
