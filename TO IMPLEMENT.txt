@@ -1,0 +1,4 @@
+Consulting tab
+icons: http://thenounproject.com/
+make a glmm surface in one tab
+http://moderndata.plot.ly/3d-surface-plots-with-rstudio-and-plotly/

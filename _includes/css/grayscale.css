@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/bcg.jpg) no-repeat bottom center scroll;
+    background: url(/img/bcg1.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -394,7 +394,7 @@ body {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/bcg5.jpg) no-repeat center center scroll;
+    background: url(/img/bcg4.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
