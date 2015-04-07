@@ -425,54 +425,48 @@ body {
     color: #11505d;
 }
 
+/* Contact Section */
+#contact  {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background-color: #565656;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* And the footer afterwards */
+
+footer {
+        background-color: #565656;
+}
+
+.btn-footer {
+    border: 1px solid #CFCCA3;
+    color: #CFCCA3;
+    background-color: transparent;
+}
+
+.btn-footer:hover,
+.btn-footer:focus {
+    border: 1px solid #FEFEFD;
+    outline: 0;
+    color: #222222;
+    background-color: #FEFEFD;
+}
+
+
 /* Consulting page */
 
-.tile {
-    position: relative;
-    display: block;
-    float: left;
-    margin: 5px;
-    height: 100%;
-    color: #FFF;
-    cursor: pointer;
-    overflow: hidden;
-    text-decoration: none;
-    background-color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background-clip: padding-box;
-
-    &.tile-col-12 {
-        width: @max-tile-width;
-    }
-
-    &.tile-col-9 {
-        width: @max-tile-width*(9/12);
-    }
-
-    &.tile-orange {
-        background-color: @tile-orange !important;
-    }
-
-    .tile-icon-holder {
-        text-align: center;
-        height: 100%;
-        width:100%;
-        vertical-align:middle;
-        padding:22%;
-        font-size:40px;
-    }
-
-    .text-holder {
-        position:absolute;
-        bottom:0;
-        text-align: justify;
-        text-overflow: ellipsis;
-        padding: 10px;
-        width:100%;
-        height: 25%;
-        background-color: rgba(0, 0, 0, 0.7);
-    }
-}.tile-row {
-    margin-top: 20px;
-    height: 400px;
+.consulting-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background-color: #222222;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
+
