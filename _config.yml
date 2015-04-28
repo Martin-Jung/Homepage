@@ -9,6 +9,7 @@ color:
   primary-dark: '#222222'
   secondary: '#565656'
   links: '#4c924c'
+  links-focus: '#DDEDDD'
   links-footer: '#CFCCA3'
   links-footer-hov: '#FEFEFD'
 

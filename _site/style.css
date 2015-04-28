@@ -59,7 +59,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #DDEDDD;
 }
 
 .light {
@@ -397,6 +397,7 @@ body {
 
 .blog-section {
     width: 100%;
+    min-height: 450px;
     padding: 50px 0;
     color: #fff;
     background: url(/img/bcg4.jpg) no-repeat center center scroll;
@@ -461,12 +462,40 @@ footer {
 
 .consulting-section {
     width: 100%;
+    min-height: 300px;
     padding: 50px 0;
     color: #fff;
     background-color: #222222;
+    margin: 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.consulting-section img {
+    width: 124px;
+    height: 124px;
+}
+
+div.desc{
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    width: 150px;
+    height: 33%;
+
+}
+
+p.desc_content{
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.fix{
+    width: 100%;
+    padding: 0px;
+}
