@@ -10,26 +10,28 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Data Science",
+    "Statistics",
+    "GIS & Remote Sensing",
+    "Conservation Biology",
+    "Global Change"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = "PhD in Environmental Science"
+  institution = "University of Sussex"
+  year = 2019
+
+[[education.courses]]
+  course = "MSc in Biology"
+  institution = "University of Copenhagen"
+  year = 2015
+
+[[education.courses]]
+  course = "BSc in Biology"
+  institution = "Philipps University of Marburg"
   year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
 
 +++
 
