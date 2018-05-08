@@ -10,10 +10,10 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Data Science",
-    "Statistics",
     "GIS & Remote Sensing",
     "Conservation Biology",
+    "Data Science",
+    "Statistics",
     "Global Change"
   ]
 
@@ -37,4 +37,4 @@ weight = 5
 
 # Biography
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Widely interested in Ecology, Conservation Biology, Modelling and Natural Resource Management with regards to global change. PhD research student at the University of Sussex, UK.
