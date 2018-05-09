@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["python","gis","qgis"]
+tags = ["python","gis","qgis","landscape"]
 
 # Links (optional).
 url_pdf = "https://www.sciencedirect.com/science/article/pii/S1574954115001879"

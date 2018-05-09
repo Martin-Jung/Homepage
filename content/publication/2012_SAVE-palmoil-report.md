@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["palmoil","africa","conservation"]
 
 # Links (optional).
 url_pdf = "https://save-wildlife.org/fileadmin/documents/Regenwaldschutz/Kamerun/us_investors_and_african_palm_oil.pdf"

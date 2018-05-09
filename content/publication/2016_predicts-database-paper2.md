@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["predicts","database","ecology","land-use"]
 
 # Links (optional).
 url_pdf = "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.2579"

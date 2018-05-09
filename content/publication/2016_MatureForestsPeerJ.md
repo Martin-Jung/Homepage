@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["forests","carbon","modelling"]
 
 # Links (optional).
 url_pdf = "https://peerj.com/articles/1595.pdf"

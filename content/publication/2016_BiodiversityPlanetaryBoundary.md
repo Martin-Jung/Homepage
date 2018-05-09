@@ -39,7 +39,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["predicts","biodiversity","land-use","planetary boundary","extinction"]
 
 # Links (optional).
 url_pdf = "http://discovery.ucl.ac.uk/1503860/2/Newbold%20et%20al%202016%20final%20submitted%20version.pdf"
