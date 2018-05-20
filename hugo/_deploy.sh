@@ -1,8 +1,8 @@
 #!/bin/sh
-rm -rf public/
+rm -rf public/*
 hugo
 cd  public
-cp -r public/* ../*
+cp -rf public/* ../
 git add ..
 git commit -m "Updating..." || true
 git push master

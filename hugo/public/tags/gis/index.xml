@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung - &amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 May 2018 20:24:48 +0100</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/tags/gis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The impact of economic recession on land changes in Greece</title>
+      <link>http://martin-jung.github.io/project/greece/</link>
+      <pubDate>Sun, 20 May 2018 20:24:48 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/greece/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remotely sensed forest monitoring in Bialowieza forest</title>
+      <link>http://martin-jung.github.io/project/bialowieza/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/bialowieza/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>LecoS - A python plugin for automated landscape ecology analysis</title>
@@ -18,6 +36,33 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/publication/2016_lecos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2013 - QGIS and Landscape ecology workshop at Lund</title>
+      <link>http://martin-jung.github.io/talk/2013_lundlandscapeecology/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/talk/2013_lundlandscapeecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LecoS</title>
+      <link>http://martin-jung.github.io/project/lecos/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/lecos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QSDM</title>
+      <link>http://martin-jung.github.io/project/qsdm/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/qsdm/</guid>
       <description></description>
     </item>
     

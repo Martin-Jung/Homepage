@@ -21,5 +21,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>LecoS</title>
+      <link>http://martin-jung.github.io/project/lecos/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/lecos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QSDM</title>
+      <link>http://martin-jung.github.io/project/qsdm/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/qsdm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Birdlookup</title>
+      <link>http://martin-jung.github.io/project/birdlookup/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/birdlookup/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

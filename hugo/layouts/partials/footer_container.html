@@ -3,9 +3,8 @@
     <p class="powered-by">
 
       {{ with .Site.Copyright }}{{ . | markdownify}} &middot; {{ end }}
-  
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a> &middot;
+
+      Build with <a href="http://gohugo.io/" target="_blank">Hugo</a> and the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic </a> theme &middot;
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">
           <span class="button_icon">
@@ -24,14 +23,14 @@
       {{ $mdFile := (print .File.BaseFileName ".md") }}
       {{ if (where $Files "Name" $RmdFile) }}
         {{ $.Scratch.Set "FilePath" (print .File.Dir $RmdFile) }}
-      {{ else }} 
+      {{ else }}
         {{ $.Scratch.Set "FilePath" (print .File.Dir $mdFile) }}
       {{ end }}
     {{ end }}
     {{ with .Site.Params.GithubEdit}}
      <a href="{{ . }}{{ $.Scratch.Get "FilePath" }}">Edit this page.</a>
     {{ end }}
-  {{ end }} 
+  {{ end }}
     </p>
   </div>
 </footer>
