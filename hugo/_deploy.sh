@@ -2,8 +2,8 @@
 rm -rf public/
 hugo
 cd  public
-cp -r ../public/* ./
-git add --all ./*
+cp -r public/* ../*
+git add --all ../*
 git commit -m "Updating..." || true
 git push master
 
