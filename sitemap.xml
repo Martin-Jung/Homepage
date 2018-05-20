@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/project/greece/</loc>
+      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/talk/2017_dacmtalk/</loc>
+      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/publication/2017_birdsinthematrixafrica/</loc>
       <lastmod>2017-02-24T00:00:00+00:00</lastmod>
     </url>
@@ -41,6 +59,15 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/project/bialowieza/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/publication/2017_mscthesisanimalconservation/</loc>
       <lastmod>2016-12-28T00:00:00+00:00</lastmod>
     </url>
@@ -52,6 +79,15 @@
     
       <loc>http://martin-jung.github.io/publication/2016_predicts-database-paper2/</loc>
       <lastmod>2016-12-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/project/forestfrag/</loc>
+      <lastmod>2016-11-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -77,6 +113,15 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/talk/2016_sussexgittalk/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/publication/2016_lecos/</loc>
       <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -86,8 +131,44 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/talk/2015_predictstalk/</loc>
+      <lastmod>2015-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/project/phdgoals/</loc>
+      <lastmod>2015-09-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/publication/2014_predicts-database-paper1/</loc>
       <lastmod>2014-12-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/project/marfunky/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/talk/2013_lundlandscapeecology/</loc>
+      <lastmod>2013-05-20T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -106,6 +187,33 @@
     
       <loc>http://martin-jung.github.io/publication/2012_save-palmoil-report/</loc>
       <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/project/lecos/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/project/qsdm/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/project/birdlookup/</loc>
+      <lastmod>2000-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -153,6 +261,16 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/tags/big-data/</loc>
+      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/biodiversity/</loc>
       <lastmod>2016-07-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -192,8 +310,28 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/tags/coding/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/conservation/</loc>
       <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/data/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -253,7 +391,17 @@
     <url>
     
       <loc>http://martin-jung.github.io/tags/gis/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/land-use/</loc>
+      <lastmod>2015-11-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -274,6 +422,26 @@
     
       <loc>http://martin-jung.github.io/tags/landscape/</loc>
       <lastmod>2017-02-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/landscape-ecology/</loc>
+      <lastmod>2013-05-20T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/lecos/</loc>
+      <lastmod>2013-05-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -322,6 +490,26 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/tags/phd/</loc>
+      <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/phd-thesis/</loc>
+      <lastmod>2015-09-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/planetary-boundary/</loc>
       <lastmod>2016-07-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -352,6 +540,16 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/project/</loc>
+      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/publication_types/</loc>
       <lastmod>2012-09-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -374,6 +572,36 @@
     
       <loc>http://martin-jung.github.io/tags/qgis/</loc>
       <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/reproducability/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/research/</loc>
+      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/rstats/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

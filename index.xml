@@ -11,11 +11,38 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The impact of economic recession on land changes in Greece</title>
+      <link>http://martin-jung.github.io/project/greece/</link>
+      <pubDate>Sun, 20 May 2018 20:24:48 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/greece/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2017 Data analysis talk</title>
+      <link>http://martin-jung.github.io/talk/2017_dacmtalk/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/talk/2017_dacmtalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Birds in the matrix: the role of agriculture in avian conservation in the Taita Hills, Kenya</title>
       <link>http://martin-jung.github.io/publication/2017_birdsinthematrixafrica/</link>
       <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/publication/2017_birdsinthematrixafrica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remotely sensed forest monitoring in Bialowieza forest</title>
+      <link>http://martin-jung.github.io/project/bialowieza/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/bialowieza/</guid>
       <description></description>
     </item>
     
@@ -38,6 +65,15 @@
     </item>
     
     <item>
+      <title>Quantifying global forest fragmentation</title>
+      <link>http://martin-jung.github.io/project/forestfrag/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/forestfrag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Has land use pushed terrestrial biodiversity beyond the planetary boundary? A global assessment</title>
       <link>http://martin-jung.github.io/publication/2016_biodiversityplanetaryboundary/</link>
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
@@ -56,12 +92,56 @@
     </item>
     
     <item>
+      <title>2016 Introducing github at University of Sussex</title>
+      <link>http://martin-jung.github.io/talk/2016_sussexgittalk/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/talk/2016_sussexgittalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LecoS - A python plugin for automated landscape ecology analysis</title>
       <link>http://martin-jung.github.io/publication/2016_lecos/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/publication/2016_lecos/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>2015 PREDICTS conference talk</title>
+      <link>http://martin-jung.github.io/talk/2015_predictstalk/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/talk/2015_predictstalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My PhD research aims</title>
+      <link>http://martin-jung.github.io/project/phdgoals/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/phdgoals/</guid>
+      <description>
+
+&lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
+
+&lt;p&gt;Understanding biodiversity impacts of land use dynamics&lt;/p&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;Humans have already affected about 75% of the Earth’s ice-free terrestrial surface. Land use change is one of the largest threats to biodiversity conservation. Despite this realisation, our understanding of what aspects and how land use/land cover (LULC) changes impact biodiversity is relatively limited. This PhD project will use the largest, global database on matched biodiversity observations—containing over 2 million records representing 35,000 species from 20,000 sites across 88 countries (www.predicts.org.uk)—and combine this with freely-available, long-term satellite data of LULC change (e.g. MODIS, Landsat), to understand which aspects of LULC change are most important to determine biodiversity outcomes. Such understanding will allow projecting biodiversity outcomes in space and time, and guide LULC decisions to minimize biodiversity impacts.
+Past ecological research on LULC change has focussed mostly on single events, and mostly on conversions from natural to human-dominated lands, e.g. deforestation, cropland expansion. However, in reality human use of land is a dynamic process of LULC changing and alternating through time. In particular, once natural lands are converted they tend to cycle through various human uses, abandonment, and sometimes regrowth. Time-series of remotely-sensed imagery enable us to study the frequency, sequence, time span and magnitude of LULC changes for most locations on the Earth’s surface. Different types and transitions of LULC will have different impacts on biodiversity, e.g. changing wheat to barley may be equivalent for some species, whereas changing forest to pasture may not. Further, some impacts on biodiversity of land use dynamics can be observed immediately, e.g. for sessile species, whereas other species tend to show a temporal lag in response, e.g. for species that can disperse.
+Combining best available global biodiversity and remotely-sensed data we will investigate which aspects of LULC dynamics, such as habitat stability, shocks (e.g. fire, drought, deforestation), phenological shifts, are important to determine biodiversity outcomes, and also investigate species-energy relationships. Further, we will investigate potentials to ground-truth our results and to assess the impacts of social factors (such as urban expansion, wealth) for case studies where data are available. This understanding will help plan conservation actions, e.g. by altering the sequence of LULC changes more or less biodiversity may be conserved; allow extrapolation of biodiversity impacts in space and time; and ultimately feed into policy processes, such as the reporting to the Convention on Biological Diversity and IPBES.&lt;/p&gt;
+
+&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Will write later&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -74,20 +154,11 @@
     </item>
     
     <item>
-      <title>Influence of Forest Fragmentation on Temperate Plant-pollinator Networks</title>
-      <link>http://martin-jung.github.io/publication/2012_bscthesis/</link>
-      <pubDate>Sun, 23 Sep 2012 00:00:00 +0000</pubDate>
+      <title>Marfunky</title>
+      <link>http://martin-jung.github.io/project/marfunky/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://martin-jung.github.io/publication/2012_bscthesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The U.S. investors and African palm oil - Rainforest clearing and local resistance in West Cameroon</title>
-      <link>http://martin-jung.github.io/publication/2012_save-palmoil-report/</link>
-      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/publication/2012_save-palmoil-report/</guid>
+      <guid>http://martin-jung.github.io/project/marfunky/</guid>
       <description></description>
     </item>
     

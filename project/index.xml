@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Martin Jung</title>
+    <link>http://martin-jung.github.io/project/</link>
+    <description>Recent content in Projects on Martin Jung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Martin Jung - &amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 20 May 2018 20:24:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://martin-jung.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The impact of economic recession on land changes in Greece</title>
+      <link>http://martin-jung.github.io/project/greece/</link>
+      <pubDate>Sun, 20 May 2018 20:24:48 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/greece/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remotely sensed forest monitoring in Bialowieza forest</title>
+      <link>http://martin-jung.github.io/project/bialowieza/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/bialowieza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantifying global forest fragmentation</title>
+      <link>http://martin-jung.github.io/project/forestfrag/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/forestfrag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My PhD research aims</title>
+      <link>http://martin-jung.github.io/project/phdgoals/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/phdgoals/</guid>
+      <description>Aim Understanding biodiversity impacts of land use dynamics
+Summary Humans have already affected about 75% of the Earth’s ice-free terrestrial surface. Land use change is one of the largest threats to biodiversity conservation. Despite this realisation, our understanding of what aspects and how land use/land cover (LULC) changes impact biodiversity is relatively limited. This PhD project will use the largest, global database on matched biodiversity observations—containing over 2 million records representing 35,000 species from 20,000 sites across 88 countries (www.</description>
+    </item>
+    
+    <item>
+      <title>Marfunky</title>
+      <link>http://martin-jung.github.io/project/marfunky/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/marfunky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LecoS</title>
+      <link>http://martin-jung.github.io/project/lecos/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/lecos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QSDM</title>
+      <link>http://martin-jung.github.io/project/qsdm/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/qsdm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Birdlookup</title>
+      <link>http://martin-jung.github.io/project/birdlookup/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/birdlookup/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

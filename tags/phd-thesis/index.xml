@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phd-thesis on Martin Jung</title>
+    <link>http://martin-jung.github.io/tags/phd-thesis/</link>
+    <description>Recent content in Phd-thesis on Martin Jung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Martin Jung - &amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 15 Sep 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://martin-jung.github.io/tags/phd-thesis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My PhD research aims</title>
+      <link>http://martin-jung.github.io/project/phdgoals/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/phdgoals/</guid>
+      <description>Aim Understanding biodiversity impacts of land use dynamics
+Summary Humans have already affected about 75% of the Earth’s ice-free terrestrial surface. Land use change is one of the largest threats to biodiversity conservation. Despite this realisation, our understanding of what aspects and how land use/land cover (LULC) changes impact biodiversity is relatively limited. This PhD project will use the largest, global database on matched biodiversity observations—containing over 2 million records representing 35,000 species from 20,000 sites across 88 countries (www.</description>
+    </item>
+    
+  </channel>
+</rss>

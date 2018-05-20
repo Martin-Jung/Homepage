@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Martin Jung</title>
+    <link>http://martin-jung.github.io/tags/data/</link>
+    <description>Recent content in Data on Martin Jung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Martin Jung - &amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://martin-jung.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2016 Introducing github at University of Sussex</title>
+      <link>http://martin-jung.github.io/talk/2016_sussexgittalk/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/talk/2016_sussexgittalk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
