@@ -1,11 +1,10 @@
 #!/bin/sh
-
-set -e
-
-rm -r public/
+rm -rf public/
 hugo
 cd  public
 cp -r ../public/* ./
-git add --all *
+git add --all ./*
 git commit -m "Updating..." || true
-git push -q origin master
+git push master
+
+rm -rf public/
