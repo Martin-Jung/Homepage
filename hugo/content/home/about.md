@@ -37,4 +37,4 @@ weight = 5
 
 # Biography
 
-Widely interested in Ecology, Conservation Biology, Modelling and Natural Resource Management with regards to global change. Currently PhD research student at the University of Sussex, UK.
+Widely interested in Ecology, Conservation Biology and Natural Resource Management with regards to global change. Currently PhD research student at the University of Sussex, UK.

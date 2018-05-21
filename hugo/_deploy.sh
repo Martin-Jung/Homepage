@@ -2,7 +2,7 @@
 rm -rf public/*
 hugo
 cd  public
-cp -rf public/* ../
+cp -Rfv public/* ../
 git add ../
 git commit -m "Updating..." || true
 git push master

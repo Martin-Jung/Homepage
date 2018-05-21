@@ -5,7 +5,7 @@ active = true
 date = "2016-04-20T00:00:00"
 
 title = "Projects"
-subtitle = ""
+subtitle = "Some current and past projects where I was involved"
 
 # Order that this section will appear in.
 weight = 50
@@ -56,9 +56,5 @@ filter_default = 0
     name = "Python"
     tag = ".python"
 
-
-[[filter]]
-  name = "Courses"
-  tag = ".courses"
 
 +++
