@@ -158,6 +158,24 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/project/spsqlite/</loc>
+      <lastmod>2014-05-05T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/project/biofrag/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/project/marfunky/</loc>
       <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -601,7 +619,7 @@
     <url>
     
       <loc>http://martin-jung.github.io/tags/rstats/</loc>
-      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2014-05-05T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
