@@ -76,6 +76,15 @@
     </item>
     
     <item>
+      <title>Dask</title>
+      <link>http://martin-jung.github.io/tags/dask/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/dask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data</title>
       <link>http://martin-jung.github.io/tags/data/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -258,7 +267,7 @@
     <item>
       <title>Python</title>
       <link>http://martin-jung.github.io/tags/python/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/python/</guid>
       <description></description>
@@ -294,9 +303,18 @@
     <item>
       <title>Rstats</title>
       <link>http://martin-jung.github.io/tags/rstats/</link>
-      <pubDate>Mon, 05 May 2014 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Satellite-imagery</title>
+      <link>http://martin-jung.github.io/tags/satellite-imagery/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/satellite-imagery/</guid>
       <description></description>
     </item>
     
@@ -319,11 +337,29 @@
     </item>
     
     <item>
+      <title>Time-series</title>
+      <link>http://martin-jung.github.io/tags/time-series/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Validation</title>
       <link>http://martin-jung.github.io/tags/validation/</link>
       <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/validation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xarray</title>
+      <link>http://martin-jung.github.io/tags/xarray/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/xarray/</guid>
       <description></description>
     </item>
     

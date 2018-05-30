@@ -11,11 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>2018 Pixel-wise regressions with xarray and dask</title>
+      <link>http://martin-jung.github.io/2018/2018-pixel-wise-regressions-with-xarray-and-dask/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/2018/2018-pixel-wise-regressions-with-xarray-and-dask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The impact of economic recession on land changes in Greece</title>
       <link>http://martin-jung.github.io/project/greece/</link>
       <pubDate>Sun, 20 May 2018 20:24:48 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/project/greece/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Icarus</title>
+      <link>http://martin-jung.github.io/project/icarus/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/project/icarus/</guid>
       <description></description>
     </item>
     
@@ -142,24 +160,6 @@ Combining best available global biodiversity and remotely-sensed data we will in
 &lt;li&gt;Will write later&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>The PREDICTS database: a global database of how local terrestrial biodiversity responds to human impacts</title>
-      <link>http://martin-jung.github.io/publication/2014_predicts-database-paper1/</link>
-      <pubDate>Tue, 02 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/publication/2014_predicts-database-paper1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spsqlite</title>
-      <link>http://martin-jung.github.io/project/spsqlite/</link>
-      <pubDate>Mon, 05 May 2014 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/project/spsqlite/</guid>
-      <description></description>
     </item>
     
   </channel>

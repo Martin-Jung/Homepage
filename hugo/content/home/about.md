@@ -37,4 +37,4 @@ weight = 5
 
 # Biography
 
-Widely interested in Ecology, Conservation Biology and Natural Resource Management with regards to global change. Currently PhD research student at the University of Sussex, UK.
+PhD researcher at the University of Sussex (UK) investigating how biodiversity is influenced by past land dynamics. Widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change. Many years of experience in project managament and providing quantitative assessments of environmental issues.
