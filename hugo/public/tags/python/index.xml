@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>2018 Pixel-wise regressions with xarray and dask</title>
-      <link>http://martin-jung.github.io/2018/2018-pixel-wise-regressions-with-xarray-and-dask/</link>
+      <title>Robust correlations with xarray and dask</title>
+      <link>http://martin-jung.github.io/2018/robust-correlations-with-xarray-and-dask/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/2018-pixel-wise-regressions-with-xarray-and-dask/</guid>
-      <description></description>
+      <guid>http://martin-jung.github.io/2018/robust-correlations-with-xarray-and-dask/</guid>
+      <description>I perform most of my analyses using either R or standalone GDAL tools simply because of their general convenience and ease of use. Standard spatial analysis functions and tools are in my opinion still more readily available in R and most R packages are quite mature and well designed ( but see the readme ). Nevertheless python has caught up and a number of really helpful python modules for spatial analyses have been released to this date.</description>
     </item>
     
     <item>

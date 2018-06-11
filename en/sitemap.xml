@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/2018/2018-pixel-wise-regressions-with-xarray-and-dask/</loc>
+      <loc>http://martin-jung.github.io/2018/robust-correlations-with-xarray-and-dask/</loc>
       <lastmod>2018-05-22T00:00:00+01:00</lastmod>
     </url>
     
@@ -25,6 +25,15 @@
     
       <loc>http://martin-jung.github.io/project/icarus/</loc>
       <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/2017/new-professional-website/</loc>
+      <lastmod>2017-06-16T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -439,8 +448,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/gis/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/general/</loc>
+      <lastmod>2017-06-16T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -451,6 +460,16 @@
     
       <loc>http://martin-jung.github.io/tags/gis/</loc>
       <lastmod>2018-05-20T20:24:48+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/categories/gis/</loc>
+      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -625,7 +644,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/python/</loc>
+      <loc>http://martin-jung.github.io/tags/python/</loc>
       <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -635,7 +654,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/python/</loc>
+      <loc>http://martin-jung.github.io/categories/python/</loc>
       <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
