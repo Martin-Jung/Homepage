@@ -458,8 +458,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/gis/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/gis/</loc>
+      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -468,8 +468,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/gis/</loc>
-      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/gis/</loc>
+      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -644,7 +644,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/python/</loc>
+      <loc>http://martin-jung.github.io/tags/python/</loc>
       <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -654,7 +654,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/python/</loc>
+      <loc>http://martin-jung.github.io/categories/python/</loc>
       <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
