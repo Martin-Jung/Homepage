@@ -1,7 +1,7 @@
 +++
 title = "DataScienceCloud_v2"
 date = 2018-06-23
-draft = false
+draft = true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -19,6 +19,9 @@ caption = ""
 preview = true
 
 +++
+
+(edit in previous post)
+See my [next post]({{< ref "post/2018_DataScienceInGoogleCloud_nr2.md" >}})
 
 
 Finally let us start rstudio server to run on the Google cloud. Normally you would need to set up the rstudio server manually, but with the new [googleComputeEngineR](https://cloudyr.github.io/googleComputeEngineR/index.html) package this whole process has become a lot easier
