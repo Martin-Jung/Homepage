@@ -1,5 +1,5 @@
 +++
-title = "DataScienceCloud_v2"
+title = "Computing with R in the Google cloud - [2]"
 date = 2018-06-23
 draft = true
 

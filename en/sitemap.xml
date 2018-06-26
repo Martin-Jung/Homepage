@@ -5,24 +5,6 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/2018/datasciencecloud_v2/</loc>
-      <lastmod>2018-06-26T23:15:30+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://martin-jung.github.io/2018/datasciencecloud_v2/</loc>
-      <lastmod>2018-06-23T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</loc>
       <lastmod>2018-06-17T00:00:00+01:00</lastmod>
     </url>
@@ -385,7 +367,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/cloud-computing/</loc>
+      <loc>http://martin-jung.github.io/categories/cloud-computing/</loc>
       <lastmod>2018-06-17T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -395,7 +377,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/cloud-computing/</loc>
+      <loc>http://martin-jung.github.io/tags/cloud-computing/</loc>
       <lastmod>2018-06-17T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -515,6 +497,16 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/categories/gis/</loc>
+      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/gis/</loc>
       <lastmod>2018-05-20T20:24:48+01:00</lastmod>
       <priority>0</priority>
@@ -525,8 +517,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/gis/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/google-cloud/</loc>
+      <lastmod>2018-06-17T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -701,16 +693,6 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/python/</loc>
-      <lastmod>2018-06-17T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://martin-jung.github.io/categories/python/</loc>
       <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -721,8 +703,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/qgis/</loc>
-      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/python/</loc>
+      <lastmod>2018-06-17T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -731,8 +713,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/r/</loc>
-      <lastmod>2018-06-17T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/qgis/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
