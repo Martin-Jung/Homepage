@@ -58,6 +58,15 @@
     </item>
     
     <item>
+      <title>Cloud-computing</title>
+      <link>http://martin-jung.github.io/tags/cloud-computing/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Coding</title>
       <link>http://martin-jung.github.io/tags/coding/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -87,7 +96,7 @@
     <item>
       <title>Data</title>
       <link>http://martin-jung.github.io/tags/data/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/data/</guid>
       <description></description>
@@ -276,7 +285,7 @@
     <item>
       <title>Python</title>
       <link>http://martin-jung.github.io/tags/python/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/python/</guid>
       <description></description>
@@ -288,6 +297,15 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://martin-jung.github.io/tags/r/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/r/</guid>
       <description></description>
     </item>
     

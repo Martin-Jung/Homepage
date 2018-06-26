@@ -13,6 +13,34 @@
     
     
     <item>
+      <title>DataScienceCloud_v2</title>
+      <link>http://martin-jung.github.io/2018/datasciencecloud_v2/</link>
+      <pubDate>Tue, 26 Jun 2018 23:15:30 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/2018/datasciencecloud_v2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DataScienceCloud_v2</title>
+      <link>http://martin-jung.github.io/2018/datasciencecloud_v2/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/2018/datasciencecloud_v2/</guid>
+      <description>Finally let us start rstudio server to run on the Google cloud. Normally you would need to set up the rstudio server manually, but with the new googleComputeEngineR package this whole process has become a lot easier So let&amp;rsquo;s setup googleComputeEngineR. First we need to create a credentials file. For my project and test cloud-instance I create my file on my local system (!) like this:
+# Create the file touch ~/.</description>
+    </item>
+    
+    <item>
+      <title>Data science in the Google cloud - [1]</title>
+      <link>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</guid>
+      <description>Anyone analysing big data (buzzword, here refereed to as data too big to load into memory) soon will come to the realization that processing such data requires a lot of computational resources. During my PhD I mainly worked with the local high-performance-computer (HPC) at the University of Sussex. Yet our little HPC increasingly suffers from the tragedy of the commons with more and more people requesting computation time on the few available nodes.</description>
+    </item>
+    
+    <item>
       <title>Robust correlations with xarray and dask</title>
       <link>http://martin-jung.github.io/2018/robust-correlations-with-xarray-and-dask/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
