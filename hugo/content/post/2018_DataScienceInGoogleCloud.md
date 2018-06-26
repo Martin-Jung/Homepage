@@ -52,7 +52,8 @@ Here is the entire thing as bash-script to be executed on the next, bigger, VM i
 
 ```bash
 # First lets install some necessary libraries
-sudo apt-get install bzip2
+sudo apt-get -y install bzip2
+sudo apt-get -y install screen
 
 # Make a update and upgrade all, then clean up
 sudo apt-get update
@@ -66,6 +67,7 @@ cd downloads
 wget https://repo.continuum.io/archive/Anaconda2-5.2.0-Linux-x86_64.sh
 # Install in the background (accept and updating any previous installations)
 bash Anaconda2-5.2.0-Linux-x86_64.sh -b -u -p $HOME/anaconda2
+echo "export PATH=\"~/anaconda2/bin:$PATH\"" >> ~/.bashrc
 # Reload conf
 source ~/.bashrc
 
@@ -88,6 +90,26 @@ sudo apt-get -y install julia
 ```
 **Note to myself**: For the future it might be easier to configure an analysis-ready docker image
 \
+
+Now we create a new configuration for a jupyter notebook and start it on the vm.
+
+```bash
+# Create config
+jupyter notebook --generate-config
+
+# Add this to the configure
+echo "c = get_config()" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.ip = '*'" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.port = 8177" >> ~/.jupyter/jupyter_notebook_config.py
+
+# Start up
+jupyter-notebook --no-browser --port=8177
+
+```
+
+The jupyter notebook can now be viewed in any browser.
+However you usually have to set a firewall rule and static ip first to enable it outside the Google intranet.
 
 {{% alert warning %}}
 At the end, ensure that the VM is turned off, otherwise it will create ongoing costs!
