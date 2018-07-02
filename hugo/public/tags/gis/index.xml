@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung - &amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 20 May 2018 20:24:48 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/tags/gis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PhD research image prize</title>
+      <link>http://martin-jung.github.io/2018/phd-research-image-prize/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/2018/phd-research-image-prize/</guid>
+      <description>I won a prize :-) In this years Festival of Doctoral research at the University of Sussex I won the runner-up prize for the best image describing one&amp;rsquo;s doctoral research. The task was to submit a single image and 300 word abstract that visualizes and describes the goals of a persons doctoral research.
+Picture seen above (click here for larger version). Here is the accompanying description:
+Title: Going back in time with satellites to assist biodiversity conservation  In my PhD I investigate how past land changes continue to affect local biodiversity.</description>
+    </item>
     
     <item>
       <title>The impact of economic recession on land changes in Greece</title>

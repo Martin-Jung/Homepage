@@ -128,6 +128,3 @@ Now that you have created a SSH tunnel you can just open your local browser (ie.
 {{% alert warning %}}
 At the end, ensure that the VM is turned off, otherwise it will create ongoing costs!
 {{% /alert %}}
-
-### Memo
-As I read more, I learnt that there are way more convenient ways of getting started with cloud computing, especially for R ;) \

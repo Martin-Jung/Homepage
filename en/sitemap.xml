@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/2018/phd-research-image-prize/</loc>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</loc>
       <lastmod>2018-06-17T00:00:00+01:00</lastmod>
     </url>
@@ -367,7 +376,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/cloud-computing/</loc>
+      <loc>http://martin-jung.github.io/tags/cloud-computing/</loc>
       <lastmod>2018-06-17T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -377,7 +386,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/cloud-computing/</loc>
+      <loc>http://martin-jung.github.io/categories/cloud-computing/</loc>
       <lastmod>2018-06-17T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -497,8 +506,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/gis/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/gis/</loc>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -507,8 +516,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/gis/</loc>
-      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/gis/</loc>
+      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -539,6 +548,16 @@
     
       <loc>http://martin-jung.github.io/tags/land-use/</loc>
       <lastmod>2017-02-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/landsat/</loc>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -621,7 +640,7 @@
     <url>
     
       <loc>http://martin-jung.github.io/tags/phd/</loc>
-      <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -680,11 +699,8 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="http://martin-jung.github.io/publication_types/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="http://martin-jung.github.io/de/publication_types/" hreflang="de"/>
-    
-      <loc>http://martin-jung.github.io/publication_types/</loc>
-      <lastmod>2012-09-23T00:00:00+00:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/protected-areas/</loc>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -693,8 +709,11 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/python/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <xhtml:link rel="alternate" href="http://martin-jung.github.io/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://martin-jung.github.io/de/publication_types/" hreflang="de"/>
+    
+      <loc>http://martin-jung.github.io/publication_types/</loc>
+      <lastmod>2012-09-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -713,8 +732,38 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/categories/python/</loc>
+      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/qgis/</loc>
       <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/remote-sensing/</loc>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/categories/remote-sensing/</loc>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     

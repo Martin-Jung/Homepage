@@ -159,7 +159,7 @@
     <item>
       <title>Gis</title>
       <link>http://martin-jung.github.io/tags/gis/</link>
-      <pubDate>Sun, 20 May 2018 20:24:48 +0100</pubDate>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/gis/</guid>
       <description></description>
@@ -189,6 +189,15 @@
       <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/land-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landsat</title>
+      <link>http://martin-jung.github.io/tags/landsat/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/landsat/</guid>
       <description></description>
     </item>
     
@@ -249,7 +258,7 @@
     <item>
       <title>Phd</title>
       <link>http://martin-jung.github.io/tags/phd/</link>
-      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/phd/</guid>
       <description></description>
@@ -292,6 +301,15 @@
     </item>
     
     <item>
+      <title>Protected-areas</title>
+      <link>http://martin-jung.github.io/tags/protected-areas/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/protected-areas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>http://martin-jung.github.io/tags/python/</link>
       <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
@@ -306,6 +324,15 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote-sensing</title>
+      <link>http://martin-jung.github.io/tags/remote-sensing/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/remote-sensing/</guid>
       <description></description>
     </item>
     
