@@ -37,4 +37,4 @@ weight = 5
 
 # Biography
 
-PhD researcher at the University of Sussex (UK) investigating how biodiversity is influenced by past land dynamics. Widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change. Specialist in remote-sensing analysis and interpreting spatial data. Many years of experience in project managament and providing quantitative assessments of environmental issues.
+PhD researcher at the University of Sussex (UK) investigating how biodiversity is influenced by past land dynamics. Widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change. Specialist in remote-sensing analysis and interpreting spatial data. Many years of experience in project management and providing quantitative solutions to environmental problems.
