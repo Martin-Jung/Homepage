@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google-cloud on Martin Jung</title>
-    <link>http://martin-jung.github.io/tags/google-cloud/</link>
-    <description>Recent content in Google-cloud on Martin Jung</description>
+    <title>Google-earth-engine on Martin Jung</title>
+    <link>http://martin-jung.github.io/tags/google-earth-engine/</link>
+    <description>Recent content in Google-earth-engine on Martin Jung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung - &amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="http://martin-jung.github.io/tags/google-cloud/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://martin-jung.github.io/tags/google-earth-engine/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>http://martin-jung.github.io/2018/introduction-to-google-earth-engine/</guid>
       <description>In a previous post, I gave a brief introduction how to use google cloud compute to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as planetary scale platform for spatial analyses.</description>
-    </item>
-    
-    <item>
-      <title>Data science in the Google cloud - [1]</title>
-      <link>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</link>
-      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</guid>
-      <description>Anyone analysing big data (buzzword, here refereed to as data too big to load into memory) soon will come to the realization that processing such data requires a lot of computational resources. During my PhD I mainly worked with the local high-performance-computer (HPC) at the University of Sussex. A couple of years into my PhD and I increasingly realized that our little HPC suffers from the tragedy of the commons with more and more people requesting computation time on a few available nodes.</description>
     </item>
     
   </channel>

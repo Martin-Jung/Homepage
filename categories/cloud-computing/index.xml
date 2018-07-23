@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung - &amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 17 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/categories/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction to Google Earth Engine</title>
+      <link>http://martin-jung.github.io/2018/introduction-to-google-earth-engine/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/2018/introduction-to-google-earth-engine/</guid>
+      <description>In a previous post, I gave a brief introduction how to use google cloud compute to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as planetary scale platform for spatial analyses.</description>
+    </item>
     
     <item>
       <title>Data science in the Google cloud - [1]</title>
