@@ -10,7 +10,8 @@ title = "Martin Jung"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "Martin Jung - &copy; 2018"
+copyright = "Martin Jung 2017-2018 &bull; <a href=\"https://creativecommons.org/licenses/by/4.0/\"><i class=\"fa fa-cc\" aria-hidden=\"true\"></i></a>"
+
 
 theme = "academic"
 enableEmoji = true
