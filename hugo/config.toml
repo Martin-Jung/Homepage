@@ -148,7 +148,7 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = ["r","python",'bash',"yaml"]
+  highlight_languages = ["r","python",'bash',"yaml",'javascript']
   highlight_style = "monokai"
 
   # Enable native social sharing buttons?
@@ -291,10 +291,10 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 6
 
-#[[menu.main]]
-#  name = "CV"
-#  url = "pdf/mjung_cv_Apr2017.pdf"
-#  weight = 9
+[[menu.main]]
+  name = "CV"
+  url = "pdf/mjung_cv.pdf"
+  weight = 9
 
 # Taxonomies.
 [taxonomies]
