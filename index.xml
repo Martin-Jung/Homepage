@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Martin Jung on Martin Jung</title>
+    <title>Martin Jung - Environmental and data scientist on Martin Jung - Environmental and data scientist</title>
     <link>http://martin-jung.github.io/</link>
-    <description>Recent content in Martin Jung on Martin Jung</description>
+    <description>Recent content in Martin Jung - Environmental and data scientist on Martin Jung - Environmental and data scientist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
@@ -12,11 +12,11 @@
     
     <item>
       <title>Introduction to Google Earth Engine</title>
-      <link>http://martin-jung.github.io/2018/introduction-to-google-earth-engine/</link>
+      <link>http://martin-jung.github.io/post/2018_googleearthengine-intro/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/introduction-to-google-earth-engine/</guid>
-      <description>&lt;p&gt;In a previous post, I gave a brief introduction how to use &lt;a href=&#34;http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/&#34; target=&#34;_blank&#34;&gt;google cloud compute&lt;/a&gt; to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as &lt;a href=&#34;https://earthengine.google.com/&#34; target=&#34;_blank&#34;&gt;planetary scale platform for spatial analyses&lt;/a&gt;.
+      <guid>http://martin-jung.github.io/post/2018_googleearthengine-intro/</guid>
+      <description>&lt;p&gt;In a previous post, I gave a brief introduction how to use &lt;a href=&#34;http://martin-jung.github.io/post/2018_datascienceingooglecloud/&#34; target=&#34;_blank&#34;&gt;google cloud compute&lt;/a&gt; to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as &lt;a href=&#34;https://earthengine.google.com/&#34; target=&#34;_blank&#34;&gt;planetary scale platform for spatial analyses&lt;/a&gt;.
 &lt;br /&gt;
 &lt;br&gt;
 GEE is (currently) free to use and users can sign up for a &lt;a href=&#34;https://earthengine.google.com/signup/&#34; target=&#34;_blank&#34;&gt;beta-testing&lt;/a&gt;. There are a &lt;a href=&#34;https://earthengine.google.com/datasets/&#34; target=&#34;_blank&#34;&gt;wide range of datasets&lt;/a&gt; already available within GEE, including all available Landsat, Sentinel and MODIS satellite data. GEE furthermore allows to pre-process these layers and the fantastatic google team also already pre-computed layers such as cloud masks or ingested fully radiometrically corrected layers. If the reader is interested in what is possible with GEE, have a look at the &lt;a href=&#34;https://earthengine.google.com/case_studies/&#34; target=&#34;_blank&#34;&gt;case studies&lt;/a&gt; on the GEE website.
@@ -301,10 +301,10 @@ Martin&lt;/p&gt;
     
     <item>
       <title>PhD research image prize</title>
-      <link>http://martin-jung.github.io/2018/phd-research-image-prize/</link>
+      <link>http://martin-jung.github.io/post/2018-phd-poster-prize/</link>
       <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/phd-research-image-prize/</guid>
+      <guid>http://martin-jung.github.io/post/2018-phd-poster-prize/</guid>
       <description>
 
 &lt;p&gt;I won a prize :-) &lt;br /&gt;
@@ -322,10 +322,10 @@ In this years &lt;a href=&#34;http://www.sussex.ac.uk/internal/doctoralschool/ne
     
     <item>
       <title>Data science in the Google cloud - [1]</title>
-      <link>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</link>
+      <link>http://martin-jung.github.io/post/2018_datascienceingooglecloud/</link>
       <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</guid>
+      <guid>http://martin-jung.github.io/post/2018_datascienceingooglecloud/</guid>
       <description>&lt;p&gt;Anyone analysing &lt;strong&gt;big data&lt;/strong&gt; (buzzword, here refereed to as data too big to load into memory) soon will come to the realization that processing such data requires a lot of computational resources. During my PhD I mainly worked with the local high-performance-computer (HPC) at the University of Sussex. A couple of years into my PhD and I increasingly realized that our little HPC suffers from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tragedy_of_the_commons&#34; target=&#34;_blank&#34;&gt;tragedy of the commons&lt;/a&gt; with more and more people requesting computation time on a few available nodes.  That and also the tendency to have limited flexibility for running customized code (no root access, outdated modules and libraries, little space on the home drive to set up virtual environments, etc. &amp;hellip;) has made me quite frustrated and willing to switch to the &amp;ldquo;Cloud&amp;rdquo; for accessing computing resources.
 &lt;/p&gt;
 
@@ -441,10 +441,10 @@ gcloud compute ssh  --zone=us-central1-c --ssh-flag=&amp;quot;-D&amp;quot; --ssh
     
     <item>
       <title>Robust correlations with xarray and dask</title>
-      <link>http://martin-jung.github.io/2018/robust-correlations-with-xarray-and-dask/</link>
+      <link>http://martin-jung.github.io/post/2018-xarrayregression/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/robust-correlations-with-xarray-and-dask/</guid>
+      <guid>http://martin-jung.github.io/post/2018-xarrayregression/</guid>
       <description>
 
 &lt;p&gt;I perform most of my analyses using either &lt;strong&gt;R&lt;/strong&gt; or standalone &lt;strong&gt;GDAL&lt;/strong&gt; tools simply because of their general convenience and ease of use. Standard spatial analysis functions and tools are in my opinion still more readily available in R and most R packages are quite mature and well designed ( &lt;a href=&#34;http://www.rspatial.org/&#34; target=&#34;_blank&#34;&gt;but see the readme&lt;/a&gt; ). Nevertheless &lt;strong&gt;python&lt;/strong&gt; has caught up and a number of really helpful python modules for spatial analyses have been released to this date. I have always loved coding in python since I developed my &lt;a href=&#34;https://github.com/Martin-Jung/LecoS&#34; target=&#34;_blank&#34;&gt;LecoS plugin&lt;/a&gt;, especially because of it&amp;rsquo;s processing speed (doing any computation on numpy arrays is quite fun) and clean synthax. In this post I will demonstrate how to make use of the new (?) &lt;a href=&#34;http://xarray.pydata.org&#34; target=&#34;_blank&#34;&gt;xarray&lt;/a&gt; (previously xray) python module to load remotely-sensed data and run &amp;ldquo;pixel-wise&amp;rdquo; correlation tests on them.&lt;/p&gt;
@@ -689,10 +689,10 @@ def k_cor(x,y, pthres = 0.05, direction = True):
     
     <item>
       <title>New professional website</title>
-      <link>http://martin-jung.github.io/2017/new-professional-website/</link>
+      <link>http://martin-jung.github.io/post/2017-new-professional-website/</link>
       <pubDate>Fri, 16 Jun 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2017/new-professional-website/</guid>
+      <guid>http://martin-jung.github.io/post/2017-new-professional-website/</guid>
       <description>&lt;p&gt;Welcome to my new starting website. My name is Martin Jung and I consider myself an Environmental and data scientist.  &lt;a href=&#34;https://martin-jung.github.io/#about&#34; target=&#34;_blank&#34;&gt;Read here for more&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I have abandoned my previous online presence, the &lt;a href=&#34;http://conservationecology.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Conservation ecology blog&lt;/a&gt; since quite a while. Mostly because I was too preoccupied working on my PhD. However I also disliked the inflexibility of wordpress layouts and the added advertising below each wordpress.com article. Therefore the restart of my professional website powered by hugo and the academic theme. So feel welcome if you are a previous reader of my blog, but notice that I will put more emphasis on examples and demonstrations on this website.&lt;/p&gt;

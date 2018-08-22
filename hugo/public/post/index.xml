@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Martin Jung</title>
+    <title>Posts on Martin Jung - Environmental and data scientist</title>
     <link>http://martin-jung.github.io/post/</link>
-    <description>Recent content in Posts on Martin Jung</description>
+    <description>Recent content in Posts on Martin Jung - Environmental and data scientist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
@@ -14,19 +14,19 @@
     
     <item>
       <title>Introduction to Google Earth Engine</title>
-      <link>http://martin-jung.github.io/2018/introduction-to-google-earth-engine/</link>
+      <link>http://martin-jung.github.io/post/2018_googleearthengine-intro/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/introduction-to-google-earth-engine/</guid>
+      <guid>http://martin-jung.github.io/post/2018_googleearthengine-intro/</guid>
       <description>In a previous post, I gave a brief introduction how to use google cloud compute to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as planetary scale platform for spatial analyses.</description>
     </item>
     
     <item>
       <title>PhD research image prize</title>
-      <link>http://martin-jung.github.io/2018/phd-research-image-prize/</link>
+      <link>http://martin-jung.github.io/post/2018-phd-poster-prize/</link>
       <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/phd-research-image-prize/</guid>
+      <guid>http://martin-jung.github.io/post/2018-phd-poster-prize/</guid>
       <description>I won a prize :-) In this years Festival of Doctoral research at the University of Sussex I won the runner-up prize for the best image describing one&amp;rsquo;s doctoral research. The task was to submit a single image and 300 word abstract that visualizes and describes the goals of a persons doctoral research.
 Picture seen above (click here for larger version). Here is the accompanying description:
 Title: Going back in time with satellites to assist biodiversity conservation  In my PhD I investigate how past land changes continue to affect local biodiversity.</description>
@@ -34,28 +34,28 @@ Title: Going back in time with satellites to assist biodiversity conservation  I
     
     <item>
       <title>Data science in the Google cloud - [1]</title>
-      <link>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</link>
+      <link>http://martin-jung.github.io/post/2018_datascienceingooglecloud/</link>
       <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/data-science-in-the-google-cloud---1/</guid>
+      <guid>http://martin-jung.github.io/post/2018_datascienceingooglecloud/</guid>
       <description>Anyone analysing big data (buzzword, here refereed to as data too big to load into memory) soon will come to the realization that processing such data requires a lot of computational resources. During my PhD I mainly worked with the local high-performance-computer (HPC) at the University of Sussex. A couple of years into my PhD and I increasingly realized that our little HPC suffers from the tragedy of the commons with more and more people requesting computation time on a few available nodes.</description>
     </item>
     
     <item>
       <title>Robust correlations with xarray and dask</title>
-      <link>http://martin-jung.github.io/2018/robust-correlations-with-xarray-and-dask/</link>
+      <link>http://martin-jung.github.io/post/2018-xarrayregression/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2018/robust-correlations-with-xarray-and-dask/</guid>
+      <guid>http://martin-jung.github.io/post/2018-xarrayregression/</guid>
       <description>I perform most of my analyses using either R or standalone GDAL tools simply because of their general convenience and ease of use. Standard spatial analysis functions and tools are in my opinion still more readily available in R and most R packages are quite mature and well designed ( but see the readme ). Nevertheless python has caught up and a number of really helpful python modules for spatial analyses have been released to this date.</description>
     </item>
     
     <item>
       <title>New professional website</title>
-      <link>http://martin-jung.github.io/2017/new-professional-website/</link>
+      <link>http://martin-jung.github.io/post/2017-new-professional-website/</link>
       <pubDate>Fri, 16 Jun 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2017/new-professional-website/</guid>
+      <guid>http://martin-jung.github.io/post/2017-new-professional-website/</guid>
       <description>Welcome to my new starting website. My name is Martin Jung and I consider myself an Environmental and data scientist. Read here for more.
 I have abandoned my previous online presence, the Conservation ecology blog since quite a while. Mostly because I was too preoccupied working on my PhD. However I also disliked the inflexibility of wordpress layouts and the added advertising below each wordpress.com article. Therefore the restart of my professional website powered by hugo and the academic theme.</description>
     </item>

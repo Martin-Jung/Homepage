@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>General on Martin Jung</title>
+    <title>General on Martin Jung - Environmental and data scientist</title>
     <link>http://martin-jung.github.io/tags/general/</link>
-    <description>Recent content in General on Martin Jung</description>
+    <description>Recent content in General on Martin Jung - Environmental and data scientist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
@@ -14,10 +14,10 @@
     
     <item>
       <title>New professional website</title>
-      <link>http://martin-jung.github.io/2017/new-professional-website/</link>
+      <link>http://martin-jung.github.io/post/2017-new-professional-website/</link>
       <pubDate>Fri, 16 Jun 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://martin-jung.github.io/2017/new-professional-website/</guid>
+      <guid>http://martin-jung.github.io/post/2017-new-professional-website/</guid>
       <description>Welcome to my new starting website. My name is Martin Jung and I consider myself an Environmental and data scientist. Read here for more.
 I have abandoned my previous online presence, the Conservation ecology blog since quite a while. Mostly because I was too preoccupied working on my PhD. However I also disliked the inflexibility of wordpress layouts and the added advertising below each wordpress.com article. Therefore the restart of my professional website powered by hugo and the academic theme.</description>
     </item>

@@ -9,7 +9,7 @@ time_start = 2012-05-20 #T18:17:54+01:00
 time_end = 2012-05-20 #T18:17:54+01:00
 
 # Abstract and optional shortened version.
-abstract = "I was invited by Dr.  Klaus Birkhofer from the University of Lund to give a practical workshop in landscape ecology analysis with QGIS for the Biodiversity and Conservation Science Group in which around 13 people participated"
+abstract = "I was invited by Dr. Klaus Birkhofer from the University of Lund to give a practical workshop in landscape ecology analysis with QGIS for the Biodiversity and Conservation Science Group in which around 13 people participated"
 abstract_short = "Provided a GIS workshop at the University of Lund"
 
 # Name of event and optional event URL.
@@ -26,7 +26,7 @@ selected = false
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ['']
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.

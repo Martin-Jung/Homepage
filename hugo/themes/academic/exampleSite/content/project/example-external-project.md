@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = 2016-04-27T00:00:00
 
 # Project title.
 title = "External Project"
@@ -13,7 +13,7 @@ image_preview = "boards.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["demo"]
+tags = ["Demo"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://example.org"

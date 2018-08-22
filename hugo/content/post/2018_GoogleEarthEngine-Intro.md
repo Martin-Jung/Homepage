@@ -20,7 +20,7 @@ preview = true
 
 +++
 
-In a previous post, I gave a brief introduction how to use [google cloud compute]({{< ref "post/2018_DataScienceInGoogleCloud.md">}}) to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as [planetary scale platform for spatial analyses](https://earthengine.google.com/).
+In a previous post, I gave a brief introduction how to use [google cloud compute]({{< ref "/post/2018_DataScienceInGoogleCloud.md">}}) to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as [planetary scale platform for spatial analyses](https://earthengine.google.com/).
 \
 <br>
 GEE is (currently) free to use and users can sign up for a [beta-testing](https://earthengine.google.com/signup/). There are a [wide range of datasets](https://earthengine.google.com/datasets/) already available within GEE, including all available Landsat, Sentinel and MODIS satellite data. GEE furthermore allows to pre-process these layers and the fantastatic google team also already pre-computed layers such as cloud masks or ingested fully radiometrically corrected layers. If the reader is interested in what is possible with GEE, have a look at the [case studies](https://earthengine.google.com/case_studies/) on the GEE website.
