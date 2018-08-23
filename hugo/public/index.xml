@@ -11,6 +11,85 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Running rstudio in the Google cloud - [2]</title>
+      <link>http://martin-jung.github.io/post/2018_datascienceingooglecloud_nr2/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/post/2018_datascienceingooglecloud_nr2/</guid>
+      <description>
+
+&lt;p&gt;In this new post I will go through my process of getting familiar with running &lt;em&gt;R&lt;/em&gt; in the Google cloud and the posting sort of follows my previous &lt;a href=&#34;http://martin-jung.github.io/post/2018_datascienceingooglecloud/&#34; target=&#34;_blank&#34;&gt;post&lt;/a&gt; on getting started with the Google cloud. My dream setup would include to being able to switch seamless between running r code locally or in the cloud whenever I require more processing power. For instance similar &lt;a href=&#34;https://github.com/Azure/doAzureParallel&#34; target=&#34;_blank&#34;&gt;doAzureParallel&lt;/a&gt; package available for Microsoft Azure.
+&lt;br&gt;
+For Google cloud engine, there also exists a neat package called &lt;a href=&#34;https://cloudyr.github.io/googleComputeEngineR/index.html&#34; target=&#34;_blank&#34;&gt;googleComputeEngineR&lt;/a&gt;, that allows to easily setup a virtual machine and run code remotely.
+So let&amp;rsquo;s setup the googleComputeEngineR package. As always, please note you alone (the dear reader) is responsible to keep track of your virtual machines in the cloud. If you do not stop them (i.e. shut them down), then this will &lt;span class=&#34;markup-quote&#34;&gt;cost you money!&lt;/span&gt;
+&lt;hr&gt;
+In order to use the &lt;strong&gt;googleComputeEngineR&lt;/strong&gt; package, we first need to create a credentials file. For my google cloud project and personal linux machine I have created such a file on my local system like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Create the file
+touch ~/.Renviron
+echo &amp;quot;GCE_AUTH_FILE=\&amp;quot;~/wasserdampf.json\&amp;quot;&amp;quot; &amp;gt;&amp;gt; ~/.Renviron
+echo &amp;quot;GCE_DEFAULT_PROJECT_ID=\&amp;quot;wolke7-208420\&amp;quot;&amp;quot; &amp;gt;&amp;gt; ~/.Renviron
+echo &amp;quot;GCE_DEFAULT_ZONE=\&amp;quot;us-central1-a\&amp;quot;&amp;quot; &amp;gt;&amp;gt; ~/.Renviron
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;One also needs a service account auth key (here called wasserdampf.json). Find more information how to get such a key &lt;a href=&#34;https://cloudyr.github.io/googleComputeEngineR/articles/installation-and-authentication.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+Now for starters lets start R and install the &lt;strong&gt;googleComputeEngineR&lt;/strong&gt; package, then start up a virtual machine with Rstudio setup.&lt;/p&gt;
+
+&lt;h2 id=&#34;run-a-rstudio-in-the-google-cloud&#34;&gt;Run a Rstudio in the google cloud&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;llibrary(googleAuthR)
+library(googleComputeEngineR)
+library(future)
+
+# Start up a rstudio vm (or create if not already existing)
+vm &amp;lt;- gce_vm(template = &amp;quot;rstudio&amp;quot;,
+             name = &amp;quot;rstudio&amp;quot;,
+             username = &amp;quot;martin&amp;quot;, password = &amp;quot;wolkenwind&amp;quot;,
+             predefined_type = &amp;quot;n1-standard-1&amp;quot; # Available machines via gce_list_machinetype()
+)
+
+# See if the vm exists
+gce_list_instances()
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; ==Google Compute Engine Instance List==
+&amp;gt;      name   machineType  status          zone     externalIP   creationTimestamp
+&amp;gt; 1 rstudio n1-standard-1 RUNNING us-central1-a XX.XXX.XXX.XXX 2018-08-23 14:41:45
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The externalIP gives the ip through which rstudio server can be run in any webbrowser
+&lt;img src=&#34;./img/posts/GoogleCloud_Rstudio.png&#34; alt=&#34;Rstudio run in the google cloud&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Equally it is quite easy to control the VM via SSH directly in the browser and the &lt;strong&gt;googleComputeEngineR&lt;/strong&gt; package provides an easy function to open such a connection:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;gce_ssh_browser(vm)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Using the browser ssh interface from google is quite handy, but you won&amp;rsquo;t be able to control your instance within R yet and use all the nifty functions available within the &lt;strong&gt;googleComputeEngineR&lt;/strong&gt; package.
+Hence, I first used the Google cloud engine &lt;strong&gt;gcloud&lt;/strong&gt; tool to setup my public &lt;a href=&#34;http://martin-jung.github.io/data/mj-pubkey.asc&#34; target=&#34;_blank&#34;&gt;gpg-key&lt;/a&gt; with Google.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;gcloud compute os-login ssh-keys add --key-file ~/mj-pubkey.asc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Place holder - I will continue writing the post the next time (23/08/2018)&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;Lastly ensure that you stop the VM or delete it all together&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;# Shut down the vm
+gce_vm_stop(vm)
+
+# Or delete it all together
+gce_vm_delete(vm)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introduction to Google Earth Engine</title>
       <link>http://martin-jung.github.io/post/2018_googleearthengine-intro/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
@@ -762,15 +841,6 @@ I&amp;rsquo;m particularly interested in scientific collaborations, consulting o
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/publication/2016_biodiversityplanetaryboundary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Can we set a global threshold age to define mature forests?</title>
-      <link>http://martin-jung.github.io/publication/2016_matureforestspeerj/</link>
-      <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/publication/2016_matureforestspeerj/</guid>
       <description></description>
     </item>
     

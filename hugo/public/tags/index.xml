@@ -60,7 +60,7 @@
     <item>
       <title>Cloud-computing</title>
       <link>http://martin-jung.github.io/tags/cloud-computing/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/cloud-computing/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>Data</title>
       <link>http://martin-jung.github.io/tags/data/</link>
-      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/data/</guid>
       <description></description>
@@ -168,7 +168,7 @@
     <item>
       <title>Google-cloud</title>
       <link>http://martin-jung.github.io/tags/google-cloud/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/google-cloud/</guid>
       <description></description>
@@ -333,6 +333,15 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://martin-jung.github.io/tags/r/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/r/</guid>
       <description></description>
     </item>
     
