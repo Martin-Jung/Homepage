@@ -68,21 +68,12 @@ Equally it is quite easy to control the VM via SSH directly in the browser and t
 ```R
 gce_ssh_browser(vm)
 ```
-Using the browser ssh interface from google is quite handy, but you won't be able to control your instance within R yet and use all the nifty functions available within the **googleComputeEngineR** package.
-Hence, I first used the Google cloud engine **gcloud** tool to setup my public [gpg-key](http://martin-jung.github.io/data/mj-pubkey.asc) with Google.
-```bash
-gcloud compute os-login ssh-keys add --key-file ~/mj-pubkey.asc
-```
 
-{{% alert note %}}
-Place holder - I will continue writing the post the next time (23/08/2018)
-{{% /alert %}}
-
-Lastly ensure that you stop the VM or delete it all together
+Lastly ensure that you stop the VM(or delete it).
 ```R
 # Shut down the vm
 gce_vm_stop(vm)
 
-# Or delete it all together
+# Or delete the vm
 gce_vm_delete(vm)
 ```

@@ -285,17 +285,17 @@ enableGitInfo = false
   align_right = false
 
   [[menu.main]]
-    name = "Home"
-    url = "#about"
+    name = "About"
+    url = "/#about"
     weight = 1
 
   [[menu.main]]
-    name = "Posts"
+    name = "Blog"
     url = "#posts"
     weight = 2
 
   [[menu.main]]
-    name = "Publications"
+    name = "Scientific publications"
     url = "#publications"
     weight = 3
 
