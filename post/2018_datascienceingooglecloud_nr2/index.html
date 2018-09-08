@@ -180,7 +180,7 @@
         <li class="nav-item">
           <a href="../../#about">
             
-            <span>Home</span>
+            <span>About</span>
             
           </a>
         </li>
@@ -199,7 +199,7 @@
         <li class="nav-item">
           <a href="../../#posts">
             
-            <span>Posts</span>
+            <span>Blog</span>
             
           </a>
         </li>
@@ -218,7 +218,7 @@
         <li class="nav-item">
           <a href="../../#publications">
             
-            <span>Publications</span>
+            <span>Scientific publications</span>
             
           </a>
         </li>
@@ -315,7 +315,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    2 min read
   </span>
   
 
@@ -438,24 +438,12 @@ gce_list_instances()
 <pre><code class="language-R">gce_ssh_browser(vm)
 </code></pre>
 
-<p>Using the browser ssh interface from google is quite handy, but you won&rsquo;t be able to control your instance within R yet and use all the nifty functions available within the <strong>googleComputeEngineR</strong> package.
-Hence, I first used the Google cloud engine <strong>gcloud</strong> tool to setup my public <a href="http://martin-jung.github.io/data/mj-pubkey.asc" target="_blank">gpg-key</a> with Google.</p>
-
-<pre><code class="language-bash">gcloud compute os-login ssh-keys add --key-file ~/mj-pubkey.asc
-</code></pre>
-
-<div class="alert alert-note">
-  <p>Place holder - I will continue writing the post the next time (23/08/2018)</p>
-
-</div>
-
-
-<p>Lastly ensure that you stop the VM or delete it all together</p>
+<p>Lastly ensure that you stop the VM(or delete it).</p>
 
 <pre><code class="language-R"># Shut down the vm
 gce_vm_stop(vm)
 
-# Or delete it all together
+# Or delete the vm
 gce_vm_delete(vm)
 </code></pre>
 

@@ -11,6 +11,31 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Local species assemblages are influenced more by past than current dissimilarities in photosynthetic activity</title>
+      <link>http://martin-jung.github.io/publication/2018_jungpairwisedifferences/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/publication/2018_jungpairwisedifferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New PhD paper - Pairwise differences in photosynthetic activity</title>
+      <link>http://martin-jung.github.io/post/2018_newphdpublication/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/post/2018_newphdpublication/</guid>
+      <description>&lt;p&gt;I can now happily announce that the first chapter of my PhD has been accepted and is going to be published in the Journal &lt;a href=&#34;https://onlinelibrary.wiley.com/journal/16000587&#34; target=&#34;_blank&#34;&gt;Ecography&lt;/a&gt;. In this piece I investigated whether pairwise compositional differences between species assemblages (so in the identity and amount of species found in a given place and time) can be explained by a dissimilarity in remotely-sensed vegetation index. &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;I furthermore found that past dissimilarities in photosynthetic activity improved the overall fit relative to current dissimilarities, therefore hinting at a &lt;em&gt;lag-effect&lt;/em&gt; that can be investigated via remote sensing. Also quite cool is that we use - to my knowledge for the first time - the same dissimilarity metric (the &lt;strong&gt;Bray-Curtis&lt;/strong&gt; index) to quantify both differences between species assemblages and entire remotely-sensed time series of photosynthetic activity.
+Terminology and writeup took quite a while for this piece, so I am quite happy that it is finally out.
+&lt;br /&gt;
+&lt;br&gt;
+You can find the abstract and links to paper etc. &lt;a href=&#34;http://martin-jung.github.io/publication/2018_jungpairwisedifferences/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Running rstudio in the Google cloud - [2]</title>
       <link>http://martin-jung.github.io/post/2018_datascienceingooglecloud_nr2/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
@@ -66,24 +91,12 @@ gce_list_instances()
 &lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;gce_ssh_browser(vm)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Using the browser ssh interface from google is quite handy, but you won&amp;rsquo;t be able to control your instance within R yet and use all the nifty functions available within the &lt;strong&gt;googleComputeEngineR&lt;/strong&gt; package.
-Hence, I first used the Google cloud engine &lt;strong&gt;gcloud&lt;/strong&gt; tool to setup my public &lt;a href=&#34;http://martin-jung.github.io/data/mj-pubkey.asc&#34; target=&#34;_blank&#34;&gt;gpg-key&lt;/a&gt; with Google.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;gcloud compute os-login ssh-keys add --key-file ~/mj-pubkey.asc
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Place holder - I will continue writing the post the next time (23/08/2018)&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;Lastly ensure that you stop the VM or delete it all together&lt;/p&gt;
+&lt;p&gt;Lastly ensure that you stop the VM(or delete it).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;# Shut down the vm
 gce_vm_stop(vm)
 
-# Or delete it all together
+# Or delete the vm
 gce_vm_delete(vm)
 &lt;/code&gt;&lt;/pre&gt;
 </description>
@@ -823,24 +836,6 @@ I&amp;rsquo;m particularly interested in scientific collaborations, consulting o
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/publication/2016_predicts-database-paper2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantifying global forest fragmentation</title>
-      <link>http://martin-jung.github.io/project/forestfrag/</link>
-      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/project/forestfrag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Has land use pushed terrestrial biodiversity beyond the planetary boundary? A global assessment</title>
-      <link>http://martin-jung.github.io/publication/2016_biodiversityplanetaryboundary/</link>
-      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/publication/2016_biodiversityplanetaryboundary/</guid>
       <description></description>
     </item>
     
