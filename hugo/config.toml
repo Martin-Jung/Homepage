@@ -260,9 +260,9 @@ enableGitInfo = false
     link = "https://scholar.google.co.uk/citations?user=qa-Dz6QAAAAJ&hl"
 
   [[params.social]]
-    icon = "researchgate"
+    icon = "publons"
     icon_pack = "ai"
-    link = "//researchgate.net/profile/Martin_Jung4"
+    link = "//publons.com/author/589847/martin-jung"
 
   [[params.social]]
     icon = "stack-overflow"
@@ -295,7 +295,7 @@ enableGitInfo = false
     weight = 2
 
   [[menu.main]]
-    name = "Scientific publications"
+    name = "Publications"
     url = "#publications"
     weight = 3
 
@@ -316,10 +316,10 @@ enableGitInfo = false
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[menu.main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 7
+ [[menu.main]]
+    name = "CV"
+    url = "pdf/mjung_cv_latest.pdf"
+    weight = 7
 
 # Search.
 [params.search]
