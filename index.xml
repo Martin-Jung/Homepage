@@ -84,7 +84,7 @@ gce_list_instances()
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The externalIP gives the ip through which rstudio server can be run in any webbrowser
-&lt;img src=&#34;./img/posts/GoogleCloud_Rstudio.png&#34; alt=&#34;Rstudio run in the google cloud&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://martin-jung.github.io/img/posts/GoogleCloud_Rstudio.png&#34; alt=&#34;Rstudio run in the google cloud&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Equally it is quite easy to control the VM via SSH directly in the browser and the &lt;strong&gt;googleComputeEngineR&lt;/strong&gt; package provides an easy function to open such a connection:&lt;/p&gt;
 
@@ -442,7 +442,7 @@ In this years &lt;a href=&#34;http://www.sussex.ac.uk/internal/doctoralschool/ne
 
 &lt;p&gt;So here is how I started. My goal was to first get familiar with computing in the cloud and try to install some standard tools. Therefore
 First I fired up a micro instance &lt;strong&gt;V&lt;/strong&gt;irtual &lt;strong&gt;M&lt;/strong&gt;achine (which, in the google cloud, you can run over 700h each month for free).
-&lt;img src=&#34;./img/posts/GoogleCloudInstance.png&#34; alt=&#34;Micro instance in Google cloud &#34; /&gt;
+&lt;img src=&#34;http://martin-jung.github.io/img/posts/GoogleCloudInstance.png&#34; alt=&#34;Micro instance in Google cloud &#34; /&gt;
 On the SSH button you have the opportunity to directly log into your cloud instance in the browser or in another ssh-client of you choosing.
 Each VM can be selected and also started / stopped or completly reseted in this screen as well (also via the &lt;strong&gt;&lt;em&gt;&amp;rdquo;&amp;hellip;&amp;rdquo;&lt;/em&gt;&lt;/strong&gt; button!)
 &lt;br /&gt;
@@ -522,7 +522,7 @@ gcloud compute ssh  --zone=us-central1-c --ssh-flag=&amp;quot;-D&amp;quot; --ssh
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Now that you have created a SSH tunnel you can just open your local browser (ie. Chrome or similar) and navigate towards &lt;a href=&#34;localhost:8177&#34; target=&#34;_blank&#34;&gt;localhost:8177&lt;/a&gt; and you should see your jupyter notebook. Happy computing!
-&lt;img src=&#34;./img/posts/GoogleCloudJupyterRunning.png&#34; alt=&#34;Jupyter running through an SSH tunnel&#34; /&gt;
+&lt;img src=&#34;http://martin-jung.github.io/img/posts/GoogleCloudJupyterRunning.png&#34; alt=&#34;Jupyter running through an SSH tunnel&#34; /&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;p&gt;At the end, ensure that the VM is turned off, otherwise it will create ongoing costs!&lt;/p&gt;
 
@@ -610,7 +610,7 @@ plt.xlabel(&#39;Longitude&#39;)
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/posts/AnnualEVI.png&#34; alt=&#34;Annual EVI as quantified by Landsat&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://martin-jung.github.io/img/posts/AnnualEVI.png&#34; alt=&#34;Annual EVI as quantified by Landsat&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;basic-and-applied-calculations&#34;&gt;Basic and applied calculations&lt;/h3&gt;
 
@@ -620,14 +620,14 @@ The xarray created above can in principle easily be summarized as a whole or on 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;ds2.EVI.groupby(&#39;year&#39;).std().plot()
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/posts/StdEVI.png&#34; alt=&#34;Standard deviation as time series&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://martin-jung.github.io/img/posts/StdEVI.png&#34; alt=&#34;Standard deviation as time series&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Equally if we want to quantify the standard deviation across all 34 years in the stack&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;ds2.EVI.groupby(&#39;Longitude&#39;,&#39;Latitude&#39;).std(&#39;year&#39;).plot()
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/posts/StdEVI_spatial.png&#34; alt=&#34;Standard deviation per pixel&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://martin-jung.github.io/img/posts/StdEVI_spatial.png&#34; alt=&#34;Standard deviation per pixel&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But what if want to apply a defined method over each pixel in given xarray?
 This is again possible, but a little bit more complicated.
@@ -684,14 +684,14 @@ r = kendall_correlation(ds2, x,&#39;year&#39;)
 
 &lt;p&gt;This whole computation took us roughly 1min and 54 seconds on my Lenovo laptop.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/posts/kcorEVI.png&#34; alt=&#34;Correlation test&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://martin-jung.github.io/img/posts/kcorEVI.png&#34; alt=&#34;Correlation test&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;further-speed-ups&#34;&gt;Further speed ups&lt;/h3&gt;
 
 &lt;p&gt;In many cases an execution on a local computer hardly makes sense and is time inefficient. Particularly if your data is too large to fit into memory. This is usually the case with earth-observation data, which can easily become larger than 10GB++ .&lt;/p&gt;
 
 &lt;p&gt;Luckily xarray supports parallel execution via the optional Dask &lt;a href=&#34;http://xarray.pydata.org/en/stable/dask.html&#34; target=&#34;_blank&#34;&gt;integration&lt;/a&gt;. So what is dask? Compared to standard numpy array calculations it supports lazy evaluation of any supplied code. This means that your code is only executed on the dataset as soon as you tell dask+xarray to do so (via the &lt;strong&gt;compute()&lt;/strong&gt; function ). Dask divides your array into many small pieces, so called chunks, each of which is presumed to be small enough to fit into memory. Chunking your data enables better parallelization which can easily be scaled up over multiple CPU cores or entire clusters of machines.
-&lt;img src=&#34;./img/posts/grid_search_schedule.gif&#34; alt=&#34;Dask distributed scheduler&#34; /&gt;
+&lt;img src=&#34;http://martin-jung.github.io/img/posts/grid_search_schedule.gif&#34; alt=&#34;Dask distributed scheduler&#34; /&gt;
 &lt;br /&gt;
 So how do we enable dask for your computation ? This is actually quite simple.&lt;/p&gt;
 

@@ -17,8 +17,8 @@ folder = "project"
 
 # View.
 # Customize how projects are displayed.
-# Legend: 0 = list, 1 = cards.
-view = 1
+# Legend: 0 = list, 1 = cards. 2 = showcase large images
+view = 2
 
 # Filter toolbar.
 
@@ -26,35 +26,34 @@ view = 1
 filter_default = 0
 
 # Add or remove as many filters (`[[filter]]` instances) as you like.
-# Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
+# Use "* " tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
+
 [[filter]]
   name = "All"
   tag = "*"
 
 [[filter]]
   name = "PhD"
-  tag = ".phd-thesis"
+  tag = ".js-id-phd-thesis"
 
 [[filter]]
   name = "Research"
-  tag = ".research"
+  tag = ".js-id-research"
 
 [[filter]]
   name = "GIS"
-  tag = ".gis"
+  tag = ".js-id-gis"
 
 [[filter]]
   name = "Coding"
-  tag = ".coding"
+  tag = ".js-id-coding"
 
 [[filter]]
     name = "R"
-    tag = ".rstats"
+    tag = ".js-id-rstats"
 
 [[filter]]
     name = "Python"
-    tag = ".python"
-
-
+    tag = ".js-id-python"
 +++

@@ -7,235 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 24 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Africa</title>
-      <link>http://martin-jung.github.io/tags/africa/</link>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/africa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Big data</title>
-      <link>http://martin-jung.github.io/tags/big-data/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/big-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Biodiversity</title>
-      <link>http://martin-jung.github.io/tags/biodiversity/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/biodiversity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Birds</title>
-      <link>http://martin-jung.github.io/tags/birds/</link>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/birds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Carbon</title>
-      <link>http://martin-jung.github.io/tags/carbon/</link>
-      <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/carbon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud-computing</title>
-      <link>http://martin-jung.github.io/tags/cloud-computing/</link>
-      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/cloud-computing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coding</title>
-      <link>http://martin-jung.github.io/tags/coding/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conservation</title>
-      <link>http://martin-jung.github.io/tags/conservation/</link>
-      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/conservation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dask</title>
-      <link>http://martin-jung.github.io/tags/dask/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/dask/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data</title>
-      <link>http://martin-jung.github.io/tags/data/</link>
-      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Database</title>
-      <link>http://martin-jung.github.io/tags/database/</link>
-      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/database/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ecology</title>
-      <link>http://martin-jung.github.io/tags/ecology/</link>
-      <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/ecology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Extinction</title>
-      <link>http://martin-jung.github.io/tags/extinction/</link>
-      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/extinction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fieldwork</title>
-      <link>http://martin-jung.github.io/tags/fieldwork/</link>
-      <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/fieldwork/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Forests</title>
-      <link>http://martin-jung.github.io/tags/forests/</link>
-      <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/forests/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General</title>
-      <link>http://martin-jung.github.io/tags/general/</link>
-      <pubDate>Fri, 16 Jun 2017 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gis</title>
-      <link>http://martin-jung.github.io/tags/gis/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/gis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google-cloud</title>
-      <link>http://martin-jung.github.io/tags/google-cloud/</link>
-      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/google-cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google-earth-engine</title>
-      <link>http://martin-jung.github.io/tags/google-earth-engine/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/google-earth-engine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Land use</title>
-      <link>http://martin-jung.github.io/tags/land-use/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/land-use/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Land-use</title>
-      <link>http://martin-jung.github.io/tags/land-use/</link>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/land-use/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Landsat</title>
-      <link>http://martin-jung.github.io/tags/landsat/</link>
-      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/landsat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Landscape</title>
-      <link>http://martin-jung.github.io/tags/landscape/</link>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/landscape/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Landscape-ecology</title>
-      <link>http://martin-jung.github.io/tags/landscape-ecology/</link>
-      <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/landscape-ecology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lecos</title>
-      <link>http://martin-jung.github.io/tags/lecos/</link>
-      <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/lecos/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>MODIS</title>
@@ -243,24 +18,6 @@
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/modis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modelling</title>
-      <link>http://martin-jung.github.io/tags/modelling/</link>
-      <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/modelling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Networks</title>
-      <link>http://martin-jung.github.io/tags/networks/</link>
-      <pubDate>Sun, 23 Sep 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/networks/</guid>
       <description></description>
     </item>
     
@@ -274,146 +31,11 @@
     </item>
     
     <item>
-      <title>Palmoil</title>
-      <link>http://martin-jung.github.io/tags/palmoil/</link>
-      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/palmoil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>PhD</title>
       <link>http://martin-jung.github.io/tags/phd/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/phd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Phd</title>
-      <link>http://martin-jung.github.io/tags/phd/</link>
-      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/phd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Phd-thesis</title>
-      <link>http://martin-jung.github.io/tags/phd-thesis/</link>
-      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/phd-thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planetary boundary</title>
-      <link>http://martin-jung.github.io/tags/planetary-boundary/</link>
-      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/planetary-boundary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plant-pollinator</title>
-      <link>http://martin-jung.github.io/tags/plant-pollinator/</link>
-      <pubDate>Sun, 23 Sep 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/plant-pollinator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Predicts</title>
-      <link>http://martin-jung.github.io/tags/predicts/</link>
-      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/predicts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protected-areas</title>
-      <link>http://martin-jung.github.io/tags/protected-areas/</link>
-      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/protected-areas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://martin-jung.github.io/tags/python/</link>
-      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qgis</title>
-      <link>http://martin-jung.github.io/tags/qgis/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/qgis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>http://martin-jung.github.io/tags/r/</link>
-      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Remote-sensing</title>
-      <link>http://martin-jung.github.io/tags/remote-sensing/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/remote-sensing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reproducability</title>
-      <link>http://martin-jung.github.io/tags/reproducability/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/reproducability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>http://martin-jung.github.io/tags/research/</link>
-      <pubDate>Sun, 20 May 2018 20:24:48 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rstats</title>
-      <link>http://martin-jung.github.io/tags/rstats/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/rstats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Satellite-imagery</title>
-      <link>http://martin-jung.github.io/tags/satellite-imagery/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
-      
-      <guid>http://martin-jung.github.io/tags/satellite-imagery/</guid>
       <description></description>
     </item>
     
@@ -427,7 +49,385 @@
     </item>
     
     <item>
-      <title>Thesis</title>
+      <title>africa</title>
+      <link>http://martin-jung.github.io/tags/africa/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/africa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>big data</title>
+      <link>http://martin-jung.github.io/tags/big-data/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biodiversity</title>
+      <link>http://martin-jung.github.io/tags/biodiversity/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/biodiversity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>birds</title>
+      <link>http://martin-jung.github.io/tags/birds/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/birds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carbon</title>
+      <link>http://martin-jung.github.io/tags/carbon/</link>
+      <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/carbon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud-computing</title>
+      <link>http://martin-jung.github.io/tags/cloud-computing/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coding</title>
+      <link>http://martin-jung.github.io/tags/coding/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conservation</title>
+      <link>http://martin-jung.github.io/tags/conservation/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/conservation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dask</title>
+      <link>http://martin-jung.github.io/tags/dask/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/dask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>http://martin-jung.github.io/tags/data/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>http://martin-jung.github.io/tags/database/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ecology</title>
+      <link>http://martin-jung.github.io/tags/ecology/</link>
+      <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extinction</title>
+      <link>http://martin-jung.github.io/tags/extinction/</link>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/extinction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fieldwork</title>
+      <link>http://martin-jung.github.io/tags/fieldwork/</link>
+      <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/fieldwork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forests</title>
+      <link>http://martin-jung.github.io/tags/forests/</link>
+      <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/forests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>http://martin-jung.github.io/tags/general/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gis</title>
+      <link>http://martin-jung.github.io/tags/gis/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/gis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google-cloud</title>
+      <link>http://martin-jung.github.io/tags/google-cloud/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/google-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google-earth-engine</title>
+      <link>http://martin-jung.github.io/tags/google-earth-engine/</link>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/google-earth-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>land use</title>
+      <link>http://martin-jung.github.io/tags/land-use/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/land-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>land-use</title>
+      <link>http://martin-jung.github.io/tags/land-use/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/land-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>landsat</title>
+      <link>http://martin-jung.github.io/tags/landsat/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/landsat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>landscape</title>
+      <link>http://martin-jung.github.io/tags/landscape/</link>
+      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/landscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>landscape-ecology</title>
+      <link>http://martin-jung.github.io/tags/landscape-ecology/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/landscape-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lecos</title>
+      <link>http://martin-jung.github.io/tags/lecos/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/lecos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modelling</title>
+      <link>http://martin-jung.github.io/tags/modelling/</link>
+      <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networks</title>
+      <link>http://martin-jung.github.io/tags/networks/</link>
+      <pubDate>Sun, 23 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>palmoil</title>
+      <link>http://martin-jung.github.io/tags/palmoil/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/palmoil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phd</title>
+      <link>http://martin-jung.github.io/tags/phd/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phd-thesis</title>
+      <link>http://martin-jung.github.io/tags/phd-thesis/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/phd-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>planetary boundary</title>
+      <link>http://martin-jung.github.io/tags/planetary-boundary/</link>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/planetary-boundary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plant-pollinator</title>
+      <link>http://martin-jung.github.io/tags/plant-pollinator/</link>
+      <pubDate>Sun, 23 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/plant-pollinator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>predicts</title>
+      <link>http://martin-jung.github.io/tags/predicts/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/predicts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protected-areas</title>
+      <link>http://martin-jung.github.io/tags/protected-areas/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/protected-areas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>http://martin-jung.github.io/tags/python/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qgis</title>
+      <link>http://martin-jung.github.io/tags/qgis/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r</title>
+      <link>http://martin-jung.github.io/tags/r/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote-sensing</title>
+      <link>http://martin-jung.github.io/tags/remote-sensing/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/remote-sensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducability</title>
+      <link>http://martin-jung.github.io/tags/reproducability/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/reproducability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>http://martin-jung.github.io/tags/research/</link>
+      <pubDate>Sun, 20 May 2018 20:24:48 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstats</title>
+      <link>http://martin-jung.github.io/tags/rstats/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>satellite-imagery</title>
+      <link>http://martin-jung.github.io/tags/satellite-imagery/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/satellite-imagery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thesis</title>
       <link>http://martin-jung.github.io/tags/thesis/</link>
       <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
       
@@ -436,7 +436,7 @@
     </item>
     
     <item>
-      <title>Time-series</title>
+      <title>time-series</title>
       <link>http://martin-jung.github.io/tags/time-series/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
       
@@ -445,7 +445,7 @@
     </item>
     
     <item>
-      <title>Validation</title>
+      <title>validation</title>
       <link>http://martin-jung.github.io/tags/validation/</link>
       <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
       
@@ -454,7 +454,7 @@
     </item>
     
     <item>
-      <title>Xarray</title>
+      <title>xarray</title>
       <link>http://martin-jung.github.io/tags/xarray/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
       

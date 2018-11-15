@@ -311,6 +311,95 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/modis/</loc>
+      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/predicts/</loc>
+      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/categories/predicts/</loc>
+      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/phd/</loc>
+      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/project/</loc>
+      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/publication_types/</loc>
+      <lastmod>2012-09-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/</loc>
+      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/taita/</loc>
+      <lastmod>2017-02-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/africa/</loc>
       <lastmod>2017-02-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -358,15 +447,6 @@
     
       <loc>http://martin-jung.github.io/tags/carbon/</loc>
       <lastmod>2016-02-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://martin-jung.github.io/categories/</loc>
-      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -581,24 +661,6 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/modis/</loc>
-      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://martin-jung.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://martin-jung.github.io/tags/modelling/</loc>
       <lastmod>2016-12-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -617,35 +679,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/predicts/</loc>
-      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://martin-jung.github.io/categories/predicts/</loc>
-      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://martin-jung.github.io/tags/palmoil/</loc>
       <lastmod>2012-03-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://martin-jung.github.io/tags/phd/</loc>
-      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -707,26 +742,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/project/</loc>
-      <lastmod>2018-05-20T20:24:48+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>http://martin-jung.github.io/tags/protected-areas/</loc>
       <lastmod>2018-06-30T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://martin-jung.github.io/publication_types/</loc>
-      <lastmod>2012-09-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -817,24 +834,6 @@
     
       <loc>http://martin-jung.github.io/tags/satellite-imagery/</loc>
       <lastmod>2018-05-22T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://martin-jung.github.io/tags/</loc>
-      <lastmod>2017-02-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>http://martin-jung.github.io/tags/taita/</loc>
-      <lastmod>2017-02-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
