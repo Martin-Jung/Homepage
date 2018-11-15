@@ -8,10 +8,7 @@ draft = false
 tags = ['python','coding']
 
 # Project summary to display on homepage.
-summary = "My very first python program ever. This little tool translates the names of any entered bird from German to English and Latin."
-
-# Optional image to display on homepage.
-image_preview = "python.jpg"
+summary = "A small little tool that translates the names of any entered bird from German to English and Latin."
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://github.com/Martin-Jung/BirdLookup"
@@ -22,10 +19,26 @@ math = false
 # Does the project detail page use source code highlighting?
 highlight = true
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# Links (optional).
+url_pdf = ""
+url_code = ""
+url_dataset = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+url_poster = ""
 
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+# url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
 +++
