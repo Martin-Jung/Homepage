@@ -18,7 +18,7 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards. 2 = showcase large images
-view = 2
+view = 1
 
 # Filter toolbar.
 
