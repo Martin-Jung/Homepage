@@ -24,7 +24,7 @@
     <item>
       <title>PREDICTS</title>
       <link>http://martin-jung.github.io/tags/predicts/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/predicts/</guid>
       <description></description>
@@ -58,6 +58,15 @@
     </item>
     
     <item>
+      <title>bayesian statistics</title>
+      <link>http://martin-jung.github.io/tags/bayesian-statistics/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/bayesian-statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>big data</title>
       <link>http://martin-jung.github.io/tags/big-data/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
@@ -81,6 +90,15 @@
       <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/birds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boosting</title>
+      <link>http://martin-jung.github.io/tags/boosting/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/boosting/</guid>
       <description></description>
     </item>
     
@@ -411,7 +429,7 @@
     <item>
       <title>rstats</title>
       <link>http://martin-jung.github.io/tags/rstats/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/tags/rstats/</guid>
       <description></description>

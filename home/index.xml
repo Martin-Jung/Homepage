@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://martin-jung.github.io/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/home/hero_carousel/</guid>
+      <description>TODO: Make a slight for about window Then skills then experience</description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>http://martin-jung.github.io/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
+    </item>
     
     <item>
       <title></title>
@@ -19,6 +37,24 @@
       
       <guid>http://martin-jung.github.io/home/about/</guid>
       <description>Biography PhD researcher at the University of Sussex (UK) investigating how biodiversity is influenced by past land dynamics. Widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change. Specialist in remote-sensing analysis and interpreting spatial data. Many years of experience in project management and providing quantitative solutions to environmental problems.</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>http://martin-jung.github.io/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://martin-jung.github.io/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>http://martin-jung.github.io/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/home/experience/</guid>
+      <description></description>
     </item>
     
     <item>
