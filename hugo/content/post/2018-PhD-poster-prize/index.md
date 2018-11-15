@@ -15,7 +15,7 @@ categories = ['remote-sensing']
 # Set `preview` to `false` to disable the thumbnail in listings.
 [header]
 image = "posts/WideFormat2.jpg"
-caption = ""
+caption = "Before / after comparison of forest cover change"
 preview = true
 
 +++

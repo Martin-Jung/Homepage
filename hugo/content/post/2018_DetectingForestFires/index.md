@@ -1,7 +1,7 @@
 +++
 title = "Detecting fire events in remotely sensed time-series"
 date = 2018-07-30
-draft = true
+draft =  true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -9,14 +9,14 @@ tags = ['gis','remote-sensing','change-detection','MODIS','fire','rstats']
 categories = ['research','gis','remote-sensing']
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-# Use `caption` to display an image caption.
-#   Markdown linking is allowed, e.g. `caption = "[Image credit](http://example.org)"`.
-# Set `preview` to `false` to disable the thumbnail in listings.
-[header]
-image = "posts/2018_Fire-scarred_Madeira.jpg"
-caption = "[Modified Copernicus Sentinel data (2016), processed by ESA](https://www.esa.int/spaceinimages/Images/2016/09/Fire-scarred_Madeira)"
-preview = true
+# To use, add an image named `featured.jpg/png` to your page's folder.
+[image]
+  # Caption (optional)
+  caption = "[Modified Copernicus Sentinel data (2016), processed by ESA](https://www.esa.int/spaceinimages/Images/2016/09/Fire-scarred_Madeira)"
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Left"
 
 +++
 

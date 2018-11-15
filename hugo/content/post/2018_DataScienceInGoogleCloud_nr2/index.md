@@ -18,6 +18,17 @@ image = "posts/GoogleRstudio.png"
 caption = "Rstudio and Google cloud engine"
 preview = true
 
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+[image]
+  # Caption (optional)
+  caption = "Rstudio and Google cloud engine"
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Left"
+
+
 +++
 
 In this new post I will go through my process of getting familiar with running *R* in the Google cloud and the posting sort of follows my previous [post]({{< ref "/post/2018_DataScienceInGoogleCloud" >}}) on getting started with the Google cloud. My dream setup would include to being able to switch seamless between running r code locally or in the cloud whenever I require more processing power. For instance similar [doAzureParallel](https://github.com/Azure/doAzureParallel) package available for Microsoft Azure.
