@@ -27,7 +27,7 @@ categories = ['data-science','phd','statistics']
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Left"
+  focal_point = "Center"
 
 +++
 
@@ -111,7 +111,7 @@ The Equation for the bayesian multi-level model :
 $$
 \\begin{eqnarray}
 \\text{Species richness}\_i & \\sim & \\text{Poisson} (\\mu\_i) \\\\\\
-\\text{log} (\\mu\_i) & = & \\alpha + \\alpha\_{\\text{Study}\_i} + \\alpha\_{\\text{Spatial block}\_i} + \\beta \\text{log} (\\text{Land use}\_i) \\\\\\
+\\text{log} (\\mu\_i) & = & \\alpha + \\alpha\_{\\text{Study}\_i} + \\alpha\_{\\text{Spatial block}\_i} + \\beta (\\text{Land use}\_i) \\\\\\
 \\beta & \\sim & \\text{Normal} (0, 1) \\\\\\
 \\alpha\_{\\text{Study,Spatial block}} & \\sim & \\text{Normal} (0, \\sigma\_{\\text{Study,Spatial block}}) \\\\\\
 \\sigma\_{\\text{Study,Spatial block}} & \\sim & \\text{HalfCauchy} (0, 2) \\\\\\

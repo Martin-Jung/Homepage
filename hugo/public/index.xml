@@ -98,7 +98,7 @@ out &amp;lt;-
 &lt;p&gt;$$
 \begin{eqnarray}
 \text{Species richness}_i &amp;amp; \sim &amp;amp; \text{Poisson} (\mu_i) \\&lt;br /&gt;
-\text{log} (\mu_i) &amp;amp; = &amp;amp; \alpha + \alpha_{\text{Study}_i} + \alpha_{\text{Spatial block}_i} + \beta \text{log} (\text{Land use}_i) \\&lt;br /&gt;
+\text{log} (\mu_i) &amp;amp; = &amp;amp; \alpha + \alpha_{\text{Study}_i} + \alpha_{\text{Spatial block}_i} + \beta (\text{Land use}_i) \\&lt;br /&gt;
 \beta &amp;amp; \sim &amp;amp; \text{Normal} (0, 1) \\&lt;br /&gt;
 \alpha_{\text{Study,Spatial block}} &amp;amp; \sim &amp;amp; \text{Normal} (0, \sigma_{\text{Study,Spatial block}}) \\&lt;br /&gt;
 \sigma_{\text{Study,Spatial block}} &amp;amp; \sim &amp;amp; \text{HalfCauchy} (0, 2) \\&lt;br /&gt;
