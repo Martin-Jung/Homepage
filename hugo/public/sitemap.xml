@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/post/2018_xgbboostcuda/</loc>
+      <lastmod>2018-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/post/2018_bayesianmodelsmonoticpredictors/</loc>
       <lastmod>2018-11-05T00:00:00+00:00</lastmod>
     </url>
@@ -345,8 +353,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/predicts/</loc>
-      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/predicts/</loc>
+      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -354,8 +362,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/predicts/</loc>
-      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/predicts/</loc>
+      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -435,7 +443,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/biodiversity/</loc>
+      <loc>http://martin-jung.github.io/tags/biodiversity/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -444,7 +452,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/biodiversity/</loc>
+      <loc>http://martin-jung.github.io/categories/biodiversity/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -463,7 +471,7 @@
     <url>
     
       <loc>http://martin-jung.github.io/tags/boosting/</loc>
-      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+      <lastmod>2018-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -480,7 +488,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/cloud-computing/</loc>
+      <loc>http://martin-jung.github.io/tags/cloud-computing/</loc>
       <lastmod>2018-08-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -489,7 +497,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/cloud-computing/</loc>
+      <loc>http://martin-jung.github.io/categories/cloud-computing/</loc>
       <lastmod>2018-08-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -597,8 +605,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/gis/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/gis/</loc>
+      <lastmod>2018-07-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -606,8 +614,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/gis/</loc>
-      <lastmod>2018-07-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/gis/</loc>
+      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -626,6 +634,15 @@
     
       <loc>http://martin-jung.github.io/tags/google-earth-engine/</loc>
       <lastmod>2018-07-22T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/gpu/</loc>
+      <lastmod>2018-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -714,8 +731,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/phd/</loc>
-      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/phd/</loc>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -723,8 +740,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/phd/</loc>
-      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/phd/</loc>
+      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -777,8 +794,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/python/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/python/</loc>
+      <lastmod>2018-06-17T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -786,8 +803,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/python/</loc>
-      <lastmod>2018-06-17T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/python/</loc>
+      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -813,7 +830,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/remote-sensing/</loc>
+      <loc>http://martin-jung.github.io/tags/remote-sensing/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -822,7 +839,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/remote-sensing/</loc>
+      <loc>http://martin-jung.github.io/categories/remote-sensing/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -850,7 +867,7 @@
     <url>
     
       <loc>http://martin-jung.github.io/tags/rstats/</loc>
-      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+      <lastmod>2018-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -868,7 +885,7 @@
     <url>
     
       <loc>http://martin-jung.github.io/categories/statistics/</loc>
-      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+      <lastmod>2018-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

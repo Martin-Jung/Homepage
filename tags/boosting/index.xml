@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 05 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/tags/boosting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Testing multilevel Bayesian models with ordered categorical predictors</title>
-      <link>http://martin-jung.github.io/post/2018_bayesianmodelsmonoticpredictors/</link>
-      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Using the GPU for gradient descent boosting</title>
+      <link>http://martin-jung.github.io/post/2018_xgbboostcuda/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://martin-jung.github.io/post/2018_bayesianmodelsmonoticpredictors/</guid>
-      <description>Why argue for Bayesian models? Most researchers and data scientists have specific - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as Prior and the effect und uncertainty surrounding this. Most standard analytical tools do not account for this information. In fact every statistical tool makes some kind of assumptions about your data. Computers do not now per se how your data looks or what limits it.</description>
+      <guid>http://martin-jung.github.io/post/2018_xgbboostcuda/</guid>
+      <description>Running machine learning algorithms on large amounts of data can take considerable time. There are multiple ways of speeding up your code. The most obvious is to properly parallize your code and/or - assuming R or python is used - replace certain functions that cause a bottleneck to faster languages such as C++ or Julia. What also works is to simply have more computational power. In a previous post I elaborated on how to make use of the google cloud processing platform.</description>
     </item>
     
   </channel>

@@ -280,6 +280,11 @@ enableGitInfo = false
     icon_pack = "fab"
     link = "https://gis.stackexchange.com/users/6988/curlew"
 
+  [[params.social]]
+      icon = "researchgate"
+      icon_pack = "fab"
+      link = "https://www.researchgate.net/profile/Martin_Jung4"
+
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 #   [[params.social]]
