@@ -4,6 +4,22 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/post/2019-lecos-update/</loc>
+      <lastmod>2019-02-26T22:33:06+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/post/2019-latex-template/</loc>
+      <lastmod>2019-01-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/post/2018_xgbboostcuda/</loc>
       <lastmod>2018-11-16T00:00:00+00:00</lastmod>
     </url>
@@ -335,6 +351,24 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/tags/landscape-ecology/</loc>
+      <lastmod>2019-02-26T22:33:06+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>http://martin-jung.github.io/tags/lecos/</loc>
+      <lastmod>2019-02-26T22:33:06+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/modis/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -353,8 +387,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/predicts/</loc>
-      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/predicts/</loc>
+      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -362,8 +396,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/predicts/</loc>
-      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/predicts/</loc>
+      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -398,8 +432,17 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/tags/qgis/</loc>
+      <lastmod>2019-02-26T22:33:06+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/</loc>
-      <lastmod>2018-09-03T00:00:00+01:00</lastmod>
+      <lastmod>2019-02-26T22:33:06+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -443,7 +486,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/biodiversity/</loc>
+      <loc>http://martin-jung.github.io/categories/biodiversity/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -452,7 +495,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/biodiversity/</loc>
+      <loc>http://martin-jung.github.io/tags/biodiversity/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -488,7 +531,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/cloud-computing/</loc>
+      <loc>http://martin-jung.github.io/categories/cloud-computing/</loc>
       <lastmod>2018-08-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -497,7 +540,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/cloud-computing/</loc>
+      <loc>http://martin-jung.github.io/tags/cloud-computing/</loc>
       <lastmod>2018-08-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -605,8 +648,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/gis/</loc>
-      <lastmod>2018-07-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/gis/</loc>
+      <lastmod>2019-02-26T22:33:06+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -614,8 +657,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/gis/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/gis/</loc>
+      <lastmod>2018-07-22T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -695,6 +738,15 @@
     
     <url>
     
+      <loc>http://martin-jung.github.io/tags/latex/</loc>
+      <lastmod>2019-01-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>http://martin-jung.github.io/tags/lecos/</loc>
       <lastmod>2013-05-20T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -731,8 +783,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/phd/</loc>
-      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/phd/</loc>
+      <lastmod>2019-01-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -740,8 +792,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/phd/</loc>
-      <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/phd/</loc>
+      <lastmod>2018-06-30T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -794,8 +846,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/python/</loc>
-      <lastmod>2018-06-17T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/categories/python/</loc>
+      <lastmod>2019-02-26T22:33:06+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -803,8 +855,8 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/python/</loc>
-      <lastmod>2018-05-22T00:00:00+01:00</lastmod>
+      <loc>http://martin-jung.github.io/tags/python/</loc>
+      <lastmod>2018-06-17T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -830,7 +882,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/tags/remote-sensing/</loc>
+      <loc>http://martin-jung.github.io/categories/remote-sensing/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -839,7 +891,7 @@
     
     <url>
     
-      <loc>http://martin-jung.github.io/categories/remote-sensing/</loc>
+      <loc>http://martin-jung.github.io/tags/remote-sensing/</loc>
       <lastmod>2018-09-03T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>

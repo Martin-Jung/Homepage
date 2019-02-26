@@ -11,6 +11,45 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>LecoS ported to QGIS3</title>
+      <link>http://martin-jung.github.io/post/2019-lecos-update/</link>
+      <pubDate>Tue, 26 Feb 2019 22:33:06 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/post/2019-lecos-update/</guid>
+      <description>&lt;p&gt;QGIS remains my go-to default QGIS software and I have contributed some python plugins to it in the past. These include the &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1574954115001879&#34; target=&#34;_blank&#34;&gt;LecoS&lt;/a&gt; plugin, which has been cited &lt;strong&gt;22&lt;/strong&gt; times so far and still appears to be widely used by researchers and practitioner alike [I do remember helping out with a workshop in Nairobi quite a while back, where everybody appeared to know the plugin].&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;lecos_screen.png&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;However because of other commitments (writing up my PhD thesis at the moment) I am unable to further develop this neat little piece of software. Furthermore I programmed LecoS mainly for my own use in the past, while these days I would probably use the excellent and comprehensive &lt;a href=&#34;https://r-spatialecology.github.io/landscapemetrics/&#34; target=&#34;_blank&#34;&gt;landscapemetrics&lt;/a&gt; R-package. Nevertheless LecoS might still be useful for those people without coding knowledge and unwilling to apply a separate piece of software (Fragstats).&lt;/p&gt;
+
+&lt;p&gt;I can now announce that LecoS has finally been ported to QGIS 3. This can almost entirely be credited to &lt;a href=&#34;https://github.com/caiohamamura&#34; target=&#34;_blank&#34;&gt;Caio Hamamura&lt;/a&gt;, who led the code restructuring from QGIS2 to QGIS3. The new LecoS version 3.0 for QGIS3 should already be available from the QGIS plugin server. Thanks Caio!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LateX template for Sussex PhD theses</title>
+      <link>http://martin-jung.github.io/post/2019-latex-template/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/post/2019-latex-template/</guid>
+      <description>&lt;p&gt;This is a rather short post informing anyone who might read this post and is likely a Sussex PhD student (and presumably found this blog via google, hello google bot :-) ), that I created an &lt;u&gt;&lt;strong&gt;unofficial&lt;/strong&gt;&lt;/u&gt; template for Sussex PhD students. I ensured that the template is formatted as required by the Sussex doctoral school, however the template is provided &lt;strong&gt;as is&lt;/strong&gt; and I am not liable for any errors or damages caused by using this template (see license in repository). I am not connected to the University of Sussex Doctoral School.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Martin-Jung/Sussex_PhDThesis&#34; target=&#34;_blank&#34;&gt;https://github.com/Martin-Jung/Sussex_PhDThesis&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the blank &lt;a href=&#34;https://github.com/Martin-Jung/Sussex_PhDThesis/blob/master/main.pdf&#34; target=&#34;_blank&#34;&gt;pdf&lt;/a&gt; to see the output. Obviously format and structure can entirely be edited, but this obviously requires more in depth knowledge of TeX. I recommend using &lt;a href=&#34;http://overleaf.com/&#34; target=&#34;_blank&#34;&gt;overleaf&lt;/a&gt; for writing.
+The template itself might also be good as base to build your own template in case you are a PhD student from another University.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Using the GPU for gradient descent boosting</title>
       <link>http://martin-jung.github.io/post/2018_xgbboostcuda/</link>
       <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
@@ -1268,24 +1307,6 @@ I&amp;rsquo;m particularly interested in scientific collaborations, consulting o
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://martin-jung.github.io/talk/2017_dacmtalk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Birds in the matrix: the role of agriculture in avian conservation in the Taita Hills, Kenya</title>
-      <link>http://martin-jung.github.io/publication/2017_birdsinthematrixafrica/</link>
-      <pubDate>Fri, 24 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/publication/2017_birdsinthematrixafrica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Remotely sensed forest monitoring in Bialowieza forest</title>
-      <link>http://martin-jung.github.io/project/bialowieza/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://martin-jung.github.io/project/bialowieza/</guid>
       <description></description>
     </item>
     

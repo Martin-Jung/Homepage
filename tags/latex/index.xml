@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latex on Martin Jung - Environmental and data scientist</title>
+    <link>http://martin-jung.github.io/tags/latex/</link>
+    <description>Recent content in latex on Martin Jung - Environmental and data scientist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://martin-jung.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LateX template for Sussex PhD theses</title>
+      <link>http://martin-jung.github.io/post/2019-latex-template/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/post/2019-latex-template/</guid>
+      <description>This is a rather short post informing anyone who might read this post and is likely a Sussex PhD student (and presumably found this blog via google, hello google bot :-) ), that I created an unofficial template for Sussex PhD students. I ensured that the template is formatted as required by the Sussex doctoral school, however the template is provided as is and I am not liable for any errors or damages caused by using this template (see license in repository).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 26 Feb 2019 22:33:06 +0000</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Landscape-Ecology</title>
+      <link>http://martin-jung.github.io/tags/landscape-ecology/</link>
+      <pubDate>Tue, 26 Feb 2019 22:33:06 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/landscape-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LecoS</title>
+      <link>http://martin-jung.github.io/tags/lecos/</link>
+      <pubDate>Tue, 26 Feb 2019 22:33:06 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/lecos/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MODIS</title>
@@ -36,6 +54,15 @@
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QGIS</title>
+      <link>http://martin-jung.github.io/tags/qgis/</link>
+      <pubDate>Tue, 26 Feb 2019 22:33:06 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/qgis/</guid>
       <description></description>
     </item>
     
@@ -288,6 +315,15 @@
       <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/tags/landscape-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>http://martin-jung.github.io/tags/latex/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/tags/latex/</guid>
       <description></description>
     </item>
     

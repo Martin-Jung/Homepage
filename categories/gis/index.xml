@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 26 Feb 2019 22:33:06 +0000</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/categories/gis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LecoS ported to QGIS3</title>
+      <link>http://martin-jung.github.io/post/2019-lecos-update/</link>
+      <pubDate>Tue, 26 Feb 2019 22:33:06 +0000</pubDate>
+      
+      <guid>http://martin-jung.github.io/post/2019-lecos-update/</guid>
+      <description>QGIS remains my go-to default QGIS software and I have contributed some python plugins to it in the past. These include the LecoS plugin, which has been cited 22 times so far and still appears to be widely used by researchers and practitioner alike [I do remember helping out with a workshop in Nairobi quite a while back, where everybody appeared to know the plugin].
+  However because of other commitments (writing up my PhD thesis at the moment) I am unable to further develop this neat little piece of software.</description>
+    </item>
     
     <item>
       <title>Robust correlations with xarray and dask</title>
