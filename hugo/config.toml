@@ -62,16 +62,16 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "University of Sussex", url = "http://www.sussex.ac.uk/profiles/357982" } ]
+  organizations = [ { name = "IIASA", url = "http://www.iiasa.ac.at/staff/staff.php?type=auto&visibility=visible&search=true&login=jung" } ]
 
-  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "m.jung@sussex.ac.uk"
-  address = "John Maynard Smith Building, Room 5B1, University of Sussex, Brighton, BN1 9RH, UK"
-  office_hours = ""
+  email = "martinjung@zoho.com"
+  address = "International Institute for Applied Systems Analysis (IIASA) - Schlossplatz 1 - A-2361 Laxenburg, Austria"
+  office_hours = "9-17"
   #  phone = "888 888 88 88"
   skype = "legacer"
-  description = "Personal website: Ecology, Conservation, Data science and sorts"
+  description = "Personal website: Ecology, Conservation and data science"
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
   twitter = "Martin_Ecology"
   twitterAuthor = "@Martin_Ecology"
@@ -108,8 +108,8 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 2
   map_api_key = ""
-  latitude = "50.864560"
-  longitude = "-0.084677"
+  latitude = "48.068167"
+  longitude = "16.358612"
   zoom = 15
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
