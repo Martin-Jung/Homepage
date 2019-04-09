@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jul 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/tags/gis/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Introduction to Google Earth Engine</title>
       <link>http://martin-jung.github.io/post/2018_googleearthengine-intro/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018_googleearthengine-intro/</guid>
       <description>In a previous post, I gave a brief introduction how to use google cloud compute to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as planetary scale platform for spatial analyses.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>PhD research image prize</title>
       <link>http://martin-jung.github.io/post/2018-phd-poster-prize/</link>
-      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018-phd-poster-prize/</guid>
       <description>I won a prize :-) In this years Festival of Doctoral research at the University of Sussex I won the runner-up prize for the best image describing one&amp;rsquo;s doctoral research. The task was to submit a single image and 300 word abstract that visualizes and describes the goals of a persons doctoral research.
@@ -44,7 +44,7 @@ Title: Going back in time with satellites to assist biodiversity conservation  I
     <item>
       <title>Remotely sensed forest monitoring in Bialowieza forest</title>
       <link>http://martin-jung.github.io/project/bialowieza/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/project/bialowieza/</guid>
       <description></description>
@@ -62,7 +62,7 @@ Title: Going back in time with satellites to assist biodiversity conservation  I
     <item>
       <title>2013 - QGIS and Landscape ecology workshop at Lund</title>
       <link>http://martin-jung.github.io/talk/2013_lundlandscapeecology/</link>
-      <pubDate>Mon, 20 May 2013 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/talk/2013_lundlandscapeecology/</guid>
       <description></description>
@@ -71,7 +71,7 @@ Title: Going back in time with satellites to assist biodiversity conservation  I
     <item>
       <title>LecoS</title>
       <link>http://martin-jung.github.io/project/lecos/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/project/lecos/</guid>
       <description></description>
@@ -80,7 +80,7 @@ Title: Going back in time with satellites to assist biodiversity conservation  I
     <item>
       <title>QSDM</title>
       <link>http://martin-jung.github.io/project/qsdm/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/project/qsdm/</guid>
       <description></description>

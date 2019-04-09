@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="http://martin-jung.github.io/categories/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>New PhD paper - Pairwise differences in photosynthetic activity</title>
       <link>http://martin-jung.github.io/post/2018_newphdpublication/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018_newphdpublication/</guid>
       <description>I can now happily announce that the first chapter of my PhD has been accepted and is going to be published in the Journal Ecography. In this piece I investigated whether pairwise compositional differences between species assemblages (so in the identity and amount of species found in a given place and time) can be explained by a dissimilarity in remotely-sensed vegetation index. I furthermore found that past dissimilarities in photosynthetic activity improved the overall fit relative to current dissimilarities, therefore hinting at a lag-effect that can be investigated via remote sensing.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>PhD research image prize</title>
       <link>http://martin-jung.github.io/post/2018-phd-poster-prize/</link>
-      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018-phd-poster-prize/</guid>
       <description>I won a prize :-) In this years Festival of Doctoral research at the University of Sussex I won the runner-up prize for the best image describing one&amp;rsquo;s doctoral research. The task was to submit a single image and 300 word abstract that visualizes and describes the goals of a persons doctoral research.

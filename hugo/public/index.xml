@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Martin Jung 2017-2018 &amp;bull; &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;i class=&#34;fa fa-cc&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -37,7 +37,7 @@
     <item>
       <title>LateX template for Sussex PhD theses</title>
       <link>http://martin-jung.github.io/post/2019-latex-template/</link>
-      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/post/2019-latex-template/</guid>
       <description>&lt;p&gt;This is a rather short post informing anyone who might read this post and is likely a Sussex PhD student (and presumably found this blog via google, hello google bot :-) ), that I created an &lt;u&gt;&lt;strong&gt;unofficial&lt;/strong&gt;&lt;/u&gt; template for Sussex PhD students. I ensured that the template is formatted as required by the Sussex doctoral school, however the template is provided &lt;strong&gt;as is&lt;/strong&gt; and I am not liable for any errors or damages caused by using this template (see license in repository). I am not connected to the University of Sussex Doctoral School.&lt;/p&gt;
@@ -52,7 +52,7 @@ The template itself might also be good as base to build your own template in cas
     <item>
       <title>Using the GPU for gradient descent boosting</title>
       <link>http://martin-jung.github.io/post/2018_xgbboostcuda/</link>
-      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018_xgbboostcuda/</guid>
       <description>
@@ -235,7 +235,7 @@ Sys.time() - x1
     <item>
       <title>Testing multilevel Bayesian models with ordered categorical predictors</title>
       <link>http://martin-jung.github.io/post/2018_bayesianmodelsmonoticpredictors/</link>
-      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018_bayesianmodelsmonoticpredictors/</guid>
       <description>&lt;p&gt;Why argue for Bayesian models? Most researchers and data scientists have specific  - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as &lt;em&gt;Prior&lt;/em&gt; and the effect und uncertainty surrounding this. Most standard analytical tools do not account for this information. In fact &lt;strong&gt;every&lt;/strong&gt; statistical tool makes some kind of assumptions about your data. Computers do not now &lt;em&gt;per se&lt;/em&gt; how your data looks or what limits it. By not providing this kind of information, the algorithm essentially has to guess or make uninformed assumptions, which can be quite unrealistic in applied settings.&lt;/p&gt;
@@ -520,7 +520,7 @@ loaded via a namespace (and not attached):
     <item>
       <title>Local species assemblages are influenced more by past than current dissimilarities in photosynthetic activity</title>
       <link>http://martin-jung.github.io/publication/2018_jungpairwisedifferences/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/publication/2018_jungpairwisedifferences/</guid>
       <description></description>
@@ -529,7 +529,7 @@ loaded via a namespace (and not attached):
     <item>
       <title>New PhD paper - Pairwise differences in photosynthetic activity</title>
       <link>http://martin-jung.github.io/post/2018_newphdpublication/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018_newphdpublication/</guid>
       <description>&lt;p&gt;I can now happily announce that the first chapter of my PhD has been accepted and is going to be published in the Journal &lt;a href=&#34;https://onlinelibrary.wiley.com/journal/16000587&#34; target=&#34;_blank&#34;&gt;Ecography&lt;/a&gt;. In this piece I investigated whether pairwise compositional differences between species assemblages (so in the identity and amount of species found in a given place and time) can be explained by a dissimilarity in remotely-sensed vegetation index. &lt;br&gt;&lt;/p&gt;
@@ -545,7 +545,7 @@ You can find the abstract and links to paper etc. &lt;a href=&#34;http://martin-
     <item>
       <title>Running rstudio in the Google cloud - [2]</title>
       <link>http://martin-jung.github.io/post/2018_datascienceingooglecloud_nr2/</link>
-      <pubDate>Mon, 20 Aug 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018_datascienceingooglecloud_nr2/</guid>
       <description>
@@ -612,7 +612,7 @@ gce_vm_delete(vm)
     <item>
       <title>Introduction to Google Earth Engine</title>
       <link>http://martin-jung.github.io/post/2018_googleearthengine-intro/</link>
-      <pubDate>Sun, 22 Jul 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 22 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018_googleearthengine-intro/</guid>
       <description>&lt;p&gt;In a previous post, I gave a brief introduction how to use &lt;a href=&#34;http://martin-jung.github.io/post/2018_datascienceingooglecloud/&#34; target=&#34;_blank&#34;&gt;google cloud compute&lt;/a&gt; to kickstart your cloud computing experience. While it is possible to run large spatial operations on google cloud compute, it is quite time-consuming to set up all the routines to load and process geospatial data. Luckily there is now a new platform (currently in beta-testing) called Google Earth Engine (GEE) described as &lt;a href=&#34;https://earthengine.google.com/&#34; target=&#34;_blank&#34;&gt;planetary scale platform for spatial analyses&lt;/a&gt;.
@@ -901,7 +901,7 @@ Martin&lt;/p&gt;
     <item>
       <title>PhD research image prize</title>
       <link>http://martin-jung.github.io/post/2018-phd-poster-prize/</link>
-      <pubDate>Sat, 30 Jun 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018-phd-poster-prize/</guid>
       <description>
@@ -922,7 +922,7 @@ In this years &lt;a href=&#34;http://www.sussex.ac.uk/internal/doctoralschool/ne
     <item>
       <title>Data science in the Google cloud - [1]</title>
       <link>http://martin-jung.github.io/post/2018_datascienceingooglecloud/</link>
-      <pubDate>Sun, 17 Jun 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018_datascienceingooglecloud/</guid>
       <description>&lt;p&gt;Anyone analysing &lt;strong&gt;big data&lt;/strong&gt; (buzzword, here refereed to as data too big to load into memory) soon will come to the realization that processing such data requires a lot of computational resources. During my PhD I mainly worked with the local high-performance-computer (HPC) at the University of Sussex. A couple of years into my PhD and I increasingly realized that our little HPC suffers from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tragedy_of_the_commons&#34; target=&#34;_blank&#34;&gt;tragedy of the commons&lt;/a&gt; with more and more people requesting computation time on a few available nodes.  That and also the tendency to have limited flexibility for running customized code (no root access, outdated modules and libraries, little space on the home drive to set up virtual environments, etc. &amp;hellip;) has made me quite frustrated and willing to switch to the &amp;ldquo;Cloud&amp;rdquo; for accessing computing resources.
@@ -1041,7 +1041,7 @@ gcloud compute ssh  --zone=us-central1-c --ssh-flag=&amp;quot;-D&amp;quot; --ssh
     <item>
       <title>Robust correlations with xarray and dask</title>
       <link>http://martin-jung.github.io/post/2018-xarrayregression/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2018-xarrayregression/</guid>
       <description>
@@ -1280,7 +1280,7 @@ def k_cor(x,y, pthres = 0.05, direction = True):
     <item>
       <title>Icarus</title>
       <link>http://martin-jung.github.io/project/icarus/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/project/icarus/</guid>
       <description></description>
@@ -1289,7 +1289,7 @@ def k_cor(x,y, pthres = 0.05, direction = True):
     <item>
       <title>New professional website</title>
       <link>http://martin-jung.github.io/post/2017-new-professional-website/</link>
-      <pubDate>Fri, 16 Jun 2017 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0200</pubDate>
       
       <guid>http://martin-jung.github.io/post/2017-new-professional-website/</guid>
       <description>&lt;p&gt;Welcome to my new starting website. My name is Martin Jung and I consider myself an Environmental and data scientist.  &lt;a href=&#34;https://martin-jung.github.io/#about&#34; target=&#34;_blank&#34;&gt;Read here for more&lt;/a&gt;.&lt;/p&gt;
@@ -1304,7 +1304,7 @@ I&amp;rsquo;m particularly interested in scientific collaborations, consulting o
     <item>
       <title>2017 Data analysis talk</title>
       <link>http://martin-jung.github.io/talk/2017_dacmtalk/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
       
       <guid>http://martin-jung.github.io/talk/2017_dacmtalk/</guid>
       <description></description>
