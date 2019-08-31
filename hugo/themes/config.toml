@@ -294,7 +294,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "CV"
-  url = "pdf/mjung_cv_Apr2017.pdf"
+  url = "pdf/mjung_cv_latest.pdf"
   weight = 9
 
 # Taxonomies.

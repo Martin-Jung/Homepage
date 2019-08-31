@@ -36,4 +36,4 @@ weight = 5
 +++
 
 # Biography
-Currently a postdoctoral research scholar at the International Institute for Applied Systems Analysis (IIASA) helping to create the next generation of global conservation priotization maps. Previously completed a PhD (viva pending) at the University of Sussex (UK), focussing on linking biodiversity change to past land dynamics as quantified from remote sensing. Widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change. Specialist in remote-sensing analysis and interpreting spatial data. Many years of experience in project management and providing quantitative solutions to environmental problems.
+Postdoctoral research scholar at the International Institute for Applied Systems Analysis (IIASA) helping to create integrated global maps of biodiversity, carbon and ecosystem services. Widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change. Specialist in remote-sensing analysis and interpreting spatial data. Many years of experience in project management and providing quantitative solutions to environmental problems.

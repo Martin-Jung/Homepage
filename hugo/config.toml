@@ -13,7 +13,7 @@ title = "Martin Jung - Environmental and data scientist"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "Martin Jung 2017-2018 &bull; <a href=\"https://creativecommons.org/licenses/by/4.0/\"><i class=\"fa fa-cc\" aria-hidden=\"true\"></i></a>"
+copyright = "Martin Jung 2017-2019 &bull; <a href=\"https://creativecommons.org/licenses/by/4.0/\"><i class=\"fa fa-cc\" aria-hidden=\"true\"></i></a>"
 
 theme = "academic"
 enableEmoji = true
@@ -54,7 +54,7 @@ enableGitInfo = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "classic"
 
   # Your details.
   name = "Martin Jung"
@@ -305,20 +305,20 @@ enableGitInfo = false
     url = "/#about"
     weight = 1
 
-  [[menu.main]]
-    name = "Blog"
-    url = "#posts"
-    weight = 2
+#  [[menu.main]]
+#    name = "Blog"
+#    url = "#posts"
+#    weight = 2
 
   [[menu.main]]
     name = "Publications"
-    url = "#publications"
+    url = "https://scholar.google.co.uk/citations?user=qa-Dz6QAAAAJ&hl"
     weight = 3
 
-  [[menu.main]]
-    name = "Projects"
-    url = "#projects"
-    weight = 4
+#  [[menu.main]]
+#    name = "Projects"
+#    url = "#projects"
+#    weight = 4
 
   #[[menu.main]]
   #  name = "Teaching"
