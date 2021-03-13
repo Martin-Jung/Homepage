@@ -5,55 +5,54 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
-font: ''
+theme: Ocean
+day_night: false
+font: 'Native'
 font_size: L
 
 # SEO
 
 site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
+local_business_type: 'Data science'
+org_name: 'https://martinjung.eu'
+description: 'Martin Jung'
+twitter: 'Martin_ecology'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: martinjung@zoho.com
+phone: +43(0) 2236 807 316
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: Schlossplatz 1
+  city: Laxenburg
+#  region: CA
+  postcode: 'A-2361'
+  country: Austria
+  country_code: AT
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  latitude: '48.068167'
+  longitude: '16.358612'
+#directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+  - 'Monday-Friday 9:00 to 17:00'
+#appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
-    link: 'https://twitter.com/Twitter'
+    link: 'https://twitter.com/Martin_Ecology'
   - icon: skype
     icon_pack: fab
     name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    link: 'skype:legacer?call'
+#  - icon: keybase
+#    icon_pack: fab
+#    name: Chat on Keybase
+#    link: 'https://keybase.io/'
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on Forum
+#    link: 'https://discourse.gohugo.io'
 
 # Site header
 
@@ -61,16 +60,16 @@ main_menu:
   enable: true
   align: l
   show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: true
+  show_language: true
+  show_day_night: false
+  show_search: false
   highlight_active_link: true
 
 # Localization
 
 date_format: 'Jan 2, 2006'
 time_format: '3:04 PM'
-address_format: en-us
+address_format: en-gb
 
 # Site features
 
@@ -95,10 +94,10 @@ show_related:
   project: true
   publication: true
   event: true
-reading_time: true
+reading_time: false
 section_pager: false
 docs_section_pager: true
-sharing: true
+sharing: false
 copyright_license:
   enable: false
   allow_derivatives: false
@@ -129,7 +128,7 @@ comments:
     publication: true
     event: true
   disqus:
-    shortname: ''
+    shortname: 'martinjung'
     show_count: true
   commento:
     url: ''
@@ -141,17 +140,17 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: ''
+  provider: 'OpenStreetMap'
   api_key: ''
   zoom: 15
 marketing:
-  google_analytics: ''
+  google_analytics: 'UA-118877355-1'
   google_tag_manager: ''
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
 cms:
-  branch: master
+  branch: main
   local_backend: false
 icon:
   pack:
