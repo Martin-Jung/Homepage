@@ -7,25 +7,40 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+#  - name: Blog
+#    url: 'post/'
+#    weight: 20
   - name: Research
     url: 'research/'
-    weight: 20
-  - name: Projects
-    url: 'projects/'
     weight: 30
+#  - name: Projects
+#    url: 'projects/'
+#    weight: 40
 # To create a dropdown sub-menu, add identifier = "a-unique-reference" to the parent item and
 # parent = "a-unique-reference" to the child item, replacing a-unique-reference with a unique reference of your choice.
+  - name: Software & data
+    url: 'software/index'
+    identifier: 'softwaredata'
+    weight: 50
+  - name: Data
+    parent: 'softwaredata'
+    url: 'software/#section-data'
+    weight: 51
+  - name: Software
+    parent: 'softwaredata'
+    url: 'software/#section-software'
+    weight: 52
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: Publications
     url: https://scholar.google.co.uk/citations?hl=en&pli=1&user=qa-Dz6QAAAAJ
-    weight: 50
+    weight: 60
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
     url: uploads/MJung_CV.pdf
-    weight: 60
+    weight: 70
   - name: Contact
     url: '#contact'
-    weight: 70
+    weight: 80

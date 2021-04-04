@@ -26,14 +26,14 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti" />
+  <meta name="author" content="Martin Jung" />
 
   
   
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence" />
+  <meta name="description" content="Martin Jung" />
 
   
   <link rel="alternate" hreflang="en-gb" href="https://martinjung.eu/project/" />
@@ -53,13 +53,11 @@
 
   
   
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
 
   
   
   
-    <meta name="theme-color" content="#3f51b5" />
+    <meta name="theme-color" content="#4caf50" />
   
 
   
@@ -236,22 +234,55 @@
   
   
   
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    
-  
 
   
   
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.1717b39fb54679e83fc969bf276146a5.css" />
+  <link rel="stylesheet" href="/css/wowchemy.00dd9dcf8135aa7c7706c69745502f11.css" />
 
   
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118877355-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-118877355-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -275,8 +306,8 @@
     <link rel="manifest" href="/index.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu08891b619dca7ea3a10c5ed6def994ae_9949_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu08891b619dca7ea3a10c5ed6def994ae_9949_180x180_fill_lanczos_center_2.png" />
 
   <link rel="canonical" href="https://martinjung.eu/project/" />
 
@@ -294,14 +325,17 @@
   
   <meta property="twitter:card" content="summary" />
   
+    <meta property="twitter:site" content="@Martin_ecology" />
+    <meta property="twitter:creator" content="@Martin_ecology" />
+  
   <meta property="og:site_name" content="Martin Jung" />
   <meta property="og:url" content="https://martinjung.eu/project/" />
   <meta property="og:title" content="Projects | Martin Jung" />
-  <meta property="og:description" content="Professor of Artificial Intelligence" /><meta property="og:image" content="https://martinjung.eu/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="https://martinjung.eu/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-gb" />
+  <meta property="og:description" content="Martin Jung" /><meta property="og:image" content="https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_300x300_fit_lanczos_2.png" />
+    <meta property="twitter:image" content="https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-gb" />
   
     
-      <meta property="og:updated_time" content="2016-04-27T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2021-04-03T19:20:41&#43;02:00" />
     
   
 
@@ -388,13 +422,15 @@
 
 
 
+  
+
 
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container-xl">
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Martin Jung</a>
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_0x70_resize_lanczos_2.png" alt="Martin Jung"></a>
     </div>
     
 
@@ -407,7 +443,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Martin Jung</a>
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_0x70_resize_lanczos_2.png" alt="Martin Jung"></a>
     </div>
     
 
@@ -477,17 +513,58 @@
             
           
           
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/research/"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Software & data</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
             
+              <a class="dropdown-item" href="/software/#section-data"><span>Data</span></a>
             
+              <a class="dropdown-item" href="/software/#section-software"><span>Software</span></a>
             
-              
-            
+          </div>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
             
           
         
 
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="https://scholar.google.co.uk/citations?hl=en&amp;pli=1&amp;user=qa-Dz6QAAAAJ" target="_blank" rel="noopener"><span>Publications</span></a>
         </li>
 
         
@@ -514,91 +591,10 @@
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/uploads/MJung_CV.pdf"><span>CV</span></a>
         </li>
 
         
@@ -655,10 +651,6 @@
       
 
       
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
       
 
       
@@ -732,10 +724,8 @@
     
     
     <div>
-      <h2><a href="/project/example/" >Example Project</a></h2>
+      <h2><a href="/project/my-project-name/" >My Project Name</a></h2>
       <div class="article-style">
-        
-          An example of using the in-built project page.
         
       </div>
     </div>
@@ -757,7 +747,13 @@
   
 
   <p class="powered-by">
-    
+    © 2021 Martin Jung
+  </p>
+  <p style="font-size:12px;">
+   &bull; <a href="uploads/mj-pubkey.asc">PGP public <i class="fa fa-key"></i></a> &bull; <br />
+   <b>PGP fingerprint:</b>
+   BD4B 2D2C B8E3 A95B 076A
+   6FA0 99DC 99BA 1BC8 BC37
   </p>
 
   
@@ -767,20 +763,42 @@
 
 
 
+  
+  
+  
+  
 
-  <p class="powered-by">
+  
+  
     
+  
+  
     
-    
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" rel="noopener noreferrer" target="_blank">CC BY NC SA 4.0</a>
   </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-sa fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
 </footer>
 
     </div>
@@ -837,6 +855,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/julia.min.js"></script>
         
       
 

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data | Martin Jung</title>
+    <link>https://martinjung.eu/tag/data/</link>
+      <atom:link href="https://martinjung.eu/tag/data/index.xml" rel="self" type="application/rss+xml" />
+    <description>data</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2021 Martin Jung </copyright><lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_300x300_fit_lanczos_2.png</url>
+      <title>data</title>
+      <link>https://martinjung.eu/tag/data/</link>
+    </image>
+    
+    <item>
+      <title>Running rstudio in the Google cloud - [2]</title>
+      <link>https://martinjung.eu/post/2018_datascienceingooglecloud_nr2/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0200</pubDate>
+      <guid>https://martinjung.eu/post/2018_datascienceingooglecloud_nr2/</guid>
+      <description>&lt;p&gt;In this new post I will go through my process of getting familiar with running &lt;em&gt;R&lt;/em&gt; in the Google cloud and the posting sort of follows my previous &lt;a href=&#34;https://martinjung.eu/post/2018_datascienceingooglecloud/&#34;&gt;post&lt;/a&gt; on getting started with the Google cloud. My dream setup would include to being able to switch seamless between running r code locally or in the cloud whenever I require more processing power. For instance similar &lt;a href=&#34;https://github.com/Azure/doAzureParallel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doAzureParallel&lt;/a&gt; package available for Microsoft Azure.
+&lt;br&gt;
+For Google cloud engine, there also exists a neat package called &lt;a href=&#34;https://cloudyr.github.io/googleComputeEngineR/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;googleComputeEngineR&lt;/a&gt;, that allows to easily setup a virtual machine and run code remotely.
+So let&amp;rsquo;s setup the googleComputeEngineR package. As always, please note you alone (the dear reader) is responsible to keep track of your virtual machines in the cloud. If you do not stop them (i.e. shut them down), then this will &lt;mark&gt;cost you money!&lt;/mark&gt;&lt;/p&gt;
+&lt;hr&gt;
+In order to use the **googleComputeEngineR** package, we first need to create a credentials file. For my google cloud project and personal linux machine I have created such a file on my local system like this:
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Create the file
+touch ~/.Renviron
+echo &amp;quot;GCE_AUTH_FILE=\&amp;quot;~/wasserdampf.json\&amp;quot;&amp;quot; &amp;gt;&amp;gt; ~/.Renviron
+echo &amp;quot;GCE_DEFAULT_PROJECT_ID=\&amp;quot;wolke7-208420\&amp;quot;&amp;quot; &amp;gt;&amp;gt; ~/.Renviron
+echo &amp;quot;GCE_DEFAULT_ZONE=\&amp;quot;us-central1-a\&amp;quot;&amp;quot; &amp;gt;&amp;gt; ~/.Renviron
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;One also needs a service account auth key (here called wasserdampf.json). Find more information how to get such a key &lt;a href=&#34;https://cloudyr.github.io/googleComputeEngineR/articles/installation-and-authentication.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.
+Now for starters lets start R and install the &lt;strong&gt;googleComputeEngineR&lt;/strong&gt; package, then start up a virtual machine with Rstudio setup.&lt;/p&gt;
+&lt;h2 id=&#34;run-a-rstudio-in-the-google-cloud&#34;&gt;Run a Rstudio in the google cloud&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;llibrary(googleAuthR)
+library(googleComputeEngineR)
+library(future)
+
+# Start up a rstudio vm (or create if not already existing)
+vm &amp;lt;- gce_vm(template = &amp;quot;rstudio&amp;quot;,
+             name = &amp;quot;rstudio&amp;quot;,
+             username = &amp;quot;martin&amp;quot;, password = &amp;quot;wolkenwind&amp;quot;,
+             predefined_type = &amp;quot;n1-standard-1&amp;quot; # Available machines via gce_list_machinetype()
+)
+
+# See if the vm exists
+gce_list_instances()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; ==Google Compute Engine Instance List==
+&amp;gt;      name   machineType  status          zone     externalIP   creationTimestamp
+&amp;gt; 1 rstudio n1-standard-1 RUNNING us-central1-a XX.XXX.XXX.XXX 2018-08-23 14:41:45
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The externalIP gives the ip through which rstudio server can be run in any webbrowser
+&lt;img src=&#34;https://martinjung.eu/img/posts/GoogleCloud_Rstudio.png&#34; alt=&#34;Rstudio run in the google cloud&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Equally it is quite easy to control the VM via SSH directly in the browser and the &lt;strong&gt;googleComputeEngineR&lt;/strong&gt; package provides an easy function to open such a connection:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;gce_ssh_browser(vm)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Lastly ensure that you stop the VM(or delete it).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;# Shut down the vm
+gce_vm_stop(vm)
+
+# Or delete the vm
+gce_vm_delete(vm)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data science in the Google cloud - [1]</title>
+      <link>https://martinjung.eu/post/2018_datascienceingooglecloud/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0200</pubDate>
+      <guid>https://martinjung.eu/post/2018_datascienceingooglecloud/</guid>
+      <description>&lt;p&gt;Anyone analysing &lt;strong&gt;big data&lt;/strong&gt; (buzzword, here refereed to as data too big to load into memory) soon will come to the realization that processing such data requires a lot of computational resources. During my PhD I mainly worked with the local high-performance-computer (HPC) at the University of Sussex. A couple of years into my PhD and I increasingly realized that our little HPC suffers from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tragedy_of_the_commons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tragedy of the commons&lt;/a&gt; with more and more people requesting computation time on a few available nodes.  That and also the tendency to have limited flexibility for running customized code (no root access, outdated modules and libraries, little space on the home drive to set up virtual environments, etc. &amp;hellip;) has made me quite frustrated and willing to switch to the &amp;ldquo;Cloud&amp;rdquo; for accessing computing resources.
+\&lt;/p&gt;
+&lt;p&gt;Cloud computing these days is well established, but mainly concentrated in the hands of three leading US firms. As far as I am aware one basically has to choose between Amazon AWS, Microsoft Azure and Google Cloud programs. Each have their own benefits and I leave it to the reader to search elsewhere for information on which one to chose.
+\&lt;/p&gt;
+&lt;p&gt;I picked the &lt;a href=&#34;https://cloud.google.com/free-trial/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google cloud free trial offer&lt;/a&gt; partly because of the following reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;They have a 300$ give away. (I think Microsoft and Amazon offer sth. similar though)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The free trial period lasts 12 months after which it runs out without incurring further cost. Furthermore there will remain a &lt;a href=&#34;https://cloud.google.com/free/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;free-use contingent&lt;/a&gt; which can be exhausted for free. You fire up some use time on a f1-micro VM for instance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I am increasingly using &lt;a href=&#34;https://earthengine.google.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&amp;rsquo;s Earth Engine platform&lt;/a&gt; and plan to use Google cloud storage to enhance my workflow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Private 1GB Git hosting (now especially useful since Competitor Microsoft has acquired Github )&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That being said, I have also heard great things about AWS and Azure as well and might try them out at a later point as well.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;So here is how I started. My goal was to first get familiar with computing in the cloud and try to install some standard tools. Therefore
+First I fired up a micro instance &lt;strong&gt;V&lt;/strong&gt;irtual &lt;strong&gt;M&lt;/strong&gt;achine (which, in the google cloud, you can run over 700h each month for free).
+&lt;img src=&#34;https://martinjung.eu/img/posts/GoogleCloudInstance.png&#34; alt=&#34;Micro instance in Google cloud &#34;&gt;
+On the SSH button you have the opportunity to directly log into your cloud instance in the browser or in another ssh-client of you choosing.
+Each VM can be selected and also started / stopped or completly reseted in this screen as well (also via the &lt;em&gt;&lt;strong&gt;&amp;quot;&amp;hellip;&amp;quot;&lt;/strong&gt;&lt;/em&gt; button!)
+&lt;br&gt;
+I&amp;rsquo;m going to install some basic data-science tools.
+Here is the entire thing as bash-script to be executed on the next, bigger, VM in a later stage ;-)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# First lets install some necessary libraries
+sudo apt-get -y install bzip2
+sudo apt-get -y install screen
+
+# Make a update and upgrade all, then clean up
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt-get -y autoremove
+
+# Make download folder
+mkdir downloads
+cd downloads
+# Download anaconda
+wget https://repo.continuum.io/archive/Anaconda2-5.2.0-Linux-x86_64.sh
+# Install in the background (accept and updating any previous installations)
+bash Anaconda2-5.2.0-Linux-x86_64.sh -b -u -p $HOME/anaconda2
+echo &amp;quot;export PATH=\&amp;quot;~/anaconda2/bin:$PATH\&amp;quot;&amp;quot; &amp;gt;&amp;gt; ~/.bashrc
+# Reload conf
+source ~/.bashrc
+
+# Install R
+# Add debian stretch repo and key, then install
+echo &amp;quot;deb http://cran.rstudio.com/bin/linux/debian stretch-cran35/&amp;quot; | sudo tee -a /etc/apt/sources.list
+sudo apt-key adv --keyserver keys.gnupg.net --recv-key &#39;E19F5F87128899B192B1A2C2AD5F960A256A04AF&#39;
+sudo apt-get update
+sudo apt-get install -y r-base r-base-core r-base-dev
+sudo apt-get install -y libatlas3-base
+
+# Also install rstudio keyserver
+sudo apt-get -y install psmisc libssl-dev libcurl4-openssl-dev libssh2-1-dev
+wget https://download2.rstudio.org/rstudio-server-stretch-1.1.453-amd64.deb
+sudo dpkg -i rstudio-server-stretch-1.1.453-amd64.deb
+
+# Also install julia for later
+sudo apt-get -y install julia
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Note to myself&lt;/strong&gt;: For the future it might be easier to configure an analysis-ready docker image. Sth. to do for later&amp;hellip;
+\&lt;/p&gt;
+&lt;p&gt;Now we create a new configuration for a jupyter notebook and start it on the vm.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Create config
+jupyter notebook --generate-config
+
+# Add this to the configure
+echo &amp;quot;c = get_config()&amp;quot; &amp;gt;&amp;gt; ~/.jupyter/jupyter_notebook_config.py
+echo &amp;quot;c.NotebookApp.ip = &#39;*&#39;&amp;quot; &amp;gt;&amp;gt; ~/.jupyter/jupyter_notebook_config.py
+echo &amp;quot;c.NotebookApp.open_browser = False&amp;quot; &amp;gt;&amp;gt; ~/.jupyter/jupyter_notebook_config.py
+echo &amp;quot;c.NotebookApp.port = 8177&amp;quot; &amp;gt;&amp;gt; ~/.jupyter/jupyter_notebook_config.py
+
+# Set a password
+jupyter notebook password
+
+# Start up
+jupyter-notebook --no-browser --port=8177
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The jupyter notebook can now be theoretically viewed in a browser. However we have to get access to the Google cloud intranet first. For this we will use the &lt;a href=&#34;https://cloud.google.com/sdk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google cloud SDK&lt;/a&gt;, which you need to install on your local computer as well.&lt;/p&gt;
+&lt;p&gt;Then execute for the google cloud sdk:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# After installation: auth
+gcloud init
+
+# The open a SSH tunnel. For me that is:
+gcloud compute ssh  --zone=us-central1-c --ssh-flag=&amp;quot;-D&amp;quot; --ssh-flag=&amp;quot;8177&amp;quot; --ssh-flag=&amp;quot;-N&amp;quot; --ssh-flag=&amp;quot;-n&amp;quot; wolkentest
+# If you have never done before, you will need to create a public/private ssh key
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now that you have created a SSH tunnel you can just open your local browser (ie. Chrome or similar) and navigate towards &lt;a href=&#34;localhost:8177&#34;&gt;localhost:8177&lt;/a&gt; and you should see your jupyter notebook. Happy computing!
+&lt;img src=&#34;https://martinjung.eu/img/posts/GoogleCloudJupyterRunning.png&#34; alt=&#34;Jupyter running through an SSH tunnel&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At the end, ensure that the VM is turned off, otherwise it will create ongoing costs!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

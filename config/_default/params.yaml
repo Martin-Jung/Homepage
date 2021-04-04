@@ -5,13 +5,12 @@
 
 # Appearance
 
-theme: Ocean
-day_night: false
+theme: Forest
+day_night: true
 font: 'Native'
 font_size: L
 
 # SEO
-
 site_type: Person
 local_business_type: 'Data science'
 org_name: 'https://martinjung.eu'
@@ -19,8 +18,7 @@ description: 'Martin Jung'
 twitter: 'Martin_ecology'
 
 # Contact (edit or remove options as required)
-
-email: martinjung@zoho.com
+email: martinjung-at-zoho.com
 phone: +43(0) 2236 807 316
 address:
   street: Schlossplatz 1
@@ -61,7 +59,7 @@ main_menu:
   align: l
   show_logo: true
   show_language: true
-  show_day_night: false
+  show_day_night: true
   show_search: false
   highlight_active_link: true
 
@@ -76,6 +74,8 @@ address_format: en-gb
 highlight: true
 highlight_languages:
   - r
+  - python
+  - julia
 math: false
 diagram: false
 privacy_pack: false
@@ -99,8 +99,8 @@ section_pager: false
 docs_section_pager: true
 sharing: false
 copyright_license:
-  enable: false
-  allow_derivatives: false
+  enable: true
+  allow_derivatives: true
   share_alike: true
   allow_commercial: false
   notice: 'This work is licensed under {license}'
@@ -140,9 +140,9 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: 'OpenStreetMap'
+  provider: ''
   api_key: ''
-  zoom: 15
+  zoom: 10
 marketing:
   google_analytics: 'UA-118877355-1'
   google_tag_manager: ''

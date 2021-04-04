@@ -1,0 +1,1509 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.0.0-beta.3 for Hugo" />
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Martin Jung" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Why argue for Bayesian models? Most researchers and data scientists have specific - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as Prior and the effect und uncertainty surrounding this." />
+
+  
+  <link rel="alternate" hreflang="en-gb" href="https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#4caf50" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.00dd9dcf8135aa7c7706c69745502f11.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118877355-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-118877355-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu08891b619dca7ea3a10c5ed6def994ae_9949_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu08891b619dca7ea3a10c5ed6def994ae_9949_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@Martin_ecology" />
+    <meta property="twitter:creator" content="@Martin_ecology" />
+  
+  <meta property="og:site_name" content="Martin Jung" />
+  <meta property="og:url" content="https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/" />
+  <meta property="og:title" content="Testing multilevel Bayesian models with ordered categorical predictors | Martin Jung" />
+  <meta property="og:description" content="Why argue for Bayesian models? Most researchers and data scientists have specific - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as Prior and the effect und uncertainty surrounding this." /><meta property="og:image" content="https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/featured.png" />
+    <meta property="twitter:image" content="https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/featured.png" /><meta property="og:locale" content="en-gb" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2018-11-05T00:00:00&#43;01:00"
+      />
+    
+    <meta property="article:modified_time" content="2018-11-05T00:00:00&#43;01:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/"
+  },
+  "headline": "Testing multilevel Bayesian models with ordered categorical predictors",
+  
+  "image": [
+    "https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/featured.png"
+  ],
+  
+  "datePublished": "2018-11-05T00:00:00+01:00",
+  "dateModified": "2018-11-05T00:00:00+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Martin Jung"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "https://martinjung.eu",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_192x192_fit_lanczos_2.png"
+    }
+  },
+  "description": "Why argue for Bayesian models? Most researchers and data scientists have specific - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as Prior and the effect und uncertainty surrounding this."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Testing multilevel Bayesian models with ordered categorical predictors | Martin Jung</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="94022cbbfed9e0c4f72ade7fa9609579" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b024895df05e271929739bb54886c674.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_0x70_resize_lanczos_2.png" alt="Martin Jung"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_0x70_resize_lanczos_2.png" alt="Martin Jung"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/research/"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Software & data</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/software/#section-data"><span>Data</span></a>
+            
+              <a class="dropdown-item" href="/software/#section-software"><span>Software</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://scholar.google.co.uk/citations?hl=en&amp;pli=1&amp;user=qa-Dz6QAAAAJ" target="_blank" rel="noopener"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/uploads/MJung_CV.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Testing multilevel Bayesian models with ordered categorical predictors</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 5, 2018
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/data-science/">data-science</a>, <a href="/category/phd/">phd</a>, <a href="/category/statistics/">statistics</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 443px;">
+  <div style="position: relative">
+    <img src="/post/2018_bayesianmodelsmonoticpredictors/featured_hue789aaabdac95c4d4fe906d54b809b5c_31827_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Why argue for Bayesian models? Most researchers and data scientists have specific  - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as <em>Prior</em> and the effect und uncertainty surrounding this. Most standard analytical tools do not account for this information. In fact <strong>every</strong> statistical tool makes some kind of assumptions about your data. Computers do not now <em>per se</em> how your data looks or what limits it. By not providing this kind of information, the algorithm essentially has to guess or make uninformed assumptions, which can be quite unrealistic in applied settings.</p>
+<p>Or as Richard McElreath puts it:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Still seeing researchers rejecting Bayes bc priors make them uncomfortable.<br><br>If you don&#39;t like priors, then don&#39;t use Bayes. But you must do something to control overfitting. And that something will act a lot like a prior.  <a href="https://t.co/FAZdcDS4B7">https://t.co/FAZdcDS4B7</a></p>&mdash; Richard McElreath 🦔🧇 (@rlmcelreath) <a href="https://twitter.com/rlmcelreath/status/1032318199713460224?ref_src=twsrc%5Etfw">August 22, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+<p>Here is an example using data from one of my PhD chapters where I worked with the <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.2579" target="_blank" rel="noopener">PREDICTS database</a>, a global database of local biodiversity records. A particular feature of the PREDICTS data collection is that the sites of biodiversity sampling are &ldquo;re-categorized&rdquo; into land-use categories such as <em>Primary vegetation</em> or <em>Pasture</em>.</p>
+<p>A number of high-profile papers have been produced using PREDICTS data such as the one by my old supervisor, who used Hierarchical linear mixed effects models to estimate the average difference in species richness with land use globally
+<a href="http://discovery.ucl.ac.uk/1464937/1/Newbold%20etal%202015%20Nature%20Submitted.pdf" target="_blank" rel="noopener">(Newbold et al. 2015)</a>. Have a look at Newbold <em>et al.</em> for more information about the study design and methods.</p>
+<p>The interesting question here is:
+<strong>Should we consider land use as a monotonic gradient?</strong> Or in other words: Do we expect that the difference between all categories other than the intercept (Primary vegetation) is negative, so a loss in species richness?
+<br>
+Another information that we can include is the expected difference or slope of local species loss. For instance we also can&rsquo;t have more than 100 % loss of species richness for any site, so we have thus information about the - prior - distribution of the expected slope</p>
+<p>Most PREDICTS data has been released and is openly available through the <a href="http://data.nhm.ac.uk/dataset/the-2016-release-of-the-predicts-database" target="_blank" rel="noopener">National History Museum London</a> and it should be possible to prepare a data frame similar to the one I used here.</p>
+<br>
+Lets first fit a roughly comparable model to Newbold et al. 2015:
+<pre><code class="language-r"># Load packages and data for this project
+library(tidyverse)
+library(tidybayes)
+library(brms)
+library(lme4)
+library(sjPlot)
+
+# Load biodiversity site dataset
+sites &lt;- readRDS(&quot;~/../PhD/Projects/P5_MagnitudeBreakpoints/PREDICTS_allsites.rds&quot;)
+# Merge primary vegetation to single category as reference
+sites &lt;- subset(sites,Predominant_habitat != &quot;Cannot decide&quot;)# Drop Cannot decide from the factors
+sites$Predominant_habitat &lt;- fct_collapse(sites$Predominant_habitat,&quot;Primary vegetation&quot; = c(&quot;Primary forest&quot;,&quot;Primary non-forest&quot;))
+
+# Here all the categories we consider
+sites$Predominant_habitat &lt;- factor(sites$Predominant_habitat,
+                                    levels = c(&quot;Primary vegetation&quot;,&quot;Young secondary vegetation&quot;,&quot;Intermediate secondary vegetation&quot;,&quot;Mature secondary vegetation&quot;,
+                                               &quot;Secondary vegetation (indeterminate age)&quot;,&quot;Plantation forest&quot;,&quot;Pasture&quot;,&quot;Cropland&quot;,&quot;Urban&quot;),
+                                    ordered = T)
+sites$SS &lt;- factor(sites$SS)
+
+# A prediction container for later
+nd &lt;- data.frame(Predominant_habitat = factor(levels(sites$Predominant_habitat),levels = levels(sites$Predominant_habitat),ordered = T) ) # Prediction frame
+
+# A function to transform all estimates relative to the intercept (that is primary vegetation)
+relIntercept &lt;- function(df){
+  return( df %&gt;% group_by(model) %&gt;%
+    mutate(fit = ( fit / fit[which(Predominant_habitat==&quot;Primary vegetation&quot;)])-1,
+           fit.low = (fit.low / fit[which(Predominant_habitat==&quot;Primary vegetation&quot;)])-1,
+           fit.high = (fit.high / fit[which(Predominant_habitat==&quot;Primary vegetation&quot;)])-1
+    ) %&gt;% ungroup()
+  )
+}
+
+# First for lme4 using a &quot;classic&quot; predicts model and reproduce a model similar to Newbold et al. 2015
+# As simple test we on use two random intercepts, the study and a spatial block within study
+fit1 &lt;- glmer(Species_richness ~ Predominant_habitat + (1|SS) + (1|SSB),
+              data = sites,family = poisson(link = &quot;log&quot;))
+
+# Save output
+out &lt;-
+  data.frame(
+  Predominant_habitat = nd$Predominant_habitat,
+  fit = predict(fit1,newdata=nd,re.form=NA,type = &quot;link&quot;),
+  fit.se = arm::se.fixef(fit1), # Get the standard error of the coefficients
+  model = &quot;lme4&quot;
+) %&gt;% mutate(
+  fit.low = exp((fit - fit.se*1.96)), # naively multiply the wald standard errors with 1.96
+  fit.high = exp((fit + fit.se*1.96)),
+  fit = exp(fit)
+)
+
+</code></pre>
+<p>Now lets create a similar model using a Bayesian framework. Here I will use the excellent <em>brms</em> package to skip the lengthy procedure of writing Stan code myself. This is a <strong>very</strong> simple model for demonstration purposes and can very likely quite improved.</p>
+<p>The Equation for the bayesian multi-level model :</p>
+<p>$$
+\begin{eqnarray}
+\text{Species richness}_i &amp; \sim &amp; \text{Poisson} (\mu_i) \\\<br>
+\text{log} (\mu_i) &amp; = &amp; \alpha + \alpha_{\text{Study}_i} + \alpha_{\text{Spatial block}_i} + \beta (\text{Land use}_i) \\\<br>
+\beta &amp; \sim &amp; \text{Normal} (0, 1) \\\<br>
+\alpha_{\text{Study,Spatial block}} &amp; \sim &amp; \text{Normal} (0, \sigma_{\text{Study,Spatial block}}) \\\<br>
+\sigma_{\text{Study,Spatial block}} &amp; \sim &amp; \text{HalfCauchy} (0, 2) \\\<br>
+\end{eqnarray}
+$$
+Priors for both intercepts are identical although one could argue that the spatial block should be specified differently given that it is nested within study.</p>
+<p>and can be fitted like thos:</p>
+<pre><code class="language-r">fit2 &lt;- brm(Species_richness ~ Predominant_habitat + (1|SS) + (1|SSB),
+            data = sites,family = poisson(link = &quot;log&quot;),
+            prior = prior(normal(0,1), class = b) + # Normal distributed prior for beta
+              prior(cauchy(0,2), class = sd), # Half cauchy prior for uncertainty
+            chains = 2, cores = 6, iter = 2000) # Fit using 6 cores and 2000 iterations of 2 MCMC chains
+
+# ... This takes a while.
+# Made myself dinner
+
+# How did we do?
+# (showing only the intercept)
+plot(fit2, ask =F)
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-there-are-some-irregularities-in-the-iterations-of-the-mcmc-that-do-not-look-completely-random-yet-and-more-interations-might-help-or-alternatively-specifying-a-prior-for-the-intercept-">
+  <div class="d-flex justify-content-center">
+    <div ><img src="posts/brmsMCMCchains.png" alt="There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :) " loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :)
+    </figcaption></figure>
+<br>
+Lets compare the two models in their predicted impact of land use on species richness.
+<pre><code class="language-r"># Get the prediction from the bayesian model
+out &lt;- bind_rows(out,
+                 # Summarise from the fitted posterior values
+                 fitted_draws(fit2,nd,re_formula = NA) %&gt;% group_by(Predominant_habitat) %&gt;% mean_qi(.value) %&gt;%
+                   select(Predominant_habitat,.value,.lower,.upper) %&gt;% rename(fit = &quot;.value&quot;,fit.low = &quot;.lower&quot;, fit.high = &quot;.upper&quot;) %&gt;%
+                   mutate(fit.se = NA, model = &quot;brms1&quot;)
+)
+
+# Plot them both
+ggplot(out %&gt;% relIntercept(.),
+       aes(x = fct_rev( Predominant_habitat ), y = fit, ymin = fit.low, ymax = fit.high, group = model, color =model)) +
+  theme_default() + coord_flip()+
+  geom_pointrange(position = position_dodge(.5)) + geom_hline(yintercept = 0, linetype = &quot;dotted&quot;)+
+  scale_y_continuous(breaks = scales::pretty_breaks(5)) +
+  scale_colour_brewer(palette = &quot;Set1&quot;) +
+  labs(x=&quot;&quot;,y = &quot;Predicted difference in Species richness&quot;) + theme(axis.text.x = element_text(size = 15))
+
+</code></pre>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-ignore-the-error-bars-for-now-as-they-are-not-directly-comparable-see-below">
+  <div class="d-flex justify-content-center">
+    <div ><img src="posts/brmsModelcoef1.png" alt="Ignore the error bars for now as they are not directly comparable (see below)." loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Ignore the error bars for now as they are not directly comparable (see below).
+    </figcaption></figure>
+It is noteworthy that the uncertainty for lme4 is the estimated standard error of the fitted object (<strong>!</strong>), while for brms the estimation error is drawn only from the fitted values of the posterior.</p>
+<p>Still so far both models are quite similar and indicate comparable, mean losses of species richness as shown in the Newbold et al. 2015 Nature paper.
+<br></p>
+<p>Now here comes the interesting part. Paul Brückner, the author of the <em>brms</em> R package has recently released a new <a href="https://psyarxiv.com/9qkhj" target="_blank" rel="noopener">preprint</a> discussing the addition of monotonic effects to the <em>brms</em> package. <a href="https://en.wikipedia.org/wiki/Monotonic_function" target="_blank" rel="noopener">Monotonic functions</a> can be applied ordinal predictors for which a monotonic relationship (increasing, decreasing, concave, convex) is highly plausible.</p>
+<p>Fitting those kind of models in brms is now straight forward. We use the default uniform Dirichlet priors which according to Brückner generalize well.</p>
+<pre><code>fit3 &lt;- brm(Species_richness ~ mo(Predominant_habitat) + (1|SS) + (1|SSB),
+            data = sites,family = poisson(link = &quot;log&quot;),
+            prior = prior(normal(0,1), class = b) + prior(cauchy(0,2), class = sd),
+            chains = 2, cores = 6, iter = 2000)
+
+# Lets compare both models
+waic(fit2,fit3)
+</code></pre>
+<p>It does seem that the model without a monotonic effect is a better fit to the data.</p>
+<pre><code class="language-bash">                WAIC     SE
+fit2        170240.73 990.35
+fit3        170533.55 997.99
+fit2 - fit3   -292.82  99.12
+</code></pre>
+<p>How do the fitted effects compare ?
+Quite differently. Notice how local species richness <em>monotonically</em> declines with every further &ldquo;level&rdquo; of land use.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div ><img src="posts/brmsModelcoef2.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+<p>Overall it does seem as if we have to reject the idea of &ldquo;land-use gradients&rdquo; at least if those gradients are quantified through categorical entities. One could argue that some - human altered - land-use categories can have higher number of species than some natural land use. Thinking for example of urban habitats for plants (lots of gardens, exotics and non-natives).</p>
+<p>In my PhD I try to find ways to capture land dynamics on a continuous unit scale rather than through categorical estimates. Look our for new results of this idea soon&hellip;</p>
+<p><strong>Sessioninfo</strong></p>
+<pre><code>R version 3.4.4 (2018-03-15)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 18.04.1 LTS
+
+Matrix products: default
+BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+
+locale:
+ [1] LC_CTYPE=en_GB.UTF-8       LC_NUMERIC=C               LC_TIME=en_GB.UTF-8        LC_COLLATE=en_GB.UTF-8    
+ [5] LC_MONETARY=en_GB.UTF-8    LC_MESSAGES=en_GB.UTF-8    LC_PAPER=en_GB.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C             LC_MEASUREMENT=en_GB.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] tidybayes_1.0.3 bindrcpp_0.2.2  sjPlot_2.6.1    mboost_2.9-1    stabs_0.6-3     lme4_1.1-19     Matrix_1.2-14  
+ [8] brms_2.6.0      Rcpp_1.0.0      forcats_0.3.0   stringr_1.3.1   dplyr_0.7.8     purrr_0.2.5     readr_1.1.1    
+[15] tidyr_0.8.2     tibble_1.4.2    ggplot2_3.1.0   tidyverse_1.2.1
+
+loaded via a namespace (and not attached):
+  [1] readxl_1.1.0              backports_1.1.2           plyr_1.8.4                igraph_1.2.2             
+  [5] lazyeval_0.2.1            svUnit_0.7-12             TMB_1.7.15                splines_3.4.4            
+  [9] crosstalk_1.0.0           TH.data_1.0-9             rstantools_1.5.1          inline_0.3.15            
+ [13] digest_0.6.18             htmltools_0.3.6           rsconnect_0.8.11          lmerTest_3.0-1           
+ [17] fansi_0.4.0               magrittr_1.5              modelr_0.1.2              matrixStats_0.54.0       
+ [21] xts_0.11-2                sandwich_2.5-0            prettyunits_1.0.2         colorspace_1.3-2         
+ [25] rvest_0.3.2               haven_1.1.2               callr_3.0.0               crayon_1.3.4             
+ [29] jsonlite_1.5              libcoin_1.0-1             bindr_0.1.1               survival_2.42-3          
+ [33] zoo_1.8-4                 glue_1.3.0                gtable_0.2.0              nnls_1.4                 
+ [37] emmeans_1.3.0             sjstats_0.17.2            sjmisc_2.7.6              pkgbuild_1.0.2           
+ [41] rstan_2.18.2              abind_1.4-5               scales_1.0.0              mvtnorm_1.0-8            
+ [45] ggeffects_0.6.0           miniUI_0.1.1.1            xtable_1.8-3              HDInterval_0.2.0         
+ [49] ggstance_0.3.1            foreign_0.8-70            Formula_1.2-3             stats4_3.4.4             
+ [53] prediction_0.3.6          StanHeaders_2.18.0        DT_0.5                    htmlwidgets_1.3          
+ [57] httr_1.3.1                threejs_0.3.1             arrayhelpers_1.0-20160527 RColorBrewer_1.1-2       
+ [61] modeltools_0.2-22         pkgconfig_2.0.2           loo_2.0.0                 utf8_1.1.4               
+ [65] labeling_0.3              tidyselect_0.2.5          rlang_0.3.0.1             reshape2_1.4.3           
+ [69] later_0.7.5               munsell_0.5.0             cellranger_1.1.0          tools_3.4.4              
+ [73] cli_1.0.1                 sjlabelled_1.0.14         broom_0.5.0               ggridges_0.5.1           
+ [77] arm_1.10-1                yaml_2.2.0                processx_3.2.0            knitr_1.20               
+ [81] coin_1.2-2                nlme_3.1-137              mime_0.6                  xml2_1.2.0               
+ [85] debugme_1.1.0             compiler_3.4.4            bayesplot_1.6.0           shinythemes_1.1.2        
+ [89] rstudioapi_0.8            stringi_1.2.4             ps_1.2.1                  Brobdingnag_1.2-6        
+ [93] lattice_0.20-35           psych_1.8.10              nloptr_1.2.1              markdown_0.8             
+ [97] shinyjs_1.0               stringdist_0.9.5.1        pillar_1.3.0              pwr_1.2-2                
+[101] bridgesampling_0.6-0      estimability_1.3          data.table_1.11.8         httpuv_1.4.5             
+[105] R6_2.3.0                  promises_1.0.1            gridExtra_2.3             codetools_0.2-15         
+[109] colourpicker_1.0          MASS_7.3-50               gtools_3.8.1              assertthat_0.2.0         
+[113] withr_2.1.2               shinystan_2.5.0           mnormt_1.5-5              multcomp_1.4-8           
+[117] hms_0.4.2                 quadprog_1.5-5            grid_3.4.4                rpart_4.1-13             
+[121] coda_0.19-2               glmmTMB_0.2.2.0           minqa_1.2.4               inum_1.0-0               
+[125] snakecase_0.9.2           partykit_1.2-2            numDeriv_2016.8-1         shiny_1.2.0              
+[129] lubridate_1.7.4           base64enc_0.1-3           dygraphs_1.1.1.6
+</code></pre>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/rstats/">rstats</a>
+  
+  <a class="badge badge-light" href="/tag/bayesian-statistics/">bayesian statistics</a>
+  
+  <a class="badge badge-light" href="/tag/predicts/">PREDICTS</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://martinjung.eu"><img class="avatar mr-3 avatar-circle" src="/authors/martin/avatar_hu82fcb6dd3b7b779fe0100acef468d9c2_23090_270x270_fill_q75_lanczos_center.jpg" alt="Martin Jung"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://martinjung.eu">Martin Jung</a></h5>
+      <h6 class="card-subtitle">Research Scholar</h6>
+      <p class="card-text">Helping to achieve the sustainable development goals.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Martin_Ecology" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="http://linkedin.com/in/jungmartin" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Martin-Jung" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://gis.stackexchange.com/users/6988/curlew" target="_blank" rel="noopener">
+        <i class="fab fa-stack-overflow"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=qa-Dz6QAAAAJ&amp;hl" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://publons.com/author/589847/martin-jung" target="_blank" rel="noopener">
+        <i class="ai ai-publons"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Martin_Jung4" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/2018_xgbboostcuda/">Using the GPU for gradient descent boosting</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  <p class="powered-by">
+    © 2021 Martin Jung
+  </p>
+  <p style="font-size:12px;">
+   &bull; <a href="uploads/mj-pubkey.asc">PGP public <i class="fa fa-key"></i></a> &bull; <br />
+   <b>PGP fingerprint:</b>
+   BD4B 2D2C B8E3 A95B 076A
+   6FA0 99DC 99BA 1BC8 BC37
+  </p>
+
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" rel="noopener noreferrer" target="_blank">CC BY NC SA 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-sa fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/julia.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    <script src="/js/_vendor/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.f3e5a2ed0c33ddcaef88a720b0abe966.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
