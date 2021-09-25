@@ -73,7 +73,7 @@ gp
 
 &lt;figure  id=&#34;figure-paired-correlation-plot-between-all-land-cover-classes-and-some-vegetation-indicators&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div &gt;
+    &lt;div class=&#34;w-100&#34; &gt;
         &lt;img alt=&#34;Paired correlation plot between all land cover classes and some vegetation indicators&#34; srcset=&#34;
                /post/2018_xgbboostcuda/pairs_hu6932c458e2e94b85d1963bd3d5058f37_141352_94d9a126cf60169f585152a0aa1ca5d3.png 400w,
                /post/2018_xgbboostcuda/pairs_hu6932c458e2e94b85d1963bd3d5058f37_141352_576d910bce95c891f23cfe199b1f7205.png 760w,
@@ -143,7 +143,7 @@ predict
 
 &lt;figure  id=&#34;figure-cpu-cores-on-my-laptop-heavily-at-work&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div &gt;
+    &lt;div class=&#34;w-100&#34; &gt;
         &lt;img alt=&#34;CPU cores on my laptop heavily at work...&#34; srcset=&#34;
                /post/2018_xgbboostcuda/boostFullCPU_huce142060669ffeda424dd826ebe000b6_284556_9905da6edb121a32b058d87e61d016d0.png 400w,
                /post/2018_xgbboostcuda/boostFullCPU_huce142060669ffeda424dd826ebe000b6_284556_007d8ac1d4acb564ba266c7424be52a1.png 760w,
@@ -208,7 +208,7 @@ Sys.time() - x1
       <guid>https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/</guid>
       <description>&lt;p&gt;Why argue for Bayesian models? Most researchers and data scientists have specific  - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as &lt;em&gt;Prior&lt;/em&gt; and the effect und uncertainty surrounding this. Most standard analytical tools do not account for this information. In fact &lt;strong&gt;every&lt;/strong&gt; statistical tool makes some kind of assumptions about your data. Computers do not now &lt;em&gt;per se&lt;/em&gt; how your data looks or what limits it. By not providing this kind of information, the algorithm essentially has to guess or make uninformed assumptions, which can be quite unrealistic in applied settings.&lt;/p&gt;
 &lt;p&gt;Or as Richard McElreath puts it:
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Still seeing researchers rejecting Bayes bc priors make them uncomfortable.&lt;br&gt;&lt;br&gt;If you don&amp;#39;t like priors, then don&amp;#39;t use Bayes. But you must do something to control overfitting. And that something will act a lot like a prior.  &lt;a href=&#34;https://t.co/FAZdcDS4B7&#34;&gt;https://t.co/FAZdcDS4B7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Richard McElreath 🦔🧇 (@rlmcelreath) &lt;a href=&#34;https://twitter.com/rlmcelreath/status/1032318199713460224?ref_src=twsrc%5Etfw&#34;&gt;August 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Still seeing researchers rejecting Bayes bc priors make them uncomfortable.&lt;br&gt;&lt;br&gt;If you don&amp;#39;t like priors, then don&amp;#39;t use Bayes. But you must do something to control overfitting. And that something will act a lot like a prior.  &lt;a href=&#34;https://t.co/FAZdcDS4B7&#34;&gt;https://t.co/FAZdcDS4B7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Richard McElreath 🍜 (@rlmcelreath) &lt;a href=&#34;https://twitter.com/rlmcelreath/status/1032318199713460224?ref_src=twsrc%5Etfw&#34;&gt;August 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;/p&gt;
 &lt;p&gt;Here is an example using data from one of my PhD chapters where I worked with the &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.2579&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PREDICTS database&lt;/a&gt;, a global database of local biodiversity records. A particular feature of the PREDICTS data collection is that the sites of biodiversity sampling are &amp;ldquo;re-categorized&amp;rdquo; into land-use categories such as &lt;em&gt;Primary vegetation&lt;/em&gt; or &lt;em&gt;Pasture&lt;/em&gt;.&lt;/p&gt;
@@ -315,7 +315,7 @@ plot(fit2, ask =F)
 
 &lt;figure  id=&#34;figure-there-are-some-irregularities-in-the-iterations-of-the-mcmc-that-do-not-look-completely-random-yet-and-more-interations-might-help-or-alternatively-specifying-a-prior-for-the-intercept-&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div &gt;&lt;img src=&#34;posts/brmsMCMCchains.png&#34; alt=&#34;There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :) &#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;posts/brmsMCMCchains.png&#34; alt=&#34;There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :) &#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :)
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -355,7 +355,7 @@ ggplot(out %&amp;gt;% relIntercept(.),
 
 &lt;figure  id=&#34;figure-ignore-the-error-bars-for-now-as-they-are-not-directly-comparable-see-below&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div &gt;&lt;img src=&#34;posts/brmsModelcoef1.png&#34; alt=&#34;Ignore the error bars for now as they are not directly comparable (see below).&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;posts/brmsModelcoef1.png&#34; alt=&#34;Ignore the error bars for now as they are not directly comparable (see below).&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Ignore the error bars for now as they are not directly comparable (see below).
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -396,7 +396,7 @@ Quite differently. Notice how local species richness &lt;em&gt;monotonically&lt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div &gt;&lt;img src=&#34;posts/brmsModelcoef2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;posts/brmsModelcoef2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;Overall it does seem as if we have to reject the idea of &amp;ldquo;land-use gradients&amp;rdquo; at least if those gradients are quantified through categorical entities. One could argue that some - human altered - land-use categories can have higher number of species than some natural land use. Thinking for example of urban habitats for plants (lots of gardens, exotics and non-natives).&lt;/p&gt;
 &lt;p&gt;In my PhD I try to find ways to capture land dynamics on a continuous unit scale rather than through categorical estimates. Look our for new results of this idea soon&amp;hellip;&lt;/p&gt;

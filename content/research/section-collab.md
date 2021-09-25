@@ -26,13 +26,14 @@ design:
 ---
 
 
+- Piero Visconti (International Institute for Applied Systems Analysis, Austria)
+- Tim Newbold (Centre for Biodiversity and Environment Research, University College London, UK)
 - Jörn Scharlemann (University of Sussex, UK)
 - Pedram Rowhani (University of Sussex, UK)
-- Tim Newbold (Centre for Biodiversity and Environment Research, University College London, UK)
-- Neil Burgess (UNEP-WCMC, UK)
-- Andy Purvis (Natural History Museum London, UK)
-- Samantha Hill (UNEP-WCMC, UK)
 - Michael Obersteiner (Oxford University, UK)
-- Piero Visconti (International Institute for Applied Systems Analysis, Austria)
+- Neil Burgess (UNEP-WCMC, UK)
+- Samantha Hill (UNEP-WCMC, UK)
+- Andy Purvis (Natural History Museum London, UK)
 - Myroslava Lesiv (International Institute for Applied Systems Analysis, Austria)
 - Steffen Fritz (International Institute for Applied Systems Analysis, Austria)
+- Luca Santini (Sapienza University of Rome, Italy)

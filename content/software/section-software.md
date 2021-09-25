@@ -28,8 +28,6 @@ design:
 ## Code
 ### ibis.iSDM - Modelling framework for creating Integrated Biodiversity distribution scenarios
 
-![SDM](https://raw.githubusercontent.com/iiasa/ibis.iSDM/master/man/figures/README-unnamed-chunk-5-1.png?token=AA444WOUPMIQPZTOZULRHP3AOK5OM)
-
 The ibis.iSDM package provides a series of convenience functions to fit integrated Species Distribution Models (iSDMs). With integrated models we generally refer to SDMs that incorporate information from different biodiversity datasets, external parameters such as priors or offsets or constrains such as vital rates with respect to certain variables and regions.
 
 <i class="fab fa-r-project"></i> [Code](https://github.com/iiasa/ibis.iSDM)

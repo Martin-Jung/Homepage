@@ -34,7 +34,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div &gt;
+    &lt;div class=&#34;w-100&#34; &gt;
         &lt;img alt=&#34;&#34; srcset=&#34;
                /post/2019_lecos-update/lecos_screen_hu91ab304568b6608623ffe8831242465d_51211_8c8b6469dc7410630e734d8a21607166.png 400w,
                /post/2019_lecos-update/lecos_screen_hu91ab304568b6608623ffe8831242465d_51211_83749d8ff008d701017b000c916da059.png 760w,

@@ -25,7 +25,7 @@ design:
 #    text_color_light: true
 ---
 
-In most instances, political decisions and actions have to be undertaken today if we are improve the situation in the future. In terms of policy-advise this equates to the creation of (spatial-explicit) scenarios that highlight the costs and opportunities of actions that can be undertaken. Working at [IIASA](https://www.iiasa.ac.at) I have become increasingly interested and involved in the creation of biodiversity-relevant scenarios for policy advise.
+As scientists we should highlight pathways to improve the current state instead and in most instances, political decisions and actions have to be undertaken today, if we are improve the situation in the future. In terms of scientific policy-advise this equates to the creation of (spatial-explicit) scenarios that highlight the costs and opportunities of actions that can be undertaken. Working at [IIASA](https://www.iiasa.ac.at) I have become increasingly interested and involved in the creation of biodiversity-relevant scenarios for policy advise using integrated assessment models (IAMs).
 
 {{<figure src="btc.png" caption="Plausible scenarios of bending the curve of biodiversity loss while maintaining sufficient food provision. Figure from Leclère et. al. (2020)">}}
 

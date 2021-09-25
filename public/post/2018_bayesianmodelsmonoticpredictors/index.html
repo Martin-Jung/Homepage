@@ -7,12 +7,9 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.0.0-beta.3 for Hugo" />
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
   
 
-  
-
-  
   
 
   
@@ -240,7 +237,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.00dd9dcf8135aa7c7706c69745502f11.css" />
+  <link rel="stylesheet" href="/css/wowchemy.a8421fc8fb0f3970f3334351cee930e9.css" />
 
   
 
@@ -415,7 +412,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.b024895df05e271929739bb54886c674.js"></script>
+  <script src="/js/wowchemy-init.min.226a9011996d125bf3fe4a5f22353a49.js"></script>
 
   
 
@@ -830,7 +827,7 @@
     <div class="article-style">
       <p>Why argue for Bayesian models? Most researchers and data scientists have specific  - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as <em>Prior</em> and the effect und uncertainty surrounding this. Most standard analytical tools do not account for this information. In fact <strong>every</strong> statistical tool makes some kind of assumptions about your data. Computers do not now <em>per se</em> how your data looks or what limits it. By not providing this kind of information, the algorithm essentially has to guess or make uninformed assumptions, which can be quite unrealistic in applied settings.</p>
 <p>Or as Richard McElreath puts it:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Still seeing researchers rejecting Bayes bc priors make them uncomfortable.<br><br>If you don&#39;t like priors, then don&#39;t use Bayes. But you must do something to control overfitting. And that something will act a lot like a prior.  <a href="https://t.co/FAZdcDS4B7">https://t.co/FAZdcDS4B7</a></p>&mdash; Richard McElreath 🦔🧇 (@rlmcelreath) <a href="https://twitter.com/rlmcelreath/status/1032318199713460224?ref_src=twsrc%5Etfw">August 22, 2018</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Still seeing researchers rejecting Bayes bc priors make them uncomfortable.<br><br>If you don&#39;t like priors, then don&#39;t use Bayes. But you must do something to control overfitting. And that something will act a lot like a prior.  <a href="https://t.co/FAZdcDS4B7">https://t.co/FAZdcDS4B7</a></p>&mdash; Richard McElreath 🍜 (@rlmcelreath) <a href="https://twitter.com/rlmcelreath/status/1032318199713460224?ref_src=twsrc%5Etfw">August 22, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </p>
 <p>Here is an example using data from one of my PhD chapters where I worked with the <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.2579" target="_blank" rel="noopener">PREDICTS database</a>, a global database of local biodiversity records. A particular feature of the PREDICTS data collection is that the sites of biodiversity sampling are &ldquo;re-categorized&rdquo; into land-use categories such as <em>Primary vegetation</em> or <em>Pasture</em>.</p>
@@ -937,7 +934,7 @@ plot(fit2, ask =F)
 
 <figure  id="figure-there-are-some-irregularities-in-the-iterations-of-the-mcmc-that-do-not-look-completely-random-yet-and-more-interations-might-help-or-alternatively-specifying-a-prior-for-the-intercept-">
   <div class="d-flex justify-content-center">
-    <div ><img src="posts/brmsMCMCchains.png" alt="There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :) " loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img src="posts/brmsMCMCchains.png" alt="There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :) " loading="lazy" data-zoomable /></div>
   </div><figcaption>
       There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :)
     </figcaption></figure>
@@ -977,7 +974,7 @@ ggplot(out %&gt;% relIntercept(.),
 
 <figure  id="figure-ignore-the-error-bars-for-now-as-they-are-not-directly-comparable-see-below">
   <div class="d-flex justify-content-center">
-    <div ><img src="posts/brmsModelcoef1.png" alt="Ignore the error bars for now as they are not directly comparable (see below)." loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img src="posts/brmsModelcoef1.png" alt="Ignore the error bars for now as they are not directly comparable (see below)." loading="lazy" data-zoomable /></div>
   </div><figcaption>
       Ignore the error bars for now as they are not directly comparable (see below).
     </figcaption></figure>
@@ -1018,7 +1015,7 @@ Quite differently. Notice how local species richness <em>monotonically</em> decl
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div ><img src="posts/brmsModelcoef2.png" alt="" loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img src="posts/brmsModelcoef2.png" alt="" loading="lazy" data-zoomable /></div>
   </div></figure>
 <p>Overall it does seem as if we have to reject the idea of &ldquo;land-use gradients&rdquo; at least if those gradients are quantified through categorical entities. One could argue that some - human altered - land-use categories can have higher number of species than some natural land use. Thinking for example of urban habitats for plants (lots of gardens, exotics and non-natives).</p>
 <p>In my PhD I try to find ways to capture land dynamics on a continuous unit scale rather than through categorical estimates. Look our for new results of this idea soon&hellip;</p>
@@ -1321,7 +1318,7 @@ loaded via a namespace (and not attached):
     © 2021 Martin Jung
   </p>
   <p style="font-size:12px;">
-   &bull; <a href="uploads/mj-pubkey.asc">PGP public <i class="fa fa-key"></i></a> &bull; <br />
+   &bull; <a href="/uploads/mj-pubkey.asc">PGP public <i class="fa fa-key"></i></a> &bull; <br />
    <b>PGP fingerprint:</b>
    BD4B 2D2C B8E3 A95B 076A
    6FA0 99DC 99BA 1BC8 BC37
@@ -1471,7 +1468,8 @@ loaded via a namespace (and not attached):
     
     
 
-    <script src="/js/_vendor/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
 
     
     
@@ -1496,7 +1494,7 @@ loaded via a namespace (and not attached):
       
     
     
-    <script src="/en/js/wowchemy.min.f3e5a2ed0c33ddcaef88a720b0abe966.js"></script>
+    <script src="/en/js/wowchemy.min.b61a8f62b6e5c0cd322c8158c5b5dfb6.js"></script>
 
     
 

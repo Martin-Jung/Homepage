@@ -19,7 +19,7 @@ main:
 # To create a dropdown sub-menu, add identifier = "a-unique-reference" to the parent item and
 # parent = "a-unique-reference" to the child item, replacing a-unique-reference with a unique reference of your choice.
   - name: Software & data
-    url: 'software/index'
+    url: 'software/'
     identifier: 'softwaredata'
     weight: 50
   - name: Data

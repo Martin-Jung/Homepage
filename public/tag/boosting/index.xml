@@ -73,7 +73,7 @@ gp
 
 &lt;figure  id=&#34;figure-paired-correlation-plot-between-all-land-cover-classes-and-some-vegetation-indicators&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div &gt;
+    &lt;div class=&#34;w-100&#34; &gt;
         &lt;img alt=&#34;Paired correlation plot between all land cover classes and some vegetation indicators&#34; srcset=&#34;
                /post/2018_xgbboostcuda/pairs_hu6932c458e2e94b85d1963bd3d5058f37_141352_94d9a126cf60169f585152a0aa1ca5d3.png 400w,
                /post/2018_xgbboostcuda/pairs_hu6932c458e2e94b85d1963bd3d5058f37_141352_576d910bce95c891f23cfe199b1f7205.png 760w,
@@ -143,7 +143,7 @@ predict
 
 &lt;figure  id=&#34;figure-cpu-cores-on-my-laptop-heavily-at-work&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div &gt;
+    &lt;div class=&#34;w-100&#34; &gt;
         &lt;img alt=&#34;CPU cores on my laptop heavily at work...&#34; srcset=&#34;
                /post/2018_xgbboostcuda/boostFullCPU_huce142060669ffeda424dd826ebe000b6_284556_9905da6edb121a32b058d87e61d016d0.png 400w,
                /post/2018_xgbboostcuda/boostFullCPU_huce142060669ffeda424dd826ebe000b6_284556_007d8ac1d4acb564ba266c7424be52a1.png 760w,
