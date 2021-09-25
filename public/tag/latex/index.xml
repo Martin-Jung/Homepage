@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latex | Martin Jung</title>
+    <link>https://martinjung.eu/tag/latex/</link>
+      <atom:link href="https://martinjung.eu/tag/latex/index.xml" rel="self" type="application/rss+xml" />
+    <description>latex</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2021 Martin Jung </copyright><lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_300x300_fit_lanczos_2.png</url>
+      <title>latex</title>
+      <link>https://martinjung.eu/tag/latex/</link>
+    </image>
+    
+    <item>
+      <title>LateX template for Sussex PhD theses</title>
+      <link>https://martinjung.eu/post/2019_latex-template/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0100</pubDate>
+      <guid>https://martinjung.eu/post/2019_latex-template/</guid>
+      <description>&lt;p&gt;This is a rather short post informing anyone who might read this post and is likely a Sussex PhD student (and presumably found this blog via google, hello google bot :-) ), that I created an &lt;u&gt;&lt;strong&gt;unofficial&lt;/strong&gt;&lt;/u&gt; template for Sussex PhD students. I ensured that the template is formatted as required by the Sussex doctoral school, however the template is provided &lt;strong&gt;as is&lt;/strong&gt; and I am not liable for any errors or damages caused by using this template (see license in repository). I am not connected to the University of Sussex Doctoral School.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Martin-Jung/Sussex_PhDThesis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Martin-Jung/Sussex_PhDThesis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is the blank &lt;a href=&#34;https://github.com/Martin-Jung/Sussex_PhDThesis/blob/master/main.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pdf&lt;/a&gt; to see the output. Obviously format and structure can entirely be edited, but this obviously requires more in depth knowledge of TeX. I recommend using &lt;a href=&#34;http://overleaf.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;overleaf&lt;/a&gt; for writing.
+The template itself might also be good as base to build your own template in case you are a PhD student from another University.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

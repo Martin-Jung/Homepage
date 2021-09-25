@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>phd | Martin Jung</title>
+    <link>https://martinjung.eu/category/phd/</link>
+      <atom:link href="https://martinjung.eu/category/phd/index.xml" rel="self" type="application/rss+xml" />
+    <description>phd</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2021 Martin Jung </copyright><lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_300x300_fit_lanczos_2.png</url>
+      <title>phd</title>
+      <link>https://martinjung.eu/category/phd/</link>
+    </image>
+    
+    <item>
+      <title>LateX template for Sussex PhD theses</title>
+      <link>https://martinjung.eu/post/2019_latex-template/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0100</pubDate>
+      <guid>https://martinjung.eu/post/2019_latex-template/</guid>
+      <description>&lt;p&gt;This is a rather short post informing anyone who might read this post and is likely a Sussex PhD student (and presumably found this blog via google, hello google bot :-) ), that I created an &lt;u&gt;&lt;strong&gt;unofficial&lt;/strong&gt;&lt;/u&gt; template for Sussex PhD students. I ensured that the template is formatted as required by the Sussex doctoral school, however the template is provided &lt;strong&gt;as is&lt;/strong&gt; and I am not liable for any errors or damages caused by using this template (see license in repository). I am not connected to the University of Sussex Doctoral School.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Martin-Jung/Sussex_PhDThesis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Martin-Jung/Sussex_PhDThesis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is the blank &lt;a href=&#34;https://github.com/Martin-Jung/Sussex_PhDThesis/blob/master/main.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pdf&lt;/a&gt; to see the output. Obviously format and structure can entirely be edited, but this obviously requires more in depth knowledge of TeX. I recommend using &lt;a href=&#34;http://overleaf.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;overleaf&lt;/a&gt; for writing.
+The template itself might also be good as base to build your own template in case you are a PhD student from another University.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testing multilevel Bayesian models with ordered categorical predictors</title>
+      <link>https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0100</pubDate>
+      <guid>https://martinjung.eu/post/2018_bayesianmodelsmonoticpredictors/</guid>
+      <description>&lt;p&gt;Why argue for Bayesian models? Most researchers and data scientists have specific  - domain - knowledge about the subject they analyse data for. In a Bayesian analysis framework this knowledge can be refereed to as &lt;em&gt;Prior&lt;/em&gt; and the effect und uncertainty surrounding this. Most standard analytical tools do not account for this information. In fact &lt;strong&gt;every&lt;/strong&gt; statistical tool makes some kind of assumptions about your data. Computers do not now &lt;em&gt;per se&lt;/em&gt; how your data looks or what limits it. By not providing this kind of information, the algorithm essentially has to guess or make uninformed assumptions, which can be quite unrealistic in applied settings.&lt;/p&gt;
+&lt;p&gt;Or as Richard McElreath puts it:
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Still seeing researchers rejecting Bayes bc priors make them uncomfortable.&lt;br&gt;&lt;br&gt;If you don&amp;#39;t like priors, then don&amp;#39;t use Bayes. But you must do something to control overfitting. And that something will act a lot like a prior.  &lt;a href=&#34;https://t.co/FAZdcDS4B7&#34;&gt;https://t.co/FAZdcDS4B7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Richard McElreath 🍜 (@rlmcelreath) &lt;a href=&#34;https://twitter.com/rlmcelreath/status/1032318199713460224?ref_src=twsrc%5Etfw&#34;&gt;August 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;Here is an example using data from one of my PhD chapters where I worked with the &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.2579&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PREDICTS database&lt;/a&gt;, a global database of local biodiversity records. A particular feature of the PREDICTS data collection is that the sites of biodiversity sampling are &amp;ldquo;re-categorized&amp;rdquo; into land-use categories such as &lt;em&gt;Primary vegetation&lt;/em&gt; or &lt;em&gt;Pasture&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;A number of high-profile papers have been produced using PREDICTS data such as the one by my old supervisor, who used Hierarchical linear mixed effects models to estimate the average difference in species richness with land use globally
+&lt;a href=&#34;http://discovery.ucl.ac.uk/1464937/1/Newbold%20etal%202015%20Nature%20Submitted.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Newbold et al. 2015)&lt;/a&gt;. Have a look at Newbold &lt;em&gt;et al.&lt;/em&gt; for more information about the study design and methods.&lt;/p&gt;
+&lt;p&gt;The interesting question here is:
+&lt;strong&gt;Should we consider land use as a monotonic gradient?&lt;/strong&gt; Or in other words: Do we expect that the difference between all categories other than the intercept (Primary vegetation) is negative, so a loss in species richness?
+&lt;br&gt;
+Another information that we can include is the expected difference or slope of local species loss. For instance we also can&amp;rsquo;t have more than 100 % loss of species richness for any site, so we have thus information about the - prior - distribution of the expected slope&lt;/p&gt;
+&lt;p&gt;Most PREDICTS data has been released and is openly available through the &lt;a href=&#34;http://data.nhm.ac.uk/dataset/the-2016-release-of-the-predicts-database&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National History Museum London&lt;/a&gt; and it should be possible to prepare a data frame similar to the one I used here.&lt;/p&gt;
+&lt;br&gt;
+Lets first fit a roughly comparable model to Newbold et al. 2015:
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Load packages and data for this project
+library(tidyverse)
+library(tidybayes)
+library(brms)
+library(lme4)
+library(sjPlot)
+
+# Load biodiversity site dataset
+sites &amp;lt;- readRDS(&amp;quot;~/../PhD/Projects/P5_MagnitudeBreakpoints/PREDICTS_allsites.rds&amp;quot;)
+# Merge primary vegetation to single category as reference
+sites &amp;lt;- subset(sites,Predominant_habitat != &amp;quot;Cannot decide&amp;quot;)# Drop Cannot decide from the factors
+sites$Predominant_habitat &amp;lt;- fct_collapse(sites$Predominant_habitat,&amp;quot;Primary vegetation&amp;quot; = c(&amp;quot;Primary forest&amp;quot;,&amp;quot;Primary non-forest&amp;quot;))
+
+# Here all the categories we consider
+sites$Predominant_habitat &amp;lt;- factor(sites$Predominant_habitat,
+                                    levels = c(&amp;quot;Primary vegetation&amp;quot;,&amp;quot;Young secondary vegetation&amp;quot;,&amp;quot;Intermediate secondary vegetation&amp;quot;,&amp;quot;Mature secondary vegetation&amp;quot;,
+                                               &amp;quot;Secondary vegetation (indeterminate age)&amp;quot;,&amp;quot;Plantation forest&amp;quot;,&amp;quot;Pasture&amp;quot;,&amp;quot;Cropland&amp;quot;,&amp;quot;Urban&amp;quot;),
+                                    ordered = T)
+sites$SS &amp;lt;- factor(sites$SS)
+
+# A prediction container for later
+nd &amp;lt;- data.frame(Predominant_habitat = factor(levels(sites$Predominant_habitat),levels = levels(sites$Predominant_habitat),ordered = T) ) # Prediction frame
+
+# A function to transform all estimates relative to the intercept (that is primary vegetation)
+relIntercept &amp;lt;- function(df){
+  return( df %&amp;gt;% group_by(model) %&amp;gt;%
+    mutate(fit = ( fit / fit[which(Predominant_habitat==&amp;quot;Primary vegetation&amp;quot;)])-1,
+           fit.low = (fit.low / fit[which(Predominant_habitat==&amp;quot;Primary vegetation&amp;quot;)])-1,
+           fit.high = (fit.high / fit[which(Predominant_habitat==&amp;quot;Primary vegetation&amp;quot;)])-1
+    ) %&amp;gt;% ungroup()
+  )
+}
+
+# First for lme4 using a &amp;quot;classic&amp;quot; predicts model and reproduce a model similar to Newbold et al. 2015
+# As simple test we on use two random intercepts, the study and a spatial block within study
+fit1 &amp;lt;- glmer(Species_richness ~ Predominant_habitat + (1|SS) + (1|SSB),
+              data = sites,family = poisson(link = &amp;quot;log&amp;quot;))
+
+# Save output
+out &amp;lt;-
+  data.frame(
+  Predominant_habitat = nd$Predominant_habitat,
+  fit = predict(fit1,newdata=nd,re.form=NA,type = &amp;quot;link&amp;quot;),
+  fit.se = arm::se.fixef(fit1), # Get the standard error of the coefficients
+  model = &amp;quot;lme4&amp;quot;
+) %&amp;gt;% mutate(
+  fit.low = exp((fit - fit.se*1.96)), # naively multiply the wald standard errors with 1.96
+  fit.high = exp((fit + fit.se*1.96)),
+  fit = exp(fit)
+)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now lets create a similar model using a Bayesian framework. Here I will use the excellent &lt;em&gt;brms&lt;/em&gt; package to skip the lengthy procedure of writing Stan code myself. This is a &lt;strong&gt;very&lt;/strong&gt; simple model for demonstration purposes and can very likely quite improved.&lt;/p&gt;
+&lt;p&gt;The Equation for the bayesian multi-level model :&lt;/p&gt;
+&lt;p&gt;$$
+\begin{eqnarray}
+\text{Species richness}_i &amp;amp; \sim &amp;amp; \text{Poisson} (\mu_i) \\\&lt;br&gt;
+\text{log} (\mu_i) &amp;amp; = &amp;amp; \alpha + \alpha_{\text{Study}_i} + \alpha_{\text{Spatial block}_i} + \beta (\text{Land use}_i) \\\&lt;br&gt;
+\beta &amp;amp; \sim &amp;amp; \text{Normal} (0, 1) \\\&lt;br&gt;
+\alpha_{\text{Study,Spatial block}} &amp;amp; \sim &amp;amp; \text{Normal} (0, \sigma_{\text{Study,Spatial block}}) \\\&lt;br&gt;
+\sigma_{\text{Study,Spatial block}} &amp;amp; \sim &amp;amp; \text{HalfCauchy} (0, 2) \\\&lt;br&gt;
+\end{eqnarray}
+$$
+Priors for both intercepts are identical although one could argue that the spatial block should be specified differently given that it is nested within study.&lt;/p&gt;
+&lt;p&gt;and can be fitted like thos:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;fit2 &amp;lt;- brm(Species_richness ~ Predominant_habitat + (1|SS) + (1|SSB),
+            data = sites,family = poisson(link = &amp;quot;log&amp;quot;),
+            prior = prior(normal(0,1), class = b) + # Normal distributed prior for beta
+              prior(cauchy(0,2), class = sd), # Half cauchy prior for uncertainty
+            chains = 2, cores = 6, iter = 2000) # Fit using 6 cores and 2000 iterations of 2 MCMC chains
+
+# ... This takes a while.
+# Made myself dinner
+
+# How did we do?
+# (showing only the intercept)
+plot(fit2, ask =F)
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-there-are-some-irregularities-in-the-iterations-of-the-mcmc-that-do-not-look-completely-random-yet-and-more-interations-might-help-or-alternatively-specifying-a-prior-for-the-intercept-&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;posts/brmsMCMCchains.png&#34; alt=&#34;There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :) &#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      There are some irregularities in the iterations of the MCMC that do not look completely random yet and more interations might help. Or alternatively specifying a prior for the intercept :)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;br&gt;
+Lets compare the two models in their predicted impact of land use on species richness.
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Get the prediction from the bayesian model
+out &amp;lt;- bind_rows(out,
+                 # Summarise from the fitted posterior values
+                 fitted_draws(fit2,nd,re_formula = NA) %&amp;gt;% group_by(Predominant_habitat) %&amp;gt;% mean_qi(.value) %&amp;gt;%
+                   select(Predominant_habitat,.value,.lower,.upper) %&amp;gt;% rename(fit = &amp;quot;.value&amp;quot;,fit.low = &amp;quot;.lower&amp;quot;, fit.high = &amp;quot;.upper&amp;quot;) %&amp;gt;%
+                   mutate(fit.se = NA, model = &amp;quot;brms1&amp;quot;)
+)
+
+# Plot them both
+ggplot(out %&amp;gt;% relIntercept(.),
+       aes(x = fct_rev( Predominant_habitat ), y = fit, ymin = fit.low, ymax = fit.high, group = model, color =model)) +
+  theme_default() + coord_flip()+
+  geom_pointrange(position = position_dodge(.5)) + geom_hline(yintercept = 0, linetype = &amp;quot;dotted&amp;quot;)+
+  scale_y_continuous(breaks = scales::pretty_breaks(5)) +
+  scale_colour_brewer(palette = &amp;quot;Set1&amp;quot;) +
+  labs(x=&amp;quot;&amp;quot;,y = &amp;quot;Predicted difference in Species richness&amp;quot;) + theme(axis.text.x = element_text(size = 15))
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-ignore-the-error-bars-for-now-as-they-are-not-directly-comparable-see-below&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;posts/brmsModelcoef1.png&#34; alt=&#34;Ignore the error bars for now as they are not directly comparable (see below).&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Ignore the error bars for now as they are not directly comparable (see below).
+    &lt;/figcaption&gt;&lt;/figure&gt;
+It is noteworthy that the uncertainty for lme4 is the estimated standard error of the fitted object (&lt;strong&gt;!&lt;/strong&gt;), while for brms the estimation error is drawn only from the fitted values of the posterior.&lt;/p&gt;
+&lt;p&gt;Still so far both models are quite similar and indicate comparable, mean losses of species richness as shown in the Newbold et al. 2015 Nature paper.
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Now here comes the interesting part. Paul Brückner, the author of the &lt;em&gt;brms&lt;/em&gt; R package has recently released a new &lt;a href=&#34;https://psyarxiv.com/9qkhj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint&lt;/a&gt; discussing the addition of monotonic effects to the &lt;em&gt;brms&lt;/em&gt; package. &lt;a href=&#34;https://en.wikipedia.org/wiki/Monotonic_function&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Monotonic functions&lt;/a&gt; can be applied ordinal predictors for which a monotonic relationship (increasing, decreasing, concave, convex) is highly plausible.&lt;/p&gt;
+&lt;p&gt;Fitting those kind of models in brms is now straight forward. We use the default uniform Dirichlet priors which according to Brückner generalize well.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fit3 &amp;lt;- brm(Species_richness ~ mo(Predominant_habitat) + (1|SS) + (1|SSB),
+            data = sites,family = poisson(link = &amp;quot;log&amp;quot;),
+            prior = prior(normal(0,1), class = b) + prior(cauchy(0,2), class = sd),
+            chains = 2, cores = 6, iter = 2000)
+
+# Lets compare both models
+waic(fit2,fit3)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It does seem that the model without a monotonic effect is a better fit to the data.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;                WAIC     SE
+fit2        170240.73 990.35
+fit3        170533.55 997.99
+fit2 - fit3   -292.82  99.12
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;How do the fitted effects compare ?
+Quite differently. Notice how local species richness &lt;em&gt;monotonically&lt;/em&gt; declines with every further &amp;ldquo;level&amp;rdquo; of land use.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;posts/brmsModelcoef2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Overall it does seem as if we have to reject the idea of &amp;ldquo;land-use gradients&amp;rdquo; at least if those gradients are quantified through categorical entities. One could argue that some - human altered - land-use categories can have higher number of species than some natural land use. Thinking for example of urban habitats for plants (lots of gardens, exotics and non-natives).&lt;/p&gt;
+&lt;p&gt;In my PhD I try to find ways to capture land dynamics on a continuous unit scale rather than through categorical estimates. Look our for new results of this idea soon&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sessioninfo&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;R version 3.4.4 (2018-03-15)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 18.04.1 LTS
+
+Matrix products: default
+BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+
+locale:
+ [1] LC_CTYPE=en_GB.UTF-8       LC_NUMERIC=C               LC_TIME=en_GB.UTF-8        LC_COLLATE=en_GB.UTF-8    
+ [5] LC_MONETARY=en_GB.UTF-8    LC_MESSAGES=en_GB.UTF-8    LC_PAPER=en_GB.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C             LC_MEASUREMENT=en_GB.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] tidybayes_1.0.3 bindrcpp_0.2.2  sjPlot_2.6.1    mboost_2.9-1    stabs_0.6-3     lme4_1.1-19     Matrix_1.2-14  
+ [8] brms_2.6.0      Rcpp_1.0.0      forcats_0.3.0   stringr_1.3.1   dplyr_0.7.8     purrr_0.2.5     readr_1.1.1    
+[15] tidyr_0.8.2     tibble_1.4.2    ggplot2_3.1.0   tidyverse_1.2.1
+
+loaded via a namespace (and not attached):
+  [1] readxl_1.1.0              backports_1.1.2           plyr_1.8.4                igraph_1.2.2             
+  [5] lazyeval_0.2.1            svUnit_0.7-12             TMB_1.7.15                splines_3.4.4            
+  [9] crosstalk_1.0.0           TH.data_1.0-9             rstantools_1.5.1          inline_0.3.15            
+ [13] digest_0.6.18             htmltools_0.3.6           rsconnect_0.8.11          lmerTest_3.0-1           
+ [17] fansi_0.4.0               magrittr_1.5              modelr_0.1.2              matrixStats_0.54.0       
+ [21] xts_0.11-2                sandwich_2.5-0            prettyunits_1.0.2         colorspace_1.3-2         
+ [25] rvest_0.3.2               haven_1.1.2               callr_3.0.0               crayon_1.3.4             
+ [29] jsonlite_1.5              libcoin_1.0-1             bindr_0.1.1               survival_2.42-3          
+ [33] zoo_1.8-4                 glue_1.3.0                gtable_0.2.0              nnls_1.4                 
+ [37] emmeans_1.3.0             sjstats_0.17.2            sjmisc_2.7.6              pkgbuild_1.0.2           
+ [41] rstan_2.18.2              abind_1.4-5               scales_1.0.0              mvtnorm_1.0-8            
+ [45] ggeffects_0.6.0           miniUI_0.1.1.1            xtable_1.8-3              HDInterval_0.2.0         
+ [49] ggstance_0.3.1            foreign_0.8-70            Formula_1.2-3             stats4_3.4.4             
+ [53] prediction_0.3.6          StanHeaders_2.18.0        DT_0.5                    htmlwidgets_1.3          
+ [57] httr_1.3.1                threejs_0.3.1             arrayhelpers_1.0-20160527 RColorBrewer_1.1-2       
+ [61] modeltools_0.2-22         pkgconfig_2.0.2           loo_2.0.0                 utf8_1.1.4               
+ [65] labeling_0.3              tidyselect_0.2.5          rlang_0.3.0.1             reshape2_1.4.3           
+ [69] later_0.7.5               munsell_0.5.0             cellranger_1.1.0          tools_3.4.4              
+ [73] cli_1.0.1                 sjlabelled_1.0.14         broom_0.5.0               ggridges_0.5.1           
+ [77] arm_1.10-1                yaml_2.2.0                processx_3.2.0            knitr_1.20               
+ [81] coin_1.2-2                nlme_3.1-137              mime_0.6                  xml2_1.2.0               
+ [85] debugme_1.1.0             compiler_3.4.4            bayesplot_1.6.0           shinythemes_1.1.2        
+ [89] rstudioapi_0.8            stringi_1.2.4             ps_1.2.1                  Brobdingnag_1.2-6        
+ [93] lattice_0.20-35           psych_1.8.10              nloptr_1.2.1              markdown_0.8             
+ [97] shinyjs_1.0               stringdist_0.9.5.1        pillar_1.3.0              pwr_1.2-2                
+[101] bridgesampling_0.6-0      estimability_1.3          data.table_1.11.8         httpuv_1.4.5             
+[105] R6_2.3.0                  promises_1.0.1            gridExtra_2.3             codetools_0.2-15         
+[109] colourpicker_1.0          MASS_7.3-50               gtools_3.8.1              assertthat_0.2.0         
+[113] withr_2.1.2               shinystan_2.5.0           mnormt_1.5-5              multcomp_1.4-8           
+[117] hms_0.4.2                 quadprog_1.5-5            grid_3.4.4                rpart_4.1-13             
+[121] coda_0.19-2               glmmTMB_0.2.2.0           minqa_1.2.4               inum_1.0-0               
+[125] snakecase_0.9.2           partykit_1.2-2            numDeriv_2016.8-1         shiny_1.2.0              
+[129] lubridate_1.7.4           base64enc_0.1-3           dygraphs_1.1.1.6
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New PhD paper - Pairwise differences in photosynthetic activity</title>
+      <link>https://martinjung.eu/post/2018_newphdpublication/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0200</pubDate>
+      <guid>https://martinjung.eu/post/2018_newphdpublication/</guid>
+      <description>&lt;p&gt;I can now happily announce that the first chapter of my PhD has been accepted and is going to be published in the Journal &lt;a href=&#34;https://onlinelibrary.wiley.com/journal/16000587&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ecography&lt;/a&gt;. In this piece I investigated whether pairwise compositional differences between species assemblages (so in the identity and amount of species found in a given place and time) can be explained by a dissimilarity in remotely-sensed vegetation index. &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;I furthermore found that past dissimilarities in photosynthetic activity improved the overall fit relative to current dissimilarities, therefore hinting at a &lt;em&gt;lag-effect&lt;/em&gt; that can be investigated via remote sensing. Also quite cool is that we use - to my knowledge for the first time - the same dissimilarity metric (the &lt;strong&gt;Bray-Curtis&lt;/strong&gt; index) to quantify both differences between species assemblages and entire remotely-sensed time series of photosynthetic activity.
+Terminology and writeup took quite a while for this piece, so I am quite happy that it is finally out.
+\&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

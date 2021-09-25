@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python | Martin Jung</title>
+    <link>https://martinjung.eu/category/python/</link>
+      <atom:link href="https://martinjung.eu/category/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>python</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2021 Martin Jung </copyright><lastBuildDate>Tue, 26 Feb 2019 22:33:06 +0000</lastBuildDate>
+    <image>
+      <url>https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_300x300_fit_lanczos_2.png</url>
+      <title>python</title>
+      <link>https://martinjung.eu/category/python/</link>
+    </image>
+    
+    <item>
+      <title>LecoS ported to QGIS3</title>
+      <link>https://martinjung.eu/post/2019_lecos-update/</link>
+      <pubDate>Tue, 26 Feb 2019 22:33:06 +0000</pubDate>
+      <guid>https://martinjung.eu/post/2019_lecos-update/</guid>
+      <description>&lt;p&gt;QGIS remains my go-to default QGIS software and I have contributed some python plugins to it in the past. These include the &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1574954115001879&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LecoS&lt;/a&gt; plugin, which has been cited &lt;strong&gt;22&lt;/strong&gt; times so far and still appears to be widely used by researchers and practitioner alike [I do remember helping out with a workshop in Nairobi quite a while back, where everybody appeared to know the plugin].&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;&#34; srcset=&#34;
+               /post/2019_lecos-update/lecos_screen_hu91ab304568b6608623ffe8831242465d_51211_8c8b6469dc7410630e734d8a21607166.png 400w,
+               /post/2019_lecos-update/lecos_screen_hu91ab304568b6608623ffe8831242465d_51211_83749d8ff008d701017b000c916da059.png 760w,
+               /post/2019_lecos-update/lecos_screen_hu91ab304568b6608623ffe8831242465d_51211_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://martinjung.eu/post/2019_lecos-update/lecos_screen_hu91ab304568b6608623ffe8831242465d_51211_8c8b6469dc7410630e734d8a21607166.png&#34;
+               width=&#34;689&#34;
+               height=&#34;349&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;However because of other commitments (writing up my PhD thesis at the moment) I am unable to further develop this neat little piece of software. Furthermore I programmed LecoS mainly for my own use in the past, while these days I would probably use the excellent and comprehensive &lt;a href=&#34;https://r-spatialecology.github.io/landscapemetrics/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;landscapemetrics&lt;/a&gt; R-package. Nevertheless LecoS might still be useful for those people without coding knowledge and unwilling to apply a separate piece of software (Fragstats).&lt;/p&gt;
+&lt;p&gt;I can now announce that LecoS has finally been ported to QGIS 3. This can almost entirely be credited to &lt;a href=&#34;https://github.com/caiohamamura&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Caio Hamamura&lt;/a&gt;, who led the code restructuring from QGIS2 to QGIS3. The new LecoS version 3.0 for QGIS3 should already be available from the QGIS plugin server. Thanks Caio!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robust correlations with xarray and dask</title>
+      <link>https://martinjung.eu/post/2018_xarrayregression/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0200</pubDate>
+      <guid>https://martinjung.eu/post/2018_xarrayregression/</guid>
+      <description>&lt;p&gt;I perform most of my analyses using either &lt;strong&gt;R&lt;/strong&gt; or standalone &lt;strong&gt;GDAL&lt;/strong&gt; tools simply because of their general convenience and ease of use. Standard spatial analysis functions and tools are in my opinion still more readily available in R and most R packages are quite mature and well designed ( &lt;a href=&#34;http://www.rspatial.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;but see the readme&lt;/a&gt; ). Nevertheless &lt;strong&gt;python&lt;/strong&gt; has caught up and a number of really helpful python modules for spatial analyses have been released to this date. I have always loved coding in python since I developed my &lt;a href=&#34;https://github.com/Martin-Jung/LecoS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LecoS plugin&lt;/a&gt;, especially because of it&amp;rsquo;s processing speed (doing any computation on numpy arrays is quite fun) and clean synthax. In this post I will demonstrate how to make use of the new (?) &lt;a href=&#34;http://xarray.pydata.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xarray&lt;/a&gt; (previously xray) python module to load remotely-sensed data and run &amp;ldquo;pixel-wise&amp;rdquo; correlation tests on them.&lt;/p&gt;
+&lt;p&gt;I cannot release the shown spatial data, however any &amp;lsquo;stack&amp;rsquo; of remotely-sensed data or multiple satellite images will do as long as you can assign a time dimension/axis to the array.&lt;/p&gt;
+&lt;p&gt;All python modules should be easible downloadable via the package manager of your choice such as wheel, pip and conda &amp;amp; co.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;So what is &lt;strong&gt;xarray&lt;/strong&gt;? In short it is a python package that enables explicit computation on labeled, multi-dimensional arrays, such as those commonly obtained from geophysical models or repeated satellite images. Think of it as a convenience wrapper that combines the best of &lt;a href=&#34;https://pandas.pydata.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pandas&lt;/a&gt; data structures with numpy&amp;rsquo;s array functionalities. It has been developed specifically with geophysical applications in mind and therefore should be quite useful for anyone using such data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://xarray.pydata.org/en/stable/_images/dataset-diagram.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;loading-and-plotting-data&#34;&gt;Loading and plotting data&lt;/h3&gt;
+&lt;p&gt;So how does it work? Let&amp;rsquo;s get started.&lt;br&gt;
+First load the default packages that we are going to use later.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Necessary defaults
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import stats
+import pandas as pd
+import os, sys
+
+# Xarray
+import xarray as xr
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next let us load some spatial data. In my example it is a stack of annual &lt;strong&gt;Landsat&lt;/strong&gt; composite images created for the period 1984-2017. Each composite quantifies the Enhanced Vegetation Index (&lt;strong&gt;EVI&lt;/strong&gt;) for a given year. My test data is roughly 100mB big, but all code presented can easily be scaled up to hundreds of GB.&lt;br&gt;
+In the newest xarray version we can use the fantastic &lt;strong&gt;rasterio&lt;/strong&gt; python interface to load commonly-used spatial data such as GeoTiffs.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;route = &amp;quot;test_2063.tif&amp;quot;
+ds = xr.open_rasterio(route).rename({&#39;x&#39;: &#39;Longitude&#39;, &#39;y&#39;: &#39;Latitude&#39;, &#39;band&#39;: &#39;year&#39;})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Spatial-temporal satellite data comes with at least 3 dimensions. The spatial dimensions describing the rows and columns of the matrix as well as a third dimension usually associated with time (year, year-month, date, &amp;hellip;). xarray furthermore loads any spatial attributes (such as spatial extents, cell resolution or geographic projections) it can find and assigns them to the DataArray.&lt;br&gt;
+Here is how my data looks: (note the attributes!)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;&amp;lt;xarray.DataArray (year: 34, Latitude: 1318, Longitude: 1555)&amp;gt;
+[69682660 values with dtype=float32]
+Coordinates:
+  * year       (year) int64 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 ...
+  * Latitude   (Latitude) float64 32.6 32.6 32.6 32.6 32.6 32.6 32.6 32.6 ...
+  * Longitude  (Longitude) float64 -87.94 -87.94 -87.94 -87.94 -87.94 -87.94 ...
+Attributes:
+    transform:   (-87.9403950755027, 0.0002694945852365922, 0.0, 32.599951492...
+    crs:         +init=epsg:4326
+    res:         (0.0002694945852365922, 0.00026949458523998555)
+    is_tiled:    0
+    nodatavals:  (-3.4e+38, -3.4e+38, -3.4e+38, -3.4e+38, -3.4e+38, -3.4e+38,...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We are going to the data and try to create a spatial visualization. xarray has inbuilt plotting capabilities to visualize both temporal and spatial data using matplotlib. In my example I first alter the temporal dimension to have the correct time axis. I furthermore convert my xarray DataArray to a DataSet (&lt;a href=&#34;http://xarray.pydata.org/en/stable/data-structures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;more here on the difference &lt;/a&gt;) and also filter the array to encorporate only positive values.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create a series with years
+dates = pd.date_range(&#39;1984-01-01&#39;, periods=34,freq = &amp;quot;A&amp;quot;).year
+ds.coords[&amp;quot;year&amp;quot;] = dates # Reset dates
+ds = ds.to_dataset(&amp;quot;EVI&amp;quot;) # Convert to dataset
+# Create a subset to run calcution on and correct scale + filter
+img = ds.pipe(lambda x: x * 0.0001)
+img = img.where(img &amp;gt;= 0)  
+# Select the last item of year and plot it
+img.isel(year=33).EVI.plot(robust=True,cmap=&#39;viridis&#39;)
+# Finally plot a test year
+plt.title(&#39;Annual EVI in year %s&#39; % (&#39;2017&#39;) )
+plt.ylabel(&#39;Latitude&#39;)
+plt.xlabel(&#39;Longitude&#39;)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://martinjung.eu/img/posts/AnnualEVI.png&#34; alt=&#34;Annual EVI as quantified by Landsat&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;basic-and-applied-calculations&#34;&gt;Basic and applied calculations&lt;/h3&gt;
+&lt;p&gt;Next let us conduct some spatial-temporal analyses.&lt;br&gt;
+The xarray created above can in principle easily be summarized as a whole or on the pixel level. Both can be easily achieved by grouping observations on the pixel level.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;ds2.EVI.groupby(&#39;year&#39;).std().plot()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://martinjung.eu/img/posts/StdEVI.png&#34; alt=&#34;Standard deviation as time series&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Equally if we want to quantify the standard deviation across all 34 years in the stack&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;ds2.EVI.groupby(&#39;Longitude&#39;,&#39;Latitude&#39;).std(&#39;year&#39;).plot()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://martinjung.eu/img/posts/StdEVI_spatial.png&#34; alt=&#34;Standard deviation per pixel&#34;&gt;&lt;/p&gt;
+&lt;p&gt;But what if want to apply a defined method over each pixel in given xarray?
+This is again possible, but a little bit more complicated.
+First we need to define a function that performs the requested analysis and returns a single value. In my example I want to calculate &lt;a href=&#34;https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kendall&amp;rsquo;s rank correlation test&lt;/a&gt; for each time series over all pixels. Remember how we imported the &lt;strong&gt;scipy&lt;/strong&gt; stats package at the start of this post? To save time and harddrive space, we simply want to know for this simple example whether EVI is &amp;ldquo;significantly&amp;rdquo; ($p = 0.05$) increasing over the whole time series.
+So let us build a function:
+\&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+def k_cor(x,y, pthres = 0.05, direction = True):
+    &amp;quot;&amp;quot;&amp;quot;
+    Uses the scipy stats module to calculate a Kendall correlation test
+    :x vector: Input pixel vector to run tests on
+    :y vector: The date input vector
+    :pthres: Significance of the underlying test
+    :direction: output only direction as output (-1 &amp;amp; 1)
+    &amp;quot;&amp;quot;&amp;quot;
+    # Check NA values
+    co = np.count_nonzero(~np.isnan(x))
+    if co &amp;lt; 4: # If fewer than 4 observations return -9999
+        return -9999
+    # Run the kendalltau test
+    tau, p_value = stats.kendalltau(x, y)
+
+    # Criterium to return results in case of Significance
+    if p_value &amp;lt; pthres:
+        # Check direction
+        if direction:
+            if tau &amp;lt; 0:
+                return -1
+            elif tau &amp;gt; 0:
+                return 1
+        else:
+            return tau
+    else:
+      return 0  
+
+# The function we are going to use for applying our kendal test per pixel
+def kendall_correlation(x,y,dim=&#39;year&#39;):
+    # x = Pixel value, y = a vector containing the date, dim == dimension
+    return xr.apply_ufunc(
+        k_cor, x , y,
+        input_core_dims=[[dim], [dim]],
+        vectorize=True, # !Important!
+        output_dtypes=[int]
+        )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next we execute our new function and to do so we first need to create a new DataArray that contains the y variable (date in our example). Afterwards we can apply our function on the loaded xarray.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;x = xr.DataArray(np.arange(len(ds2[&#39;year&#39;]))+1, dims=&#39;year&#39;,
+                 coords={&#39;year&#39;: ds2[&#39;year&#39;]})  
+r = kendall_correlation(ds2, x,&#39;year&#39;)                 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This whole computation took us roughly 1min and 54 seconds on my Lenovo laptop.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://martinjung.eu/img/posts/kcorEVI.png&#34; alt=&#34;Correlation test&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;further-speed-ups&#34;&gt;Further speed ups&lt;/h3&gt;
+&lt;p&gt;In many cases an execution on a local computer hardly makes sense and is time inefficient. Particularly if your data is too large to fit into memory. This is usually the case with earth-observation data, which can easily become larger than 10GB++ .&lt;/p&gt;
+&lt;p&gt;Luckily xarray supports parallel execution via the optional Dask &lt;a href=&#34;http://xarray.pydata.org/en/stable/dask.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;integration&lt;/a&gt;. So what is dask? Compared to standard numpy array calculations it supports lazy evaluation of any supplied code. This means that your code is only executed on the dataset as soon as you tell dask+xarray to do so (via the &lt;strong&gt;compute()&lt;/strong&gt; function ). Dask divides your array into many small pieces, so called chunks, each of which is presumed to be small enough to fit into memory. Chunking your data enables better parallelization which can easily be scaled up over multiple CPU cores or entire clusters of machines.
+&lt;img src=&#34;https://martinjung.eu/img/posts/grid_search_schedule.gif&#34; alt=&#34;Dask distributed scheduler&#34;&gt;
+&lt;br&gt;
+So how do we enable dask for your computation ? This is actually quite simple.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Import dask stuff
+import dask.array as da
+from dask.diagnostics import ProgressBar
+
+# Then while loading in your data specify that you want your data to be loaded as chunks
+# A more optimal chunk size for your data can really speed up computation
+# So ensure that your dataset is correctly chuncked.
+ds = xr.open_rasterio(route,chunks={&#39;band&#39;: 34, &#39;x&#39;: 1000, &#39;y&#39;: 1000}).rename({&#39;x&#39;: &#39;Longitude&#39;, &#39;y&#39;: &#39;Latitude&#39;, &#39;band&#39;: &#39;year&#39; })                         
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You will notice that your DataArray has now become a dask-array&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;&amp;lt;xarray.DataArray (year: 34, Latitude: 1318, Longitude: 1555)&amp;gt;
+dask.array&amp;lt;shape=(34, 1318, 1555), dtype=float32, chunksize=(34, 100, 100)&amp;gt;
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next you have to enable dask in your apply function and compute the result&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def kendall_correlation(x,y,dim=&#39;year&#39;):
+    return xr.apply_ufunc(
+        mk_cor, x , y,
+        input_core_dims=[[dim], [dim]],
+        vectorize=True,
+        dask=&#39;parallelized&#39;, # Note the addition !!!
+        output_dtypes=[int]
+        )
+
+# Make a little ProgressBar
+with ProgressBar():
+    # Until &#39;compute&#39; is run, no computation is executed
+    r = kendall_correlation(ds2, x,&#39;year&#39;).compute()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Running my computation with dask decreased the whole processing time down to 45s !&lt;/p&gt;
+&lt;p&gt;But there is more we can do to further speed up the computation. By enabling &lt;a href=&#34;http://numba.pydata.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;numba&lt;/a&gt; as just-in-time (JIT) byte compiler for our kendall correlation function we can squeeze a couple more seconds out. Numba compiles your python function into a byte-compiled snip that is a lot faster to execute.
+One can enable the JIT compiler as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from numba import jit #  Speedup for python functions
+
+@jit(nogil=True) # Enable JIT compiler
+def k_cor(x,y, pthres = 0.05, direction = True):
+  ...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note all this was run on a rather small dataset. The more data you have and the more computational intensive your analysis becomes, the more do the steps above improve your execution time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;My system info&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux Ubuntu - Codename bionic&lt;/li&gt;
+&lt;li&gt;Python 3.6.5&lt;/li&gt;
+&lt;li&gt;Numpy 1.13.3&lt;/li&gt;
+&lt;li&gt;Xarray 0.10.2&lt;/li&gt;
+&lt;li&gt;dask 0.16.0&lt;/li&gt;
+&lt;li&gt;numba 0.34.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full source code as gist&lt;/strong&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/Martin-Jung/d1946abc4310bc5a1cd50c53d1b029a7.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

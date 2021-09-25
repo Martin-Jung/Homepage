@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gpu | Martin Jung</title>
+    <link>https://martinjung.eu/tag/gpu/</link>
+      <atom:link href="https://martinjung.eu/tag/gpu/index.xml" rel="self" type="application/rss+xml" />
+    <description>gpu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2021 Martin Jung </copyright><lastBuildDate>Fri, 16 Nov 2018 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_300x300_fit_lanczos_2.png</url>
+      <title>gpu</title>
+      <link>https://martinjung.eu/tag/gpu/</link>
+    </image>
+    
+    <item>
+      <title>Using the GPU for gradient descent boosting</title>
+      <link>https://martinjung.eu/post/2018_xgbboostcuda/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0100</pubDate>
+      <guid>https://martinjung.eu/post/2018_xgbboostcuda/</guid>
+      <description>&lt;p&gt;Running machine learning algorithms on large amounts of data can take considerable time. There are multiple ways of speeding up your code. The most obvious is to properly parallize your code and/or - assuming R or python is used - replace certain functions that cause a bottleneck to faster languages such as C++ or &lt;a href=&#34;https://julialang.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Julia&lt;/a&gt;. What also works is to simply have more computational power. In a previous &lt;a href=&#34;https://martinjung.eu/post/2018_datascienceingooglecloud/&#34;&gt;post&lt;/a&gt; I elaborated on how to make use of the google cloud processing platform. Rather than CPU power another, often overlooked way, is to rely a bit more on the graphical processing unit (GPU) of the computer. Obviously this can be done in the cloud as well.&lt;/p&gt;
+&lt;p&gt;Here is some data that I briefly worked on during my PhD. Those are globally distributed crowd-sourced land cover training sites from &lt;a href=&#34;https://www.nature.com/articles/sdata201775&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fritz &lt;em&gt;et al.&lt;/em&gt; (2016)&lt;/a&gt;. They contain information about land cover broadly following the LCCS global land cover legend. For all sites I extracted spectral data from the MODIS satellites as well some other environmental data such as precipitation and elevation range or slope.&lt;/p&gt;
+&lt;p&gt;Here is how the data looks:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Load packages
+library(caret)        # harmonized model
+library(xgboost)      # Extreme Gradient Boosting
+library(doParallel)		# parallel processing
+library(mlbench)      # machine learning optimization routines
+library(tidyverse)        # Used by caret
+library(lubridate) # For time series objects
+library(gbm)				  # GBM Models
+library(jsonlite) # For the training data
+library(ggplot2); library(scales)
+library(GGally) # For sophisticated plotting
+
+# Load only the high resolution data (tagged used high-res images)
+training_fritz &amp;lt;- readRDS(&amp;quot;TrainingFritzPrepared.rds&amp;quot;) %&amp;gt;% dplyr::filter(Resolution == 1) # Only high resolution
+
+# These are land cover categories considered
+cols = c(Mosaic..Cultivated.and.managed...Natural.vegetation= &amp;quot;brown&amp;quot;,
+         Tree.cover = &amp;quot;darkgreen&amp;quot;,
+         Shrub.cover = &amp;quot;lightgreen&amp;quot;,
+         Herbaceous.vegetation...Grassland = &amp;quot;orange&amp;quot;,
+         Urban = &amp;quot;black&amp;quot;,
+         Cultivated = &amp;quot;red&amp;quot;,
+         Barren = &amp;quot;grey&amp;quot;,
+         Water = &amp;quot;blue&amp;quot;)
+
+# Lets plot them
+gp &amp;lt;- ggpairs(data=training_fritz[,c(&amp;quot;Label&amp;quot;,&amp;quot;EVI2&amp;quot;,&amp;quot;NBR&amp;quot;,&amp;quot;NDMI&amp;quot;)],
+              columns = c(&amp;quot;EVI2&amp;quot;,&amp;quot;NBR&amp;quot;,&amp;quot;NDMI&amp;quot;),#diag=&amp;quot;blank&amp;quot;,
+              mapping=ggplot2::aes(colour = Label,alpha=.5))
+
+# ------- #
+for (row in seq_len(gp$nrow))
+  for (col in seq_len(gp$ncol))
+    gp[row, col] &amp;lt;- gp[row, col] + ggplot2::scale_color_manual(values = cols) + scale_fill_manual(values = cols)
+gp
+
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-paired-correlation-plot-between-all-land-cover-classes-and-some-vegetation-indicators&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Paired correlation plot between all land cover classes and some vegetation indicators&#34; srcset=&#34;
+               /post/2018_xgbboostcuda/pairs_hu6932c458e2e94b85d1963bd3d5058f37_141352_94d9a126cf60169f585152a0aa1ca5d3.png 400w,
+               /post/2018_xgbboostcuda/pairs_hu6932c458e2e94b85d1963bd3d5058f37_141352_576d910bce95c891f23cfe199b1f7205.png 760w,
+               /post/2018_xgbboostcuda/pairs_hu6932c458e2e94b85d1963bd3d5058f37_141352_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://martinjung.eu/post/2018_xgbboostcuda/pairs_hu6932c458e2e94b85d1963bd3d5058f37_141352_94d9a126cf60169f585152a0aa1ca5d3.png&#34;
+               width=&#34;673&#34;
+               height=&#34;492&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Paired correlation plot between all land cover classes and some vegetation indicators
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;extreme-gradient-descent-boosting&#34;&gt;Extreme Gradient descent boosting&lt;/h1&gt;
+&lt;p&gt;Gradient descent boosting methods commonly rule the leaderboard of most data science competitions with especially the &lt;a href=&#34;https://en.wikipedia.org/wiki/Xgboost&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xgboost&lt;/a&gt; being one of the most applied algorithms for feature learning and prediction.
+Lets try to predict land cover using this dataset&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;
+# First we create a training and out-of-bag testing dataset
+
+set.seed(31337) # Specfiy randomized seed
+# Create data partition
+samp &amp;lt;- createDataPartition(training_fritz$Label, p = 0.75, list = FALSE)
+# Split into training input and validate
+training &amp;lt;- training_fritz[samp,]  # ~ 4568 rows
+test &amp;lt;- training_fritz[-samp,] # OOB observations
+
+# Repeated cross validation for control for caret
+ctrl &amp;lt;- trainControl(
+  method=&amp;quot;repeatedcv&amp;quot;, # cross validation
+  number=10, # 10-fold
+  repeats = 5, # 5 times
+  savePredictions=&amp;quot;final&amp;quot;,
+  index=createResample(training$Label, 25), # The index for the ensemble
+  classProbs=TRUE,
+  allowParallel = TRUE,
+  verboseIter = TRUE # Verbose output
+)
+
+# Tuning parameters
+# Not going to specify anything here, but ideally one should have wide grid of parameters
+#tg.xgb &amp;lt;- expand.grid(nrounds = seq(125,200,by=25), lambda = c(0,0.01,0.001,0.0001,0.00001), alpha = c(0,0.01,0.001,0.0001,0.00001),eta= 0.3)
+
+# Now train
+x1 &amp;lt;- Sys.time()
+mod &amp;lt;- caret::train(as.formula( &amp;quot;Label ~ red + green + blue + nir + lst + swir1 + swir2 + elevation + slope + precip_range + NDVI + NDMI&amp;quot;),
+                  data = training,
+                  method = &amp;quot;xgbTree&amp;quot;, # xgb with Tree baselearner
+                  metric = &amp;quot;Accuracy&amp;quot;,
+                  trControl = ctrl,
+                  na.action = na.pass
+)
+Sys.time() - x1
+
+predict
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-cpu-cores-on-my-laptop-heavily-at-work&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;CPU cores on my laptop heavily at work...&#34; srcset=&#34;
+               /post/2018_xgbboostcuda/boostFullCPU_huce142060669ffeda424dd826ebe000b6_284556_9905da6edb121a32b058d87e61d016d0.png 400w,
+               /post/2018_xgbboostcuda/boostFullCPU_huce142060669ffeda424dd826ebe000b6_284556_007d8ac1d4acb564ba266c7424be52a1.png 760w,
+               /post/2018_xgbboostcuda/boostFullCPU_huce142060669ffeda424dd826ebe000b6_284556_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://martinjung.eu/post/2018_xgbboostcuda/boostFullCPU_huce142060669ffeda424dd826ebe000b6_284556_9905da6edb121a32b058d87e61d016d0.png&#34;
+               width=&#34;760&#34;
+               height=&#34;213&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      CPU cores on my laptop heavily at work&amp;hellip;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;The whole process takes on my relatively fast (ot at least it fast a few years ago) Thinkpad P50 laptop roughly &lt;strong&gt;14.27&lt;/strong&gt; minutes. The highest accuracy on the training data alone of this model was &lt;strong&gt;0.7646&lt;/strong&gt;, while the accuracy on the withold OOB data was &lt;strong&gt;0.7831&lt;/strong&gt; ( Kappa : 0.7208 ), which is fair.&lt;/p&gt;
+&lt;hr&gt;
+Now lets execute the same model but with enabled CUDA support. **Note** that in order to do this you need to have a [GPU that support CUDA](https://en.wikipedia.org/wiki/CUDA#GPUs_supported). My Laptop has a Quadro 1000M GPU, which is certainly not the fastest, but should do the trick. Furthermore xgboost has not by default GPU enabled so you need to recompile it before doing this.
+Here is how I did this on my Linux machine **Remember to deinstall the xgboost package first**
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone --recursive https://github.com/dmlc/xgboost
+cd xgboost
+mkdir build
+cd build
+cmake .. -DUSE_CUDA=ON -DR_LIB=ON
+make install -j
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If everything worked fine you should have a new package with GPU support. I had to relink my gcc++ libraries and getting the correct cuda version installed took some time.
+Now lets rerun:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;# For GPU processing reset the parallel processer as I have a single GPU
+ctrl &amp;lt;- trainControl(
+  method=&amp;quot;repeatedcv&amp;quot;, # cross validation
+  number=10, # 10-fold
+  repeats = 5, # 5 times
+  savePredictions=&amp;quot;final&amp;quot;,
+  index=createResample(training$Label, 25), # The index for the ensemble
+  classProbs=TRUE,
+  allowParallel = F,
+  verboseIter = TRUE # Verbose output
+)
+
+x1 &amp;lt;- Sys.time()
+mod_gpu &amp;lt;- caret::train(as.formula( &amp;quot;Label ~ red + green + blue + nir + lst + swir1 + swir2 + elevation + slope + precip_range + NDVI + NDMI&amp;quot;),
+                    data = training,
+                    method = &amp;quot;xgbTree&amp;quot;, # xgb with Tree baselearner
+                    metric = &amp;quot;Accuracy&amp;quot;,
+                    updater = &#39;grow_gpu&#39;,
+                    tree_method = &amp;quot;gpu_exact&amp;quot;,
+                    trControl = ctrl,
+                    na.action = na.pass
+)
+Sys.time() - x1
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Total execution speed now is down to &lt;strong&gt;12.42&lt;/strong&gt; minutes! Quite decent for my old GPU, but I guess a more powerful CPU might get even more out of it.&lt;/p&gt;
+&lt;p&gt;Some inspiration for this blogpost came from this PeerJ manuscript:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mitchell R, Frank E. (2017) Accelerating the XGBoost algorithm using GPU computing. PeerJ Computer Science 3:e127 &lt;a href=&#34;https://doi.org/10.7717/peerj-cs.127&#34;&gt;https://doi.org/10.7717/peerj-cs.127&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

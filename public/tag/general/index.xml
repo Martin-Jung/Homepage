@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general | Martin Jung</title>
+    <link>https://martinjung.eu/tag/general/</link>
+      <atom:link href="https://martinjung.eu/tag/general/index.xml" rel="self" type="application/rss+xml" />
+    <description>general</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2021 Martin Jung </copyright><lastBuildDate>Fri, 16 Jun 2017 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://martinjung.eu/media/logo_hu08891b619dca7ea3a10c5ed6def994ae_9949_300x300_fit_lanczos_2.png</url>
+      <title>general</title>
+      <link>https://martinjung.eu/tag/general/</link>
+    </image>
+    
+    <item>
+      <title>New professional website</title>
+      <link>https://martinjung.eu/post/2017_new-professional-website/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0200</pubDate>
+      <guid>https://martinjung.eu/post/2017_new-professional-website/</guid>
+      <description>&lt;p&gt;Welcome to my new starting website. My name is Martin Jung and I consider myself an Environmental and data scientist.  &lt;a href=&#34;https://martin-jung.github.io/#about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read here for more&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have abandoned my previous online presence, the &lt;a href=&#34;http://conservationecology.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conservation ecology blog&lt;/a&gt; since quite a while. Mostly because I was too preoccupied working on my PhD. However I also disliked the inflexibility of wordpress layouts and the added advertising below each wordpress.com article. Therefore the restart of my professional website powered by hugo and the academic theme. So feel welcome if you are a previous reader of my blog, but notice that I will put more emphasis on examples and demonstrations on this website.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to &lt;a href=&#34;https://martin-jung.github.io/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;contact me&lt;/a&gt;.&lt;br&gt;
+I&amp;rsquo;m particularly interested in scientific collaborations, consulting or data analyses offers. I also regularly give demonstrations and workshops on scientific data analysis (using R, python or QGIS), general data management (SQL database systems) and high performance computing. So please contact me if you think my services could be useful for your research group or company.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
