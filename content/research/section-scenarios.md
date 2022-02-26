@@ -25,13 +25,15 @@ design:
 #    text_color_light: true
 ---
 
-As scientists we should highlight pathways to improve the current state instead and in most instances, political decisions and actions have to be undertaken today, if we are improve the situation in the future. In terms of scientific policy-advise this equates to the creation of (spatial-explicit) scenarios that highlight the costs and opportunities of actions that can be undertaken. Working at [IIASA](https://www.iiasa.ac.at) I have become increasingly interested and involved in the creation of biodiversity-relevant scenarios for policy advise using integrated assessment models (IAMs).
+As scientists we should highlight pathways towards improving the current state of the environment and, to make scientific advise useful, provide guidance on the future impact of political decisions and actions undertaken today. In terms of scientific policy-advise this equates to the creation of (spatial-explicit) scenarios that highlight the impacts, leakage effects and opportunities of actions that can be undertaken. Working at [IIASA](https://www.iiasa.ac.at) I have become increasingly interested and involved in the creation of biodiversity-relevant scenarios for policy advise using integrated assessment models (IAMs).
 
 {{<figure src="btc.png" caption="Plausible scenarios of bending the curve of biodiversity loss while maintaining sufficient food provision. Figure from Leclère et. al. (2020)">}}
 
 **Keywords:** scenarios | bending-the-curve | planetary boundaries | half-earth | integrated-assessment
 
 **Selected manuscripts:**
+
+* Henry, R.C., Arneth, A., **Jung, M.** et al. Global and regional health and food security under strict conservation scenarios. (2022) *Nature Sustainability*. https://doi.org/10.1038/s41893-021-00844-x
 
 * Leclère, D., Obersteiner, M., Barrett, M., Butchart, S. H. M., Chaudhary, A., De Palma, A., […], **Jung, M.**, [...] Young, L. (2020). Bending the curve of terrestrial biodiversity needs an integrated strategy. *Nature*. https://doi.org/10.1038/s41586-020-2705-y
 

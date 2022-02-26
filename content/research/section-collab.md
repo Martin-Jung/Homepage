@@ -37,3 +37,4 @@ design:
 - Myroslava Lesiv (International Institute for Applied Systems Analysis, Austria)
 - Steffen Fritz (International Institute for Applied Systems Analysis, Austria)
 - Luca Santini (Sapienza University of Rome, Italy)
+- Jeffrey Hanson (University of Carleton, Canada)

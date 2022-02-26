@@ -25,7 +25,7 @@ design:
 #    text_color_light: true
 ---
 
-Funding for biodiversity is often limited and management for conservation or restoration has to be implemented in a way that is cost efficient and ideally beneficial to multiple assets, e.g. biodiversity as well as ecosystem services. I have used linear programming and optimization tools to derive delineations of global areas of importance for biodiversity and ecosystem services. Through future projects I am looking forward to expand on this work, particular the intersection between mapping synergies and tradeoffs between stakeholder preferences, land-use constrains, and the restoration of lost ecosystem service and biodiversity value.
+Funding for biodiversity is often limited and management for conservation or restoration has to be implemented in a way that is cost efficient and ideally beneficial to multiple assets, e.g. biodiversity as well as ecosystem services. I have used linear programming and optimization tools to derive delineations of global areas of importance for biodiversity and ecosystem services. We are expanding this work through ongoing projects, particular on considering further synergies and tradeoffs with Nature Constributions to People, integrating stakeholder preferences, and current and future land-use and climatic constrains.
 
 {{<figure src="naturemap.png" caption="Global joint priorities for conserving biodiversity, carbon and water assets. Figure from Jung et. al. (2021)">}}
 

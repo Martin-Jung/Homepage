@@ -25,11 +25,11 @@ design:
 #    text_color_light: true
 ---
 
-On the ground management and policy practitioners require robust information on whether interventions and changes in behaviour result in measurable differences in biodiversity. Working mainly with the [PREDICTS](http://www.predicts.org.uk/) and other global biodiversity databases I have investigated how we if and how we can establish linkages between local biodiversity change and remote sensing data, thus enabling cost-effective monitoring.
+On the ground management and policy practitioners require robust information on whether interventions and changes in behaviour result in measurable differences in biodiversity. Working with the [PREDICTS](http://www.predicts.org.uk/) and other global biodiversity databases I have investigated how we if and how we can establish linkages between local biodiversity change and remote sensing data, thus enabling cost-effective monitoring.
 
 {{<figure src="research-indicators.png" caption="Difference in local biodiversity after a land change. Figure from Jung et. al. (2019)">}}
 
-**Keywords:** biotic-lag | remotesensing | indicators | model-based integration
+**Keywords:** biotic-lag | remote sensing | indicators | model-based integration
 
 **Selected manuscripts:**
 

@@ -14,7 +14,7 @@ organizations:
   url: https://www.iiasa.ac.at/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Helping to achieve the sustainable development goals.
+bio: Trying to help achieving the sustainable development goals.
 
 # Interests to show in About widget
 interests:
@@ -82,4 +82,4 @@ email: "martinjung@zoho.com"
 highlight_name: false
 ---
 
-Researcher, currently employed at the International Institute for Applied Systems Analysis (IIASA) working on ecological, socio-economic and environmental nexus topics. Widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change. Specialist in remote-sensing analysis and interpreting spatial data. Many years of experience in project management and providing quantitative solutions to environmental problems.
+Researcher at the International Institute for Applied Systems Analysis (IIASA) working on ecological, socio-economic and environmental nexus topics. Widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change. Specialist in remote-sensing analysis and interpreting spatial data. Many years of experience in project management and providing quantitative solutions to environmental problems.

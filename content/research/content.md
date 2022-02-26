@@ -16,7 +16,7 @@ Specifically, I am very much interested in
 - **(c)** providing scientists and practitioners with robust environmental datasets and accurate biodiversity indicators.
 - **(d)** the creation of spatial and temporal scenarios and predictions of *what-if* assumptions and plausible future for humankind and wildlife on this planet.
 
-I enjoy thinking about and implementing novel approaches to better quantify the natural and anthropic world. Here I regularly use and combine remote-sensing, ecology and machine learning techniques.
+I enjoy thinking about and implementing novel approaches to better quantify the natural and anthropic world. Here I regularly use and combine remote-sensing, ecological statistics and machine learning techniques.
 
 You can find a full list of my scientific contributions [here](https://scholar.google.co.uk/citations?hl=en&pli=1&user=qa-Dz6QAAAAJ) and key people I [often collaborate](#section-collab) with at the bottom.
 
