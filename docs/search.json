@@ -4,14 +4,28 @@
     "href": "cv/index.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+    "text": "Download current CV"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to my website!",
+    "title": "Martin Jung",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nI am Gandalf the White, a renowned wizard and scholar of Middle-earth. Over the centuries, I have dedicated my life to studying the history, languages, and cultures of the peoples of Middle-earth. On this website, I offer a glimpse into my vast body of knowledge, ongoing research, and publications.\nMy research interests span the entirety of Middle-earth, from the distant past to the present day. I am particularly passionate about the languages and mythologies of the Elves, Dwarves, and Men, and I have made significant contributions to the understanding of these subjects. My studies of the natural world have also been extensive, and I am an expert in the flora and fauna of Middle-earth. Additionally, I have been involved in many important historical events and offer valuable first-hand accounts and insights on the past.\nNot only am I a scholar, but I am also a mentor and teacher. Over the centuries, I have had the honor of working with many young wizards, passing on my knowledge and experience to the next generation. I have a particular interest in the education of hobbits, whom I see as having great potential despite their small size and simple lifestyle. My teaching style is engaging and accessible, and I encourage my students to think critically and creatively.\nOn this website, you will find a selection of my published works, including scholarly articles, monographs, and translations. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be speaking. I invite you to explore my website and learn more about my life’s work as one of Middle-earth’s greatest scholars and thinkers. Please feel free to contact me if you have any questions or would like to discuss potential projects.\n\nView the tutorial for this template (+ download link)"
+    "text": "I am Martin, a Researcher at the International Institute for Applied Systems Analysis (IIASA) working on ecological, socio-economic and environmental nexus topics. I am widely interested in (Macro-)Ecology, Conservation Biology and Sustainability Science with regards to global change.\nI am a Specialist in remote-sensing analysis and interpreting spatial data, having many years of experience in project management and providing quantitative solutions to environmental problems.\nPlease feel free to contact me if you would like to discuss potential collaborations."
+  },
+  {
+    "objectID": "index.html#broad-interests",
+    "href": "index.html#broad-interests",
+    "title": "Martin Jung",
+    "section": "Broad Interests",
+    "text": "Broad Interests\n\nConservation biology\nScience Policy\nGlobal Change and Sustainability\nBiodiversity indicators\nGIS and Remote Sensing"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Martin Jung",
+    "section": "Education",
+    "text": "Education\nUniversity of Sussex | United Kingdom PhD in Environmental Science | 2019\nUniversity of Copenhagen | Denmark MSc in Biology | 2015\nPhilipps University of Marburg | Germany BSc in Biology | 2012"
   },
   {
     "objectID": "photography/index.html",
@@ -21,24 +35,45 @@
     "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the tutorial for this template (+ download link)"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
     "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
+    "text": "My scientific research broadly focusses on the nexus of land use, food production, biodiversity indicators and conservation planning. Specifically, I am very much interested in\nI enjoy thinking about and implementing novel approaches to better quantify the natural and anthropic world. Here I regularly use and combine remote-sensing, ecological statistics and machine learning techniques.\nYou can find a full list of my scientific contributions here and key people I often collaborate with at the bottom."
   },
   {
-    "objectID": "projects/index.html#the-languages-of-middle-earth",
-    "href": "projects/index.html#the-languages-of-middle-earth",
-    "title": "Projects",
-    "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
+    "objectID": "research/index.html#improving-biodiversity-indicators",
+    "href": "research/index.html#improving-biodiversity-indicators",
+    "title": "Research",
+    "section": "Improving biodiversity indicators",
+    "text": "Improving biodiversity indicators\n Difference in local biodiversity after a land change. Figure from Jung et. al. (2019) \nTo inform policy makers and practioners about the state of biodiversity, we need robust information on whether certain interventions and changes in behaviour might result in measurable differences in biodiversity outcomes. I regularly work with large global and national biodiversity databases and models and contribute towards making biodiversity indicators more robust and replicable. In particular I have investigated how we if and how we can establish linkages between local biodiversity change and remote sensing data, thus enabling cost-effective monitoring.\nKeywords: biotic-lag | remote sensing | indicators | model-based integration\nSelected manuscripts:\n\nJung, M. (2023). An Integrated Species Distribution Modelling Framework for Heterogeneous Biodiversity Data. Ecological Informatics 76: 102127. https://doi.org/10.1016/j.ecoinf.2023.102127\nJung, M. (2022) Predictability and Transferability of Local Biodiversity Environment Relationships’. PeerJ 10: e13872. https://doi.org/10.7717/peerj.13872.\nJung, M., Scharlemann, J. P. W., & Rowhani, P. (2020). Landscape-wide changes in land use and land cover correlate with, but rarely explain local biodiversity change. Landscape Ecology, 35(10), 2255–2273. https://doi.org/10.1007/s10980-020-01109-2\nJung, M., Rowhani, P., & Scharlemann, J. P. W. (2019). Impacts of past abrupt land change on local biodiversity globally. Nature Communications, 10(1), 5474. https://doi.org/10.1038/s41467-019-13452-3\nJung, M., Rowhani, P., Newbold, T., Bentley, L., Purvis, A., & Scharlemann, J. P. W. (2019). Local species assemblages are influenced more by past than current dissimilarities in photosynthetic activity. Ecography, 42(4), 670–682. https://doi.org/10.1111/ecog.04031"
   },
   {
-    "objectID": "projects/index.html#the-history-of-the-war-of-the-ring",
-    "href": "projects/index.html#the-history-of-the-war-of-the-ring",
-    "title": "Projects",
-    "section": "The History of the War of the Ring",
-    "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.\n\nView the tutorial for this template (+ download link)"
+    "objectID": "research/index.html#integrated-conservation-and-land-use-planning",
+    "href": "research/index.html#integrated-conservation-and-land-use-planning",
+    "title": "Research",
+    "section": "Integrated conservation and land-use planning",
+    "text": "Integrated conservation and land-use planning\n  Global joint priorities for conserving biodiversity, carbon and water assets. Figure from Jung et. al. (2021)  \nFunding for biodiversity is often limited and management for conservation or restoration has to be implemented in a way that is cost efficient and ideally beneficial to multiple assets, e.g. biodiversity as well as ecosystem services. I have used linear programming and optimization tools to derive delineations of global areas of importance for biodiversity and ecosystem services. I am expanding this work through ongoing projects, particular on onsidering further synergies and tradeoffs with Nature Constributions to People, integrating stakeholder preferences, and current and future land-use and climatic constrains.\nKeywords: conservation-planning | joint-optimization | spatial prioritization | integer programming\nSelected manuscripts:\n\nJung, M., André Alagador, D., Chapman, M., Hermoso, V., Kujala, H., O’Connor, L., Schinegger, R., Verburg, P.H. and Visconti. P. (2023) An Assessment of the State of Conservation Planning in Europe. Preprint. Open Science Framework, https://doi.org/10.31219/osf.io/8x2ug.\nJung, M, Arnell, A., de Lamo, X., García-Rangel, S., Lewis, M., Mark, J., Merow, C., et al. (2021) Areas of Global Importance for Conserving Terrestrial Biodiversity, Carbon and Water. Nature Ecology & Evolution 5, no. 11: 1499–1509. https://doi.org/10.1038/s41559-021-01528-7.\nFastre, C., Mogg, S., Jung, M., & Visconti, P. (2019). Targeted expansion of Protected Areas to maximise the persistence of terrestrial mammals. BioRxiv, 3124, 1–19. https://doi.org/10.1101/608992v2"
+  },
+  {
+    "objectID": "research/index.html#mapping-of-land-systems-and-ecosystems",
+    "href": "research/index.html#mapping-of-land-systems-and-ecosystems",
+    "title": "Research",
+    "section": "Mapping of land systems and ecosystems",
+    "text": "Mapping of land systems and ecosystems\n  A global map of terrestrial and marine habitat types. Figure from Jung et. al. (2020)  \nTo make adequate decisions and quantify the influence of environmental change on biodiversity and ecosystem services requires the best-available biophysical and socio-economic data. In various research projects I have led or been involved in creating new global and national datasets for the scientific community. Usually these data are created by either intersecting and harmonizing existing datasets or by applying innovative machine learning algorithms on remote-sensing imagery and climate variables. You can find some of the datasets that I created in the Data section.\nKeywords: Forest | habitats | ecosystems | remote-sensing | food production systems | fragmentation\nSelected manuscripts:\n\nJung, M., Dahal, P. R., Butchart, S. H. M., Donald, P. F., De Lamo, X., Lesiv, M., … Visconti, P. (2020). A global map of terrestrial habitat types. Scientific Data, 7(1), 256. https://doi.org/10.1038/s41597-020-00599-8\nHengl, T, Jung, M., & Visconti, P. (2020). Potential distribution of land cover classes (Potential Natural Vegetation) at 250 m spatial resolution (Version v0.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3631254"
+  },
+  {
+    "objectID": "research/index.html#scenarios-and-predictions",
+    "href": "research/index.html#scenarios-and-predictions",
+    "title": "Research",
+    "section": "Scenarios and predictions",
+    "text": "Scenarios and predictions\n  Plausible scenarios of bending the curve of biodiversity loss while maintaining sufficient food provision. Figure from Leclère et. al. (2020)  \nAs scientists we should highlight pathways towards improving the current state of the environment and, to make scientific advise useful, provide guidance on the future impact of political decisions and actions undertaken today. In terms of scientific policy-advise this equates to the creation of (spatial-explicit) scenarios that highlight the impacts, leakage effects and opportunities of actions that can be undertaken. Working at IIASA I have become increasingly interested and involved in the creation of biodiversity-relevant scenarios for policy advise using integrated assessment models (IAMs), teaming up with land-use modellers and economists.\nKeywords: scenarios | bending-the-curve | planetary boundaries | half-earth | integrated-assessment\nSelected manuscripts:\n\nHenry, R.C., Arneth, A., Jung, M. et al. Global and regional health and food security under strict conservation scenarios. (2022) Nature Sustainability. https://doi.org/10.1038/s41893-021-00844-x\nLeclère, D., Obersteiner, M., Barrett, M., Butchart, S. H. M., Chaudhary, A., De Palma, A., […], Jung, M., […] Young, L. (2020). Bending the curve of terrestrial biodiversity needs an integrated strategy. Nature. https://doi.org/10.1038/s41586-020-2705-y\nNewbold, T., Hudson, L. N., Arnell, A. P., Contu, S., De Palma, A., Ferrier, S., […], Jung, M., […] Purvis, A. (2016). Has land use pushed terrestrial biodiversity beyond the planetary boundary? A global assessment. Science, 353(6296), 288–291. https://doi.org/10.1126/science.aaf2201"
+  },
+  {
+    "objectID": "research/index.html#ongoing-and-past-collaborations",
+    "href": "research/index.html#ongoing-and-past-collaborations",
+    "title": "Research",
+    "section": "Ongoing and past Collaborations",
+    "text": "Ongoing and past Collaborations\n\nPiero Visconti (International Institute for Applied Systems Analysis, Austria)\nDavid Leclere (International Institute for Applied Systems Analysis, Austria)\nMichael Obersteiner (Oxford University, UK)\nNeil Burgess (UNEP-WCMC, UK)\nSamantha Hill (UNEP-WCMC, UK)\nAndy Purvis (Natural History Museum London, UK)\nTim Newbold (Centre for Biodiversity and Environment Research, University College London, UK)\nMyroslava Lesiv (International Institute for Applied Systems Analysis, Austria)\nSteffen Fritz (International Institute for Applied Systems Analysis, Austria)\nLuca Santini (Sapienza University of Rome, Italy)\nJeffrey Hanson (University of Carleton, Canada)\nJörn Scharlemann (University of Sussex, UK)\nPedram Rowhani (University of Sussex, UK)"
   }
 ]

@@ -2,13 +2,14 @@
 layout: page
 title: Curriculum vitae
 excerpt: My current CV
+date-modified: "today"
 execute:
-  freeze: true  # never re-render during project render
+  freeze: false  # never re-render during project render
 engine: knitr 
 resources:
-  - "cv.pdf"
+  - "MJung_CV.pdf"
 cv:
-  pdf: "cv.pdf"
+  pdf: "MJung_CV.pdf"
 ---
 
 ```{css echo=FALSE}
@@ -38,13 +39,5 @@ cv:
 </p>
 <div class="embed-container">
   <iframe src="`r rmarkdown::metadata$cv$pdf`" style="border: 0.5px"></iframe>
-</div>
-```
-
-
-
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
 </div>
 ```

@@ -1,52 +1,59 @@
-# This file controls the settings for your Quarto template from www.marvinschmitt.com
+# This file controls the settings the template
 
-# website settings
+# Website settings
 website:
-  title: "Gandalf"                                # Your name
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
+  title: "Martin Jung" # Your name
+  description: "Researcher in Environmental and Conservation Science"   # A brief slogan (optional)
+  # Images
   image: img/my_image.jpg
-  
   favicon: img/favicon.png
-  
+  # Page navigation at bottom?
+  back-to-top-navigation: false
+
+  # Google Analytics key
+  google-analytics: 
+    tracking-id: 'UA-118877355-1'
+    anonymize-ip: true
+#  cookie-consent:
+#    type: express
+#    style: headline
+#    palette: dark
+
   # start of the navigation bar at the top of the website
   navbar:
+    background: primary
     pinned: true
     logo: /img/logo.png
     
     # your sub-pages
     left:
-      - text: "Projects"
-        href: projects/index.qmd
-      - text: "Photography"
-        href: photography/index.qmd
+      - text: "Research"
+        href: research/index.qmd
+#      - text: "Photography"
+#        href: photography/index.qmd
+      - text: "Publications"
+        href: "https://scholar.google.co.uk/citations?hl=en&pli=1&user=qa-Dz6QAAAAJ"
       - text: "CV"
         href: cv/index.qmd
     
     # your social media handles
     right:
-      - icon: folder-symlink
-        href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
       - icon: twitter
-        href: https://twitter.com/MarvinSchmittML
+        href: https://twitter.com/Martin_Ecology
       - icon: linkedin
-        href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
-      - icon: envelope
-        aria-label: email
-        href: "mailto:mail.marvinschmitt@gmail.com"  
-  
-  
+        href: https://www.linkedin.com/in/jungmartin/
 
-# Don't touch unless you know what you are doing :) ------------
+  # Header and footer options
   search: 
     location: navbar
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
+      <span class="faux-block"><a href="../uploads/mj-pubkey.asc">•PGP public •</a></span>
     center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+        <span class="faux-block">&#169; 2023 Martin Jung CC BY-SA 4.0</span>
     right: |
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+      <span class="faux-block"><a href="https://iiasa.ac.at/staff/martin-jung">Contact me</a></span>
 
 project:
   type: website
