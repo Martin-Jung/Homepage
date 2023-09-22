@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.3.353">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="keywords" content="martin jung, conservation planning, ecological modelling, iiasa">
 <title>Martin Jung - Curriculum vitae</title>
 <style>
 code{white-space: pre-wrap;}
@@ -130,7 +131,7 @@ ga('send', {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 17, 2023</p>
+      <p class="date-modified">22 September 2023</p>
     </div>
   </div>
     
@@ -168,7 +169,7 @@ ga('send', {
 
 
 
-</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en_gb">https://creativecommons.org/licenses/by-sa/4.0/deed.en_gb</a></div></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -399,11 +400,25 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer"><div class="nav-footer">
-    <div class="nav-footer-left"><span class="faux-block"><a href="../uploads/mj-pubkey.asc">•PGP public •</a></span></div>   
+    <div class="nav-footer-left"><span class="faux-block"><a href="uploads/mj-pubkey.asc">•PGP public •</a></span></div>   
     <div class="nav-footer-center"><span class="faux-block">© 2023 Martin Jung CC BY-SA 4.0</span></div>
     <div class="nav-footer-right"><span class="faux-block"><a href="https://iiasa.ac.at/staff/martin-jung">Contact me</a></span></div>
   </div>
