@@ -42,6 +42,8 @@ website:
         href: https://twitter.com/Martin_Ecology
       - icon: linkedin
         href: https://www.linkedin.com/in/jungmartin/
+      - icon: mastodon
+        href: https://fediscience.org/@martinjung
 
   # Header and footer options
   search: 
@@ -51,7 +53,7 @@ website:
     left: |
       <span class="faux-block"><a href="uploads/mj-pubkey.asc">•PGP public •</a></span>
     center: |
-        <span class="faux-block">&#169; 2023 Martin Jung CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2023 Martin Jung CC BY-SA 4.0</span>
     right: |
       <span class="faux-block"><a href="https://iiasa.ac.at/staff/martin-jung">Contact me</a></span>
 

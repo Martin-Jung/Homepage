@@ -19,6 +19,9 @@ about:
     - icon: researchgate
       text: Researchgate
       href: 'https://www.researchgate.net/profile/Martin_Jung4'
+    - icon: mastodon
+      text: Mastodon
+      href: https://fediscience.org/@martinjung
     - icon: skype
       text: Skype
       href: 'skype:legacer?call'
@@ -34,7 +37,7 @@ I am Martin, a Researcher at the International Institute for Applied Systems Ana
 
 I am a Specialist in remote-sensing analysis and interpreting spatial data, having many years of experience in project management and providing quantitative solutions to environmental problems.
 
-Please feel free to [contact me](https://iiasa.ac.at/staff/martin-jung) if you would like to discuss potential collaborations.
+Please feel free to [contact me](https://iiasa.ac.at/staff/martin-jung) if you would like to discuss potential collaborations. Also feel free to link up with me on [Linkedin](https://www.linkedin.com/in/jungmartin/) or <a rel="me" href="https://fediscience.org/@martinjung">Mastodon</a>
 
 ## Broad Interests
 
