@@ -51,6 +51,9 @@ Please feel free to [contact me](https://iiasa.ac.at/staff/martin-jung) if you w
     
 - GIS and Remote Sensing
 
+<!-- https://shiny.rcg.sfu.ca/u/rdmorin/scholar_googler/ -->
+![](img/paper_wordcloud.png)
+
 ## Education
 
 University of Sussex | United Kingdom
