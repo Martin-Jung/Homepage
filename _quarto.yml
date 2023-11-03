@@ -29,6 +29,8 @@ website:
     left:
       - text: "Research"
         href: research/index.qmd
+      - text: "Software and data"
+        href: software/index.qmd
 #      - text: "Photography"
 #        href: photography/index.qmd
       - text: "Publications"
@@ -40,6 +42,8 @@ website:
     right:
       - icon: twitter
         href: https://twitter.com/Martin_Ecology
+      # - icon: bluesky
+      #   href: https://bsky.app/profile/martinjung.bsky.social
       - icon: linkedin
         href: https://www.linkedin.com/in/jungmartin/
       - icon: mastodon

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="keywords" content="martin jung, conservation planning, ecological modelling, iiasa">
+
+<title>Martin Jung - Software and data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-118877355-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Martin Jung</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../research/index.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../software/index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Software and data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.co.uk/citations?hl=en&amp;pli=1&amp;user=qa-Dz6QAAAAJ" rel="" target="">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cv/index.html" rel="" target="">
+ <span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Martin_Ecology" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/jungmartin/" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://fediscience.org/@martinjung" rel="" target=""><i class="bi bi-mastodon" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#code" id="toc-code" class="nav-link active" data-scroll-target="#code">Code</a>
+  <ul class="collapse">
+  <li><a href="#ibis.isdm---modelling-framework-for-creating-integrated-biodiversity-distribution-scenarios" id="toc-ibis.isdm---modelling-framework-for-creating-integrated-biodiversity-distribution-scenarios" class="nav-link" data-scroll-target="#ibis.isdm---modelling-framework-for-creating-integrated-biodiversity-distribution-scenarios">ibis.iSDM - Modelling framework for creating Integrated Biodiversity distribution scenarios</a></li>
+  <li><a href="#lecos---land-cover-statistics-qgis-plugin" id="toc-lecos---land-cover-statistics-qgis-plugin" class="nav-link" data-scroll-target="#lecos---land-cover-statistics-qgis-plugin">LecoS - Land cover statistics QGIS plugin</a></li>
+  <li><a href="#qsdm---species-distribution-modelling-for-the-qgis-processing-toolbox" id="toc-qsdm---species-distribution-modelling-for-the-qgis-processing-toolbox" class="nav-link" data-scroll-target="#qsdm---species-distribution-modelling-for-the-qgis-processing-toolbox">QSDM - Species Distribution Modelling for the QGIS Processing Toolbox</a></li>
+  <li><a href="#icarus---r-package-for-spatial-analysis-convenience-and-analysis-functions" id="toc-icarus---r-package-for-spatial-analysis-convenience-and-analysis-functions" class="nav-link" data-scroll-target="#icarus---r-package-for-spatial-analysis-convenience-and-analysis-functions">icarus - R package for spatial analysis convenience and analysis functions</a></li>
+  </ul></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a>
+  <ul class="collapse">
+  <li><a href="#areas-of-conservation-importance-for-biodiversity-carbon-and-water" id="toc-areas-of-conservation-importance-for-biodiversity-carbon-and-water" class="nav-link" data-scroll-target="#areas-of-conservation-importance-for-biodiversity-carbon-and-water">Areas of conservation importance for biodiversity, carbon and water</a></li>
+  <li><a href="#global-terrestrial-and-marine-habitat-mapping" id="toc-global-terrestrial-and-marine-habitat-mapping" class="nav-link" data-scroll-target="#global-terrestrial-and-marine-habitat-mapping">Global terrestrial and marine habitat mapping</a></li>
+  <li><a href="#potential-distribution-of-land-cover-classes" id="toc-potential-distribution-of-land-cover-classes" class="nav-link" data-scroll-target="#potential-distribution-of-land-cover-classes">Potential distribution of land-cover classes</a></li>
+  <li><a href="#potential-global-habitat-mapping" id="toc-potential-global-habitat-mapping" class="nav-link" data-scroll-target="#potential-global-habitat-mapping">Potential global habitat mapping</a></li>
+  <li><a href="#global-forest-fragmentation-data" id="toc-global-forest-fragmentation-data" class="nav-link" data-scroll-target="#global-forest-fragmentation-data">Global forest fragmentation data</a></li>
+  <li><a href="#global-foodscapes" id="toc-global-foodscapes" class="nav-link" data-scroll-target="#global-foodscapes">Global foodscapes</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Software and data</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Over the years I have created or helped to create a number of <a href="#code">Software and scripts</a> and novel <a href="#data">datasets</a> for environmental analyses at various scales. I usually make all data and code that I have been involved in creating available as openly as possible.</p>
+<section id="code" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="code">Code</h2>
+<section id="ibis.isdm---modelling-framework-for-creating-integrated-biodiversity-distribution-scenarios" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="ibis.isdm---modelling-framework-for-creating-integrated-biodiversity-distribution-scenarios">ibis.iSDM - Modelling framework for creating Integrated Biodiversity distribution scenarios</h3>
+<div class="quarto-figure quarto-figure-left page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://iiasa.github.io/ibis.iSDM/articles/figures/logo.png" class="figure-img" width="200" height="200"></p>
+<figcaption class="figure-caption margin-caption">ibis.iSDM</figcaption>
+</figure>
+</div>
+<p>The ibis.iSDM package provides a series of convenience functions to fit integrated Species Distribution Models (iSDMs). With integrated models we generally refer to SDMs that incorporate information from different biodiversity datasets, external parameters such as priors or offsets or constrains such as dispersal parameters in future predictions. The <strong>ibis.iSDM</strong> package has been publicly <a href="https://iiasa.github.io/ibis.iSDM/">released</a> and published as <a href="https://www.sciencedirect.com/science/article/pii/S1574954123001565?via%3Dihub">Jung 2023</a>.</p>
+<p><a href="https://iiasa.github.io/ibis.iSDM/">Code</a> | <a href="https://www.sciencedirect.com/science/article/pii/S1574954123001565?via%3Dihub">Manuscript</a></p>
+<hr>
+</section>
+<section id="lecos---land-cover-statistics-qgis-plugin" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="lecos---land-cover-statistics-qgis-plugin">LecoS - Land cover statistics QGIS plugin</h3>
+<div class="quarto-figure quarto-figure-left page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://conservationecology.files.wordpress.com/2012/10/lecos_cor3.png" class="figure-img" width="300" height="300"></p>
+<figcaption class="figure-caption margin-caption">LecoS</figcaption>
+</figure>
+</div>
+<p>LecoS is a Python plugin for the QGIS GIS software suite. It converts classified raster layers to arrays using the powerful numpy library and - based on a Connected Component Labeling approach - allows to further identify class patches and the calculation of landscape metrics. The use can choose to calculate single or several metrics for the raster classes.</p>
+<p><a href="http://dx.doi.org/10.1016/j.ecoinf.2015.11.006">Manuscript</a> | <a href="https://github.com/Martin-Jung/LecoS">Code</a> | <a href="https://plugins.qgis.org/plugins/LecoS/">QGIS</a> | <a href="https://conservationecology.wordpress.com/qgis-plugins-and-scripts/lecos-land-cover-statistics/">Blog post</a></p>
+<hr>
+</section>
+<section id="qsdm---species-distribution-modelling-for-the-qgis-processing-toolbox" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="qsdm---species-distribution-modelling-for-the-qgis-processing-toolbox">QSDM - Species Distribution Modelling for the QGIS Processing Toolbox</h3>
+<div class="quarto-figure quarto-figure-left page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://conservationecology.files.wordpress.com/2014/05/predlycaena_phlaeas.png" class="figure-img" width="300" height="300"></p>
+<figcaption class="figure-caption margin-caption">QSDM</figcaption>
+</figure>
+</div>
+<p>A while ago I created a python plugin with a series of helper functions to conduct species distribution modelling (e.g.&nbsp;trained single class classifiers) for the QGIS software suite. The plugin is released and functional, but due to a lack of time commitment likely won’t work on latest QGIS versions (&gt; 3.0) anymore. The QSDM package adds the following functionalities to the QGIS Processing toolbox:</p>
+<pre><code>Data Analysis
+    - Calculate Niche Overlap Statistics
+    - Range Shifts
+Data Preperation
+    - Create Species Richness Grids
+    - Data Transformation (simple)
+    - Raster Unification
+Species Distribution Modelling
+    - MAXENT (Parameter Preperation)
+    - Maximum Entropy Modelling (semi-automatic modelling)
+    - Maximum Entropy Modelling (Manual Configuration of parameters)</code></pre>
+<p><a href="https://github.com/Martin-Jung/QSDM">Code</a> | <a href="https://plugins.qgis.org/plugins/QSDM/">QGIS</a> | <a href="https://conservationecology.wordpress.com/qgis-plugins-and-scripts/lecos-land-cover-statistics/">Blog post</a></p>
+<hr>
+</section>
+<section id="icarus---r-package-for-spatial-analysis-convenience-and-analysis-functions" class="level3">
+<h3 class="anchored" data-anchor-id="icarus---r-package-for-spatial-analysis-convenience-and-analysis-functions">icarus - R package for spatial analysis convenience and analysis functions</h3>
+<p>I created a package to host a number of convenience functions for handling and manipulating spatial datasets in R. Mainly for my personal use, but hopefully the functions will prove useful for others as well</p>
+<p><a href="https://github.com/Martin-Jung/Icarus">Code</a></p>
+</section>
+</section>
+<section id="data" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<section id="areas-of-conservation-importance-for-biodiversity-carbon-and-water" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="areas-of-conservation-importance-for-biodiversity-carbon-and-water">Areas of conservation importance for biodiversity, carbon and water</h3>
+<div class="quarto-figure quarto-figure-left page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="NatureMap.png" class="figure-img" width="600" height="300"></p>
+<figcaption class="figure-caption margin-caption">NatureMap</figcaption>
+</figure>
+</div>
+<p>Provided are global conservation importance layers that integrated the best available global biodiversity, carbon and water data at the time. In particular, it includes for the first time a representative set of about half of all plant species globally as well as above, below and soil organic carbon at risk from land use change. Different combinations of layers integrating biodiversity, carbon and/or water value are presented, based on the protected area network at the time (covering ~16% of terrestrial land area) or starting from a blank state. The maps highlight the upper potential value of any global terrestrial land area for conserving these valuable assets and presented as ranking from most (1) to least importance (100).</p>
+<p><a href="https://uploads.users.earthengine.app/view/conservationimportance">Interactive Explorer</a> | <a href="https://gee-community-catalog.org/projects/gci/">GEE Assets</a> | <a href="https://github.com/Martin-Jung/NatureMapCode/">Code</a> | <a href="https://doi.org/10.5281/zenodo.5006332">Data</a> | <a href="https://doi.org/10.1038/s41559-021-01528-7">Manuscript</a></p>
+</section>
+<section id="global-terrestrial-and-marine-habitat-mapping" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="global-terrestrial-and-marine-habitat-mapping">Global terrestrial and marine habitat mapping</h3>
+<div class="quarto-figure quarto-figure-left page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://raw.githubusercontent.com/Martin-Jung/Habitatmapping/master/screen_lvl2.png" class="figure-img" width="400" height="300"></p>
+<figcaption class="figure-caption margin-caption">HabitatMaps</figcaption>
+</figure>
+</div>
+<p>Using the <a href="https://earthengine.google.com/">Google Earth Engine</a> platform I developed Javascript code to create the first global habitat map specifically for species habitat analyses. The map is created by intersecting best available global datasets on land cover, climate and land use. The code and map is released under a Creative Commons Attribution 4.0 International license and thus can be freely shared, used or modified. The most recent version of the habitat type layer is uploaded to <a href="http://doi.org/10.5281/zenodo.4058819">Zenodo</a>.</p>
+<p>To run the code for creating the habitat type map an account on Google Earth Engine is necessary. No Python code was developed as part of this project. Note that while the code for the habitat type map is openly available, the underlying datasets (‘assets’ in Google Earth Engine) are not all (yet) publicly available. Assets can be shared depending on the request, however there is no guarantee that I will host all original input assets for long, since they might change as improved data becomes available.</p>
+<p><a href="https://github.com/Martin-Jung/Habitatmapping">Code</a> | <a href="https://uploads.users.earthengine.app/view/habitat-types-map">Online Viewer</a> | <a href="http://doi.org/10.5281/zenodo.4058819">Data</a> | <a href="https://doi.org/10.1038/s41597-020-00599-8">Manuscript</a></p>
+</section>
+<section id="potential-distribution-of-land-cover-classes" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="potential-distribution-of-land-cover-classes">Potential distribution of land-cover classes</h3>
+<div class="quarto-figure quarto-figure-left page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="potentialLC.png" class="figure-img" width="400" height="200"></p>
+<figcaption class="figure-caption margin-caption">PNV</figcaption>
+</figure>
+</div>
+<p>Contributed to the creation of global openly available data on the Potential distribution of land cover classes (Potential Natural Vegetation) at 250 m spatial resolution based on a compilation of data sets (Biome6000k, Geo-Wiki, LandPKS, mangroves soil database, and from various literature sources; total of about 65,000 training points). The map was created using relief and climate variables representing conditions the climate for the last 20+ years and predicted at 250 m globally using an Ensemble Machine Learning approach as implemented in the mlr package for R.</p>
+<p><a href="https://github.com/Envirometrix/PNVmaps">Code</a> | <a href="http://doi.org/10.5281/zenodo.4058819">Data</a></p>
+</section>
+<section id="potential-global-habitat-mapping" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="potential-global-habitat-mapping">Potential global habitat mapping</h3>
+<div class="quarto-figure quarto-figure-left page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="potentialHabitat.png" class="figure-img" width="400" height="200"></p>
+<figcaption class="figure-caption margin-caption">PotentialHabitats</figcaption>
+</figure>
+</div>
+<p>Potential global distribution, e.g.&nbsp;void of human influence, of habitat types following the IUCN habitat classification system at level 1. To create this layer data on the potential distribution of land cover was intersected with data on climate, elevation and topography. In total 12 classes are mapped based on the decision tree by <a href="https://doi.org/10.1038/s41597-020-00599-8">Jung et al.&nbsp;(2020)</a>, with the version number of this layer matching the version of the decision tree by Jung et al.&nbsp;Style file for use in QGIS are supplied.</p>
+<p><a href="https://github.com/Martin-Jung/Habitatmapping">Code</a> | <a href="http://doi.org/10.5281/zenodo.4038749">Data</a></p>
+</section>
+<section id="global-forest-fragmentation-data" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="global-forest-fragmentation-data">Global forest fragmentation data</h3>
+<div class="quarto-figure quarto-figure-left page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="GlobalFrag.png" class="figure-img" width="400" height="200"></p>
+<figcaption class="figure-caption margin-caption">ForestFragmentation</figcaption>
+</figure>
+</div>
+<p>Newly created data on forest fragmentation using ALOS PALSAR data. Using the LecoS plugin I calculated on a global scale several landscape metrics at 0.1° resolution for the years 2007, 2008, 2009, 2010 and 2015. A manuscript describing the dataset was in preparation, however ultimately dropped due to changing priorities. Includes data on the mean Forest Patch Area, Patch density, Edge density, Largest patch index, Landscape division index, Fractal dimension index, Average inner edge distance, and the Percentage of Like adjacencies</p>
+<p><a href="https://github.com/Martin-Jung/GlobalForestFragmentation/tree/master/Code">Code</a> | <a href="https://martin-jung.github.io/GlobalForestFragmentation/">Data</a></p>
+</section>
+<section id="global-foodscapes" class="level3">
+<h3 class="anchored" data-anchor-id="global-foodscapes">Global foodscapes</h3>
+<p><img src="GlobalFoodscapes.png" data-fig-align="left" width="400" height="200" alt="GlobalFoodscapes"> A globally consistent approximation of the world’s foodscape classes through the integration of best available global data on biophysical and socio-economic factors so as to identify a minimum set of emergent clusters of food production systems. Such a clustering of homologous systems is necessarily coarse, while still being useful to identify possible leverage points for sustainable agriculture.</p>
+<p>The data can be <a href="https://www.globalfoodscapes.org/">interactively explored</a> and the layer is made openly downloaded <a href="https://zenodo.org/records/5555002">here</a>. Furthermore, as convenience, a layer further aggregated to reflect three levels of food production intensity is also provided in the same repository. A preprint describing the layer is currently <a href="https://osf.io/puyzw/">in review</a>.</p>
+<p><a href="https://zenodo.org/records/5555002">Data</a> | <a href="https://osf.io/puyzw/">Manuscript</a></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><span class="faux-block"><a href="uploads/mj-pubkey.asc">•PGP public •</a></span></div>   
+    <div class="nav-footer-center"><span class="faux-block">© 2023 Martin Jung CC BY-SA 4.0</span></div>
+    <div class="nav-footer-right"><span class="faux-block"><a href="https://iiasa.ac.at/staff/martin-jung">Contact me</a></span></div>
+  </div>
+</footer>
+
+
+
+</body></html>
