@@ -4,9 +4,9 @@ about:
 #  id: about-block
   image: "img/my_image.jpg"
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/Martin_Ecology
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/martinjung.bsky.social
     - icon: github
       text: Github
       href: https://github.com/Martin-Jung
@@ -45,7 +45,7 @@ Please feel free to [contact me](https://iiasa.ac.at/staff/martin-jung) if you w
 
 - Science Policy
     
-- Global Change and Sustainability
+- Global Change and nexus topics
 
 - Biodiversity indicators
     

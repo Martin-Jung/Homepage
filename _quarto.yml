@@ -57,7 +57,7 @@ website:
     left: |
       <span class="faux-block"><a href="uploads/mj-pubkey.asc">•PGP public •</a></span>
     center: |
-      <span class="faux-block">&#169; 2023 Martin Jung CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2024 Martin Jung CC BY-SA 4.0</span>
     right: |
       <span class="faux-block"><a href="https://iiasa.ac.at/staff/martin-jung">Contact me</a></span>
 
@@ -92,4 +92,4 @@ format:
     email-obfuscation: javascript
     link-external-newwindow: true
     # Keywords
-    keywords: martin jung, conservation planning, ecological modelling, iiasa
+    #keywords: martin jung, conservation planning, ecological modelling, iiasa
