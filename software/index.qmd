@@ -8,7 +8,7 @@ format:
     toc: true
 ---
 
-Over the years I have created or helped to create a number of [Software and scripts](#code) and novel [datasets](#data) for environmental analyses at various scales. I usually make all data and code that I have been involved in creating available as openly as possible.
+Over the years I have created or helped to create a number of [Software and scripts](#code) and novel [datasets](#data) for environmental analyses at various scales. I usually make all data and code that I have been involved in creating available as openly as possible, for example see my uploads on [Zenodo](https://zenodo.org/search?q=creators.orcid%3A%220000-0002-7569-1390%22&l=list&p=1&s=50&sort=newest).
 
 ## Code {#code}
 

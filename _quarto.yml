@@ -7,9 +7,12 @@ website:
   # Images
   image: img/my_image.jpg
   favicon: img/favicon.png
+  # Url
+  site-url: "https://www.martinjung.eu/"
+  repo-url: "https://github.com/Martin-Jung/Homepage"
   # Page navigation at bottom?
   back-to-top-navigation: false
-
+  
   # Google Analytics key
   google-analytics: 
     tracking-id: 'UA-118877355-1'
@@ -42,8 +45,8 @@ website:
     right:
       - icon: twitter
         href: https://twitter.com/Martin_Ecology
-      # - icon: bluesky
-      #   href: https://bsky.app/profile/martinjung.bsky.social
+      - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
+        href: https://bsky.app/profile/martinjung.bsky.social
       - icon: linkedin
         href: https://www.linkedin.com/in/jungmartin/
       - icon: mastodon
