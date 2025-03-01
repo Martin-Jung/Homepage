@@ -43,8 +43,8 @@ website:
     
     # your social media handles
     right:
-      - icon: twitter
-        href: https://twitter.com/Martin_Ecology
+#      - icon: twitter
+#        href: https://twitter.com/Martin_Ecology
       - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
         href: https://bsky.app/profile/martinjung.bsky.social
       - icon: linkedin
