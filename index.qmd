@@ -6,7 +6,7 @@ about:
   links:
     - icon: bluesky
       text: Bluesky
-      href: https://bsky.app/profile/martinjung.bsky.social
+      href: https://bsky.app/profile/martinjung.eu
     - icon: github
       text: Github
       href: https://github.com/Martin-Jung
